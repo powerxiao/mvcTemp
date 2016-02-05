@@ -1,0 +1,111 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>您的网站名称</title>
+    <link href="~/Content/css/login.css" rel="stylesheet" />
+    <link href="~/Content/css/layer.css" rel="stylesheet" />
+</head>
+<body onkeydown="keyDown();">
+    <div class="wrapper">
+        <h1>
+            <img alt="logo" src="http://img.517na.com/common/automation/img/517logo.jpg" /></h1>
+        <h2></h2>
+        <div class="content">
+            <div style="width: 498px; float: left; height: 400px; line-height: 26px">
+
+                <br />
+                我们为您提供一套24小时全自动服务系统，
+在降低成本的同时提高服务标准。
+                <br />
+                产品齐全，任您选择、
+                
+                功能简单，易学易用。
+                <br />
+                <ul style="padding-left: 40px; line-height: 30px">
+                    <li><b>自动化服务产品齐全</b><br />
+                        系统支持B2B、BSP自动出票、自动废票、自动退/挂票，功能齐全；
+                    </li>
+
+                    <li>
+                        <b>24小时全天候服务</b><br />
+                        支持24小时全天候出票、废票，在减少成本的同时增加您的收入；
+                    </li>
+                    <li>
+                        <b>出票快、废票快、成功率高</b><br />
+                        一张订单60秒内完成出票、废票。
+                    
+                   <br />
+                        95%出票成功率、99%的废票成功率，降低了人工出票、废票的差错。
+                    
+                    </li>
+                </ul>
+                <br />
+                技术支持电话：<label id="telPhone" style="width: 12px;">@*@this.ViewData["TenPhone"]*@</label>&nbsp;&nbsp;&nbsp;&nbsp; QQ:&nbsp;<a href="http://wpa.qq.com/msgrd?v=3&amp;uin=2643961136&amp;site=qq&amp;menu=yes"
+                    target="_blank"><img src="http://wpa.qq.com/pa?p=2:2643961136:41" alt="点击这里给我发消息"
+                        style="border: none; vertical-align: middle" title="点击这里给我发消息" /></a>
+            </div>
+            <div id="form_wrapper" class="form_wrapper">
+                <h3>
+                    <img src="http://img.517na.com/common/automation/img/Login.jpg" id="Img1" /></h3>
+                <div>
+                    <label>
+                        用户名:</label>
+                    <input name="txtUser" type="text" id="txtUser" class="index-right1-input3" onkeyup="value=value.replace(/[^\w\.\/]/ig,'')" />
+                </div>
+                <div>
+                    <label>
+                        密码:</label>
+                    <input name="txtPwd" type="password" id="txtPwd" class="index-right1-input3" />
+                </div>
+                <div style="width: 230px">
+                    <label>
+                        验证码:</label><input name="txtValidateCode" type="text" id="txtValidateCode" style="width: 80px" />
+                    <img src="~/Login/ValidateCodeImg" id="imgValidate" title="看不清?直接点击更换图片!" alt="验证码" style="width: 70px; height: 29px; vertical-align: middle;" onclick="this.src=this.src+&#39;?&#39;+Math.random();" />
+                    <label style="display: none; color: red;" id="liMsg"></label>
+
+                </div>
+                <div class="bottom">
+                    <div style="float: right; width: 60%">
+                        <input name="btnLogin" type="button" id="btnLogin" value="登   录" onclick="login();" />
+                    </div>
+                    <div class="clear">
+                    </div>
+                    @*<span id="serTelPhone" style="display: none;">@this.ViewData["TenPhone"]</span>*@
+                </div>
+            </div>
+            <div class="clear">
+            </div>
+        </div>
+        <div style="text-align: center; color: #999; font-size: 11px; font-family: Verdana, Geneva, sans-serif">
+            &copy 2007 - @DateTime.Now.ToString("yyyy") 517na.com Inc. All Rights Reserved
+        </div>
+    </div>
+    <script type="text/javascript" src="~/Content/js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="~/Content/js/sea.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="~/Content/js/login/login.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery.query.js"></script>
+    <script type="text/javascript" src="~/Content/js/ssoExit.js"></script>
+    <script type="text/javascript" src="~/Content/js/BrowserTips.js"></script>
+
+    <script type="text/javascript">
+        seajs.config({
+            base: "/Content/js",
+            alias: {
+                "jquery.cookie": "jquery.cookie.js",
+                "BrowserTips": "BrowserTips"
+            },
+            preload: [$.cookie ? "" : "/Content/js/jquery.cookie.js"]
+        });
+        seajs.use(["BrowserTips"]);
+    </script>
+</body>
+</html>
+
+

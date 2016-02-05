@@ -1,0 +1,103 @@
+/* CSS Document */
+
+body{
+	font-size: 12px;
+	text-align: center;
+	width: 980px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	color: #8a8a8a;
+	background-color: #f9f9f9;
+	background-image: url(../img/index_02.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+a{
+	text-decoration: none;
+	color: #0071d6;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #FF6600;
+}
+
+.size1,.size1 a{
+	color: #fff;
+}
+
+.size2{
+	color: #333;
+	font-weight: bold;
+}
+
+.size3{
+	color: #8a8a8a;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCCCCC;
+}
+
+
+.input1{
+	border: 0;
+	height: 24px;
+	line-height:24px;
+	font-size:14px;
+}
+
+
+.button1{
+	background-image: url(../img/index_10.jpg);
+	background-repeat: no-repeat;
+	height: 35px;
+	width: 230px;
+	border:0;
+}
+
+img{border:0;}
+
+#all{
+	width: 980px;
+	float:left;
+	text-align:left;
+	
+}
+
+.top{
+	width: 960px;
+	float:left;
+	height: 26px;
+	color:#0071d6;
+	text-align:left;
+	padding-right:30px;
+	padding-top:40px;
+	font-family: "微软雅黑";
+	font-size: 24px;
+	line-height: 0px;
+	letter-spacing: 3px;
+}
+.top h1{
+	magrin-top:-40px;
+}
+
+.bk1{
+	width: 980px;
+	height:542px;
+	float:left;
+	background-image: url(../img/index_06.jpg);
+	background-repeat: no-repeat;
+}
+
+
+.d{
+	color:#878787;
+	text-align:center;
+	padding-top:40px;
+	height: 60px;
+	width: 980px;
+	float:left;
+}

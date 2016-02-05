@@ -1,0 +1,1175 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Better517Na.UnityParam</name>
+    </assembly>
+    <members>
+        <member name="T:Better517Na.Infrastructures.UnityParam.DicManager">
+            <summary>
+            DicManager类 
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.DicManager.lockSington">
+            <summary>
+            单例锁
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.DicManager.singCache">
+            <summary>
+            参数缓存
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.DicManager.timeCache">
+            <summary>
+            对应时间缓存
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.DicManager.instance">
+            <summary>
+            单例
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.DicManager.timeout">
+            <summary>
+            超时时间
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.DicManager.#ctor">
+            <summary>
+            私有构造函数
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.DicManager.GetInstance">
+            <summary>
+            获取单例
+            </summary>
+            <returns>单例</returns>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.DicManager.GetDicParam(System.String)">
+            <summary>
+            获取参数（主方法）
+            </summary>
+            <param name="dicId">字典ID</param>
+            <returns>参数model</returns>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.DicManager.GetDalData(System.String)">
+            <summary>
+            从数据库获取数据
+            </summary>
+            <param name="dicId">字典id</param>
+            <returns>参数数据</returns>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.DicManager.ClearOuttimeCache">
+            <summary>
+            清除超时缓存
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.DicManager.PutinCache(System.Collections.Generic.List{Better517Na.Infrastructures.UnityParam.MSysDicItemInfo})">
+            <summary>
+            加入缓存
+            </summary>
+            <param name="model">系统参数表</param>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.DicManager.GetTimeout">
+            <summary>
+            获取超时时间
+            </summary>
+        </member>
+        <member name="T:Better517Na.Infrastructures.UnityParam.ParamException">
+            <summary>
+            ParamException类 
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.ParamException.#ctor(System.String,System.Exception)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="msg">异常信息</param>
+            <param name="innerException">异常</param>
+        </member>
+        <member name="T:Better517Na.Infrastructures.UnityParam.ConfigMonitor">
+            <summary>
+            配置文件监听器类
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.ConfigMonitor.map">
+            <summary>
+            配置文件映射对象
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.ConfigMonitor.#cctor">
+            <summary>
+            静态构造函数
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.ConfigMonitor.RaiseEvent">
+            <summary>
+            向订阅者发布信息
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.ConfigMonitor.InitConnectionConfig">
+            <summary>
+            初始化所有连接配置
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.ConfigMonitor.MonitorConfigFile">
+            <summary>
+            创建配置文件发动监听器
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.ConfigMonitor.OnChanged(System.Object,System.IO.FileSystemEventArgs)">
+            <summary>
+            配置文件变更事件处理器
+            </summary>
+            <param name="source">事件源</param>
+            <param name="e">事件参数</param>
+        </member>
+        <member name="E:Better517Na.Infrastructures.UnityParam.ConfigMonitor.ConfigModifyInfoEvent">
+            <summary>
+            配置文件变更事件
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.ConfigMonitor.SupplyPriceConfig">
+            <summary>
+            配置对象
+            </summary>
+            <value>配置对象.</value>
+        </member>
+        <member name="T:Better517Na.Infrastructures.UnityParam.ConfigMonitor.EventHandlerAfterConfigModify">
+            <summary>
+            配置文件变更事件委托
+            </summary>
+        </member>
+        <member name="T:Better517Na.Infrastructures.UnityParam.SysManager">
+            <summary>
+            SysManager类 
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.SysManager.lockSington">
+            <summary>
+            单例锁
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.SysManager.singCache">
+            <summary>
+            参数缓存
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.SysManager.timeCache">
+            <summary>
+            对应时间缓存
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.SysManager.instance">
+            <summary>
+            单例
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.SysManager.timeout">
+            <summary>
+            超时时间
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.SysManager.#ctor">
+            <summary>
+            私有构造函数
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.SysManager.GetInstance">
+            <summary>
+            获取单例
+            </summary>
+            <returns>单例</returns>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.SysManager.GetSystemParam(System.String)">
+            <summary>
+            获取参数（主方法）
+            </summary>
+            <param name="paramId">参数ID</param>
+            <returns>参数model</returns>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.SysManager.ClearOuttimeCache">
+            <summary>
+            清除超时缓存
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.SysManager.PutinCache(System.Collections.Generic.List{Better517Na.Infrastructures.UnityParam.MSysParamInfo})">
+            <summary>
+            加入缓存
+            </summary>
+            <param name="model">系统参数表</param>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.SysManager.GetTimeout">
+            <summary>
+            获取超时时间
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.SysManager.GetDalData(System.String)">
+            <summary>
+            从数据库获取数据
+            </summary>
+            <param name="paramId">参数id</param>
+            <returns>参数数据</returns>
+        </member>
+        <member name="T:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo">
+            <summary>
+            字典信息表
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.keyID">
+            <summary>
+             主键ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.dicId">
+            <summary>
+             字典ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.paraProID">
+            <summary>
+             产品线ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.paraProduct">
+            <summary>
+             产品线
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.paraBusiID">
+            <summary>
+             业务组ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.paraBusiName">
+            <summary>
+             业务组
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.paraName">
+            <summary>
+             字典名
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.paraValue">
+            <summary>
+             字典值
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.paraRemark">
+            <summary>
+             参数说明
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.limitLevel">
+            <summary>
+             重要级别
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.isValid">
+            <summary>
+             启用禁用
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.beginEffectTime">
+            <summary>
+             生效时间
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.endEffectTime">
+            <summary>
+             失效时间
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.addTime">
+            <summary>
+             添加时间
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.updateUser">
+            <summary>
+             修改人
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.isDelete">
+            <summary>
+             是否删除
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.modifyTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.KeyID">
+            <summary>
+            主键ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.DicId">
+            <summary>
+            字典ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.ParaProID">
+            <summary>
+            产品线ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.ParaProduct">
+            <summary>
+            产品线
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.ParaBusiID">
+            <summary>
+            业务组ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.ParaBusiName">
+            <summary>
+            业务组
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.ParaName">
+            <summary>
+            字典名
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.ParaValue">
+            <summary>
+            字典值
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.ParaRemark">
+            <summary>
+            参数说明
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.LimitLevel">
+            <summary>
+            重要级别
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.IsValid">
+            <summary>
+            启用禁用
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.BeginEffectTime">
+            <summary>
+            生效时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.EndEffectTime">
+            <summary>
+            失效时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.AddTime">
+            <summary>
+            添加时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.UpdateUser">
+            <summary>
+            修改人
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.IsDelete">
+            <summary>
+            是否删除
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysDicItemInfo.ModifyTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="T:Better517Na.Infrastructures.UnityParam.SingleUserManager">
+            <summary>
+            SingleUserManager类 
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.SingleUserManager.lockSington">
+            <summary>
+            单例锁
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.SingleUserManager.singCache">
+            <summary>
+            参数缓存
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.SingleUserManager.timeCache">
+            <summary>
+            对应时间缓存
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.SingleUserManager.instance">
+            <summary>
+            单例
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.SingleUserManager.timeout">
+            <summary>
+            超时时间
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.SingleUserManager.#ctor">
+            <summary>
+            私有构造函数
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.SingleUserManager.GetInstance">
+            <summary>
+            获取单例
+            </summary>
+            <returns>单例</returns>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.SingleUserManager.GetUserParam(System.String,System.String)">
+            <summary>
+            获取参数（主方法）
+            </summary>
+            <param name="departId">部门ID</param>
+            <param name="paramId">参数ID</param>
+            <returns>参数值</returns>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.SingleUserManager.GetDalData(System.String,System.String)">
+            <summary>
+            从数据库获取数据
+            </summary>
+            <param name="departId">部门id</param>
+            <param name="paramId">参数id</param>
+            <returns>参数数据</returns>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.SingleUserManager.ClearOuttimeCache">
+            <summary>
+            清除超时缓存
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.SingleUserManager.PutinCache(System.String,System.String,System.String)">
+            <summary>
+            加入缓存
+            </summary>
+            <param name="departId">部门id</param>
+            <param name="paramId">参数id</param>
+            <param name="paramValue">参数值</param>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.SingleUserManager.GetTimeout">
+            <summary>
+            获取超时时间
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.SingleUserManager.GetTableName(System.String,System.String,System.String,System.DateTime)">
+            <summary>
+            获取表名
+            </summary>
+            <param name="dataBase">基础库名</param>
+            <param name="tableName">基础表名</param>
+            <param name="hashKey">hash值</param>
+            <param name="bizTime">数据时间</param>
+            <returns>表名</returns>
+        </member>
+        <member name="T:Better517Na.Infrastructures.UnityParam.IDAL">
+            <summary>
+            IDAL类
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.IDAL.GetSysparamInfo(System.Data.IDbTransaction,System.Data.IDbConnection,System.String)">
+            <summary>
+            获取系统参数
+            </summary>
+            <param name="trans">事物</param>
+            <param name="conn">连接</param>
+            <param name="paramId">参数ID</param>
+            <returns>系统参数model</returns>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.IDAL.GetUserparamInfo(System.Data.IDbTransaction,System.Data.IDbConnection,System.String,System.String,System.String)">
+            <summary>
+            获取部门参数
+            </summary>
+            <param name="trans">事物</param>
+            <param name="conn">连接</param>
+            <param name="paraId">参数ID</param>
+            <param name="departmentId">部门ID</param>
+            <param name="tableName">表名</param>
+            <returns>部门参数model</returns>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.IDAL.GetDicparamInfo(System.Data.IDbTransaction,System.Data.IDbConnection,System.String)">
+            <summary>
+            获取字典
+            </summary>
+            <param name="trans">事物</param>
+            <param name="conn">连接</param>
+            <param name="dicId">字典ID</param>
+            <returns>字典</returns>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.IDAL.GetSingleSysparamInfo(System.Data.IDbTransaction,System.Data.IDbConnection,System.String)">
+            <summary>
+            获取系统参数(单条)
+            </summary>
+            <param name="trans">事物</param>
+            <param name="conn">连接</param>
+            <param name="paramId">参数ID</param>
+            <returns>系统参数值</returns>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.IDAL.GetSingleUserparamInfo(System.Data.IDbTransaction,System.Data.IDbConnection,System.String,System.String,System.String)">
+            <summary>
+            获取部门参数(单条)
+            </summary>
+            <param name="trans">事物</param>
+            <param name="conn">连接</param>
+            <param name="paraId">参数ID</param>
+            <param name="departmentId">部门ID</param>
+            <param name="tableName">表名</param>
+            <returns>部门参数值</returns>
+        </member>
+        <member name="T:Better517Na.Infrastructures.UnityParam.MUserParamInfo">
+            <summary>
+            用户参数表
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MUserParamInfo.keyID">
+            <summary>
+             主键ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MUserParamInfo.paraId">
+            <summary>
+             参数ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MUserParamInfo.paraProID">
+            <summary>
+             产品线ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MUserParamInfo.paraProduct">
+            <summary>
+             产品线
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MUserParamInfo.paraBusiID">
+            <summary>
+             业务组ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MUserParamInfo.paraBusiName">
+            <summary>
+             业务组
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MUserParamInfo.deptID">
+            <summary>
+             部门ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MUserParamInfo.deptName">
+            <summary>
+             部门名称
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MUserParamInfo.paraName">
+            <summary>
+             参数名
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MUserParamInfo.paraValue">
+            <summary>
+             参数值
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MUserParamInfo.paraRemark">
+            <summary>
+             参数说明
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MUserParamInfo.isVisible">
+            <summary>
+             值是否可见
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MUserParamInfo.isValid">
+            <summary>
+             启用禁用
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MUserParamInfo.beginEffectTime">
+            <summary>
+             生效时间
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MUserParamInfo.endEffectTime">
+            <summary>
+             失效时间
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MUserParamInfo.addTime">
+            <summary>
+             添加时间
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MUserParamInfo.updateUser">
+            <summary>
+             修改人
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MUserParamInfo.isDelete">
+            <summary>
+             是否删除
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MUserParamInfo.modifyTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MUserParamInfo.limitLevel">
+            <summary>
+            重要级别
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.MUserParamInfo.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MUserParamInfo.KeyID">
+            <summary>
+            主键ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MUserParamInfo.ParaId">
+            <summary>
+            参数ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MUserParamInfo.ParaProID">
+            <summary>
+            产品线ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MUserParamInfo.ParaProduct">
+            <summary>
+            产品线
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MUserParamInfo.ParaBusiID">
+            <summary>
+            业务组ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MUserParamInfo.ParaBusiName">
+            <summary>
+            业务组
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MUserParamInfo.DeptID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MUserParamInfo.DeptName">
+            <summary>
+            部门名称
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MUserParamInfo.ParaName">
+            <summary>
+            参数名
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MUserParamInfo.ParaValue">
+            <summary>
+            参数值
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MUserParamInfo.ParaRemark">
+            <summary>
+            参数说明
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MUserParamInfo.IsVisible">
+            <summary>
+            值是否可见
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MUserParamInfo.IsValid">
+            <summary>
+            启用禁用
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MUserParamInfo.BeginEffectTime">
+            <summary>
+            生效时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MUserParamInfo.EndEffectTime">
+            <summary>
+            失效时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MUserParamInfo.AddTime">
+            <summary>
+            添加时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MUserParamInfo.UpdateUser">
+            <summary>
+            修改人
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MUserParamInfo.IsDelete">
+            <summary>
+            是否删除
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MUserParamInfo.ModifyTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MUserParamInfo.LimitLevel">
+            <summary>
+            重要级别
+            </summary>
+        </member>
+        <member name="T:Better517Na.Infrastructures.UnityParam.MSysParamInfo">
+            <summary>
+            系统参数表
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysParamInfo.keyID">
+            <summary>
+             主键ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysParamInfo.paraId">
+            <summary>
+             参数ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysParamInfo.paraProID">
+            <summary>
+             产品线ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysParamInfo.paraProduct">
+            <summary>
+             产品线
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysParamInfo.paraBusiID">
+            <summary>
+             业务组ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysParamInfo.paraBusiName">
+            <summary>
+             业务组
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysParamInfo.paraName">
+            <summary>
+             参数名
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysParamInfo.paraValue">
+            <summary>
+             参数值
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysParamInfo.paraRemark">
+            <summary>
+             参数说明
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysParamInfo.isVisible">
+            <summary>
+             值是否可见
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysParamInfo.isValid">
+            <summary>
+             启用禁用
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysParamInfo.beginEffectTime">
+            <summary>
+             生效时间
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysParamInfo.endEffectTime">
+            <summary>
+             失效时间
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysParamInfo.addTime">
+            <summary>
+             添加时间
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysParamInfo.updateUser">
+            <summary>
+             修改人
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysParamInfo.isDelete">
+            <summary>
+             是否删除
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.MSysParamInfo.modifyTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.MSysParamInfo.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysParamInfo.KeyID">
+            <summary>
+            主键ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysParamInfo.ParaId">
+            <summary>
+            参数ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysParamInfo.ParaProID">
+            <summary>
+            产品线ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysParamInfo.ParaProduct">
+            <summary>
+            产品线
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysParamInfo.ParaBusiID">
+            <summary>
+            业务组ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysParamInfo.ParaBusiName">
+            <summary>
+            业务组
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysParamInfo.ParaName">
+            <summary>
+            参数名
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysParamInfo.ParaValue">
+            <summary>
+            参数值
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysParamInfo.ParaRemark">
+            <summary>
+            参数说明
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysParamInfo.IsVisible">
+            <summary>
+            值是否可见
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysParamInfo.IsValid">
+            <summary>
+            启用禁用
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysParamInfo.BeginEffectTime">
+            <summary>
+            生效时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysParamInfo.EndEffectTime">
+            <summary>
+            失效时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysParamInfo.AddTime">
+            <summary>
+            添加时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysParamInfo.UpdateUser">
+            <summary>
+            修改人
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysParamInfo.IsDelete">
+            <summary>
+            是否删除
+            </summary>
+        </member>
+        <member name="P:Better517Na.Infrastructures.UnityParam.MSysParamInfo.ModifyTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="T:Better517Na.Infrastructures.UnityParam.SingleSysManager">
+            <summary>
+            SingleSysManager类 
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.SingleSysManager.lockSington">
+            <summary>
+            单例锁
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.SingleSysManager.singCache">
+            <summary>
+            参数缓存
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.SingleSysManager.timeCache">
+            <summary>
+            对应时间缓存
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.SingleSysManager.instance">
+            <summary>
+            单例
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.SingleSysManager.timeout">
+            <summary>
+            超时时间
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.SingleSysManager.#ctor">
+            <summary>
+            私有构造函数
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.SingleSysManager.GetInstance">
+            <summary>
+            获取单例
+            </summary>
+            <returns>单例</returns>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.SingleSysManager.GetSysParam(System.String)">
+            <summary>
+            获取参数（主方法）
+            </summary>
+            <param name="paramId">系统参数ID</param>
+            <returns>参数值</returns>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.SingleSysManager.GetDalData(System.String)">
+            <summary>
+            从数据库获取数据
+            </summary>
+            <param name="paramId">系统参数id</param>
+            <returns>参数数据</returns>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.SingleSysManager.ClearOuttimeCache">
+            <summary>
+            清除超时缓存
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.SingleSysManager.PutinCache(System.String,System.String)">
+            <summary>
+            加入缓存
+            </summary>
+            <param name="paramId">系统参数id</param>
+            <param name="paramValue">系统参数值</param>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.SingleSysManager.GetTimeout">
+            <summary>
+            获取超时时间
+            </summary>
+        </member>
+        <member name="T:Better517Na.Infrastructures.UnityParam.ParamBusiness">
+            <summary>
+            ParamBusiness类 
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.ParamBusiness.GetUserParamList(System.String,System.String)">
+            <summary>
+            获取用户参数(List)
+            </summary>
+            <param name="paramId">参数ID</param>
+            <param name="departId">部门ID</param>
+            <returns>参数model</returns>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.ParamBusiness.GetSysParamList(System.String)">
+            <summary>
+            获取系统参数(List)
+            </summary>
+            <param name="paramId">参数ID</param>
+            <returns>参数model</returns>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.ParamBusiness.GetDictionaryParamList(System.String)">
+            <summary>
+            获取字典(List)
+            </summary>
+            <param name="dicId">字典ID</param>
+            <returns>参数model</returns>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.ParamBusiness.GetSysParam(System.String)">
+            <summary>
+            获取系统参数
+            </summary>
+            <param name="paramId">参数ID</param>
+            <returns>参数model</returns>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.ParamBusiness.GetUserParam(System.String,System.String)">
+            <summary>
+            获取用户参数
+            </summary>
+            <param name="paramId">参数ID</param>
+            <param name="departId">部门ID</param>
+            <returns>参数model</returns>
+        </member>
+        <member name="T:Better517Na.Infrastructures.UnityParam.UserManager">
+            <summary>
+            UserManager类 
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.UserManager.lockSington">
+            <summary>
+            单例锁
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.UserManager.singCache">
+            <summary>
+            缓存
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.UserManager.timeCache">
+            <summary>
+            对应时间缓存
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.UserManager.instance">
+            <summary>
+            单例
+            </summary>
+        </member>
+        <member name="F:Better517Na.Infrastructures.UnityParam.UserManager.timeout">
+            <summary>
+            超时时间
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.UserManager.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.UserManager.GetInstance">
+            <summary>
+            获取单例
+            </summary>
+            <returns>单例</returns>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.UserManager.GetUserParam(System.String,System.String)">
+            <summary>
+            获取参数（主方法）
+            </summary>
+            <param name="paramId">参数ID</param>
+            <param name="departId">部门ID</param>
+            <returns>参数model</returns>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.UserManager.GetDalData(System.String,System.String)">
+            <summary>
+            从数据库获取数据
+            </summary>
+            <param name="departId">部门id</param>
+            <param name="paramId">参数</param>
+            <returns>参数数据</returns>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.UserManager.ClearOuttimeCache">
+            <summary>
+            清除超时缓存
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.UserManager.PutinCache(System.Collections.Generic.List{Better517Na.Infrastructures.UnityParam.MUserParamInfo})">
+            <summary>
+            加入缓存
+            </summary>
+            <param name="model">系统参数表</param>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.UserManager.GetTimeout">
+            <summary>
+            获取超时时间
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.UserManager.GetTableName(System.String,System.String,System.String,System.DateTime)">
+            <summary>
+            获取表名
+            </summary>
+            <param name="dataBase">基础库名</param>
+            <param name="tableName">基础表名</param>
+            <param name="hashKey">hash值</param>
+            <param name="bizTime">数据时间</param>
+            <returns>表名</returns>
+        </member>
+        <member name="T:Better517Na.Infrastructures.UnityParam.MySQLDAL">
+            <summary>
+            MySQLDAL类 
+            </summary>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.MySQLDAL.GetSysparamInfo(System.Data.IDbTransaction,System.Data.IDbConnection,System.String)">
+            <summary>
+            获取系统参数
+            </summary>
+            <param name="trans">事物</param>
+            <param name="conn">连接</param>
+            <param name="paramId">参数ID</param>
+            <returns>系统参数model</returns>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.MySQLDAL.GetUserparamInfo(System.Data.IDbTransaction,System.Data.IDbConnection,System.String,System.String,System.String)">
+            <summary>
+            获取部门参数
+            </summary>
+            <param name="trans">事物</param>
+            <param name="conn">连接</param>
+            <param name="paraId">参数ID</param>
+            <param name="departmentId">部门ID</param>
+            <param name="tableName">表名</param>
+            <returns>部门参数model</returns>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.MySQLDAL.GetDicparamInfo(System.Data.IDbTransaction,System.Data.IDbConnection,System.String)">
+            <summary>
+            获取字典
+            </summary>
+            <param name="trans">事物</param>
+            <param name="conn">连接</param>
+            <param name="dicId">字典ID</param>
+            <returns>字典</returns>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.MySQLDAL.GetSingleSysparamInfo(System.Data.IDbTransaction,System.Data.IDbConnection,System.String)">
+            <summary>
+            获取系统参数(单条)
+            </summary>
+            <param name="trans">事物</param>
+            <param name="conn">连接</param>
+            <param name="paramId">参数ID</param>
+            <returns>系统参数值</returns>
+        </member>
+        <member name="M:Better517Na.Infrastructures.UnityParam.MySQLDAL.GetSingleUserparamInfo(System.Data.IDbTransaction,System.Data.IDbConnection,System.String,System.String,System.String)">
+            <summary>
+            获取部门参数(单条)
+            </summary>
+            <param name="trans">事物</param>
+            <param name="conn">连接</param>
+            <param name="paraId">参数ID</param>
+            <param name="departmentId">部门ID</param>
+            <param name="tableName">表名</param>
+            <returns>部门参数值</returns>
+        </member>
+    </members>
+</doc>

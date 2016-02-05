@@ -1,0 +1,26 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>WebUI</Name>
+    <Description>&lt;没有可用的说明&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1</SortOrder>
+    <CreateNewFolder>false</CreateNewFolder>
+    <DefaultName>WebUI</DefaultName>
+    <ProvideDefaultName>false</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+    <CreateInPlace>false</CreateInPlace>
+  </TemplateData>
+  <TemplateContent>
+
+    <ProjectItem>Error.cshtml</ProjectItem>
+
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>MVCTempWizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2e37693b1059b247</Assembly>
+    <FullClassName>MVCTempWizard.ChildWizardImpl</FullClassName>
+  </WizardExtension>
+</VSTemplate>

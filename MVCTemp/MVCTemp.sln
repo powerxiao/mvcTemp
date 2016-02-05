@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTemp", "MVCTemp\MVCTemp.csproj", "{C29782A3-6108-4ADA-8D42-AF65CE168D55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTempVSIX", "MVCTempVSIX\MVCTempVSIX.csproj", "{A0A3D0B7-5937-4C85-BDB7-CEEDEC7ABCEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTempWizard", "MVCTempWizard\MVCTempWizard.csproj", "{8E7599E6-1012-4873-9F90-890B16C75F8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C29782A3-6108-4ADA-8D42-AF65CE168D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C29782A3-6108-4ADA-8D42-AF65CE168D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C29782A3-6108-4ADA-8D42-AF65CE168D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C29782A3-6108-4ADA-8D42-AF65CE168D55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0A3D0B7-5937-4C85-BDB7-CEEDEC7ABCEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A3D0B7-5937-4C85-BDB7-CEEDEC7ABCEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A3D0B7-5937-4C85-BDB7-CEEDEC7ABCEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A3D0B7-5937-4C85-BDB7-CEEDEC7ABCEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E7599E6-1012-4873-9F90-890B16C75F8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7599E6-1012-4873-9F90-890B16C75F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7599E6-1012-4873-9F90-890B16C75F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7599E6-1012-4873-9F90-890B16C75F8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

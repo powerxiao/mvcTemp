@@ -1,0 +1,5318 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Better517Na.UserDataManager.Model</name>
+    </assembly>
+    <members>
+        <member name="T:Better517Na.UserDataManager.Model.MSignContractAccountInfo">
+            <summary>
+            签约账号信息
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfo.departmentID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfo.aliPayee">
+            <summary>
+            支付宝票款账号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfo.alipayeeOldSign">
+            <summary>
+            支付宝票款账号老签约标记
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfo.aliPayeeNewSign">
+            <summary>
+             支付宝票款账号新签约标记
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfo.aliRoyalty">
+            <summary>
+            支付宝提成账号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfo.aliRoyaltyOldSign">
+            <summary>
+            支付宝提成账号老签约标记
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfo.aliRoyaltyNewSign">
+            <summary>
+            支付宝提成账号新签约标记
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfo.aliAgentPay">
+            <summary>
+            支付宝代付账号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfo.aliAgentPayOldSign">
+            <summary>
+            支付宝代付账号老签约标记
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfo.aliAgentPayNewSign">
+            <summary>
+            支付宝代付账号新签约标记
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfo.tenPayee">
+            <summary>
+            财付通票款账号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfo.tenPayeeOldSign">
+            <summary>
+            财付通票款老签约账号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfo.tenPayeeNewSign">
+            <summary>
+            财付通票款新签约账号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfo.tenPayRoyalty">
+            <summary>
+            财付通提成账号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfo.tenRoyaltyOldSign">
+            <summary>
+            财付通提成账号老签约标示
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfo.tenRoyaltyNewSign">
+            <summary>
+            财付通提成账号新签约标示
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfo.tenAgentPay">
+            <summary>
+            财付通代付账号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfo.tenAgentPayOldSign">
+            <summary>
+            财付通代付账号老签约标示
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfo.tenAgentPayNewSign">
+            <summary>
+            财付通代付账号新签约标示
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfo.DepartmentID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfo.AliPayee">
+            <summary>
+            支付宝票款账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfo.AlipayeeOldSign">
+            <summary>
+            支付宝票款账号老签约标记
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfo.AliPayeeNewSign">
+            <summary>
+             支付宝票款账号新签约标记
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfo.AliRoyalty">
+            <summary>
+            支付宝提成账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfo.AliRoyaltyOldSign">
+            <summary>
+            支付宝提成账号老签约标记
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfo.AliRoyaltyNewSign">
+            <summary>
+            支付宝提成账号新签约标记
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfo.AliAgentPay">
+            <summary>
+            支付宝代付账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfo.AliAgentPayOldSign">
+            <summary>
+            支付宝代付账号老签约标记
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfo.AliAgentPayNewSign">
+            <summary>
+            支付宝代付账号新签约标记
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfo.TenPayee">
+            <summary>
+            财付通票款账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfo.TenPayeeOldSign">
+            <summary>
+            财付通票款老签约账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfo.TenPayeeNewSign">
+            <summary>
+            财付通票款新签约账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfo.TenPayRoyalty">
+            <summary>
+            财付通提成账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfo.TenRoyaltyOldSign">
+            <summary>
+            财付通提成账号老签约标示
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfo.TenRoyaltyNewSign">
+            <summary>
+            财付通提成账号新签约标示
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfo.TenAgentPay">
+            <summary>
+            财付通代付账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfo.TenAgentPayOldSign">
+            <summary>
+            财付通代付账号老签约标示
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfo.TenAgentPayNewSign">
+            <summary>
+            财付通代付账号新签约标示
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MStaffInfoForFP">
+            <summary>
+            找回密码相关信息类 
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoForFP.staffId">
+            <summary>
+             用户ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoForFP.account">
+            <summary>
+             用户名
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoForFP.deptId">
+            <summary>
+             部门ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoForFP.phoneNo">
+            <summary>
+             电话号码
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoForFP.mail">
+            <summary>
+             邮箱
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoForFP.passWord">
+            <summary>
+             用户密码,不可逆
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoForFP.crpassWord">
+            <summary>
+             用户密码，可逆
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoForFP.endTime">
+            <summary>
+             过期时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoForFP.StraffID">
+            <summary>
+             账户ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoForFP.Account">
+            <summary>
+             用户名
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoForFP.DeptID">
+            <summary>
+             部门ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoForFP.PhoneNO">
+            <summary>
+             电话号码
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoForFP.Mail">
+            <summary>
+             邮件地址
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoForFP.PassWord">
+            <summary>
+             用户密码，不可逆
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoForFP.CRPassWord">
+            <summary>
+             用户密码，可逆
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoForFP.EndTime">
+            <summary>
+             过期时间
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MDeptInfoForFP">
+            <summary>
+            部门部分信息类（找回密码专用） 
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDeptInfoForFP.departMentId">
+            <summary>
+            部门id
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDeptInfoForFP.typeCode">
+            <summary>
+            验证类型：1为邮件验证，2为短信验证
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDeptInfoForFP.parentDeptId">
+            <summary>
+            父级部门id
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDeptInfoForFP.departMentNo">
+            <summary>
+            部门编号大平台为00001
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDeptInfoForFP.DepartMentID">
+            <summary>
+             部门ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDeptInfoForFP.TypeCode">
+            <summary>
+             部门类型1:平台 2：核心分销 3：分销 4：采购
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDeptInfoForFP.ParentDeptID">
+            <summary>
+             父级部门id
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDeptInfoForFP.DepartMentNO">
+            <summary>
+             部门编号，表示承接关系
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MTokenInfo">
+            <summary>
+            凭证信息表
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MTokenInfo.accountID">
+            <summary>
+             账户ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MTokenInfo.deptID">
+            <summary>
+             部门ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MTokenInfo.deptShortName">
+            <summary>
+             部门简称
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MTokenInfo.token">
+            <summary>
+             令牌
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MTokenInfo.lastTime">
+            <summary>
+             最近使用时间
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MTokenInfo.isLogout">
+            <summary>
+             是否注销
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MTokenInfo.addTime">
+            <summary>
+             添加时间
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Model.MTokenInfo.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MTokenInfo.AccountID">
+            <summary>
+            账户ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MTokenInfo.DeptID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MTokenInfo.DeptShortName">
+            <summary>
+            部门简称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MTokenInfo.Token">
+            <summary>
+            令牌
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MTokenInfo.LastTime">
+            <summary>
+            最近使用时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MTokenInfo.IsLogout">
+            <summary>
+            是否注销(0:未注销 1:已注销)
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MTokenInfo.AddTime">
+            <summary>
+            添加时间
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MDepartmentExtInfo">
+            <summary>
+            部门扩展信息
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentExtInfo.a1">
+            <summary>
+            支付宝收款帐号老PID是否签约
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentExtInfo.aliAgentPayNewSign">
+            <summary>
+            支付宝代付帐号新PID是否签约
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentExtInfo.aliAgentPayOldSign">
+            <summary>
+            支付宝代付帐号老PID是否签约
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentExtInfo.aliAgentPayUseType">
+            <summary>
+            支付宝代付帐号是否使用新PID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentExtInfo.aliPayeeSign">
+            <summary>
+            支付宝收款帐号新PID是否签约
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentExtInfo.aliPayeeUseType">
+            <summary>
+            支付宝收款是否使用新的PID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentExtInfo.aliRoyaltyNewSign">
+            <summary>
+            支付宝提成帐号新PID是否签约
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentExtInfo.aliRoyaltyOldSign">
+            <summary>
+            支付宝提成帐号老PID是否签约
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentExtInfo.aliRoyaltyUseType">
+            <summary>
+            支付宝提成帐号是否使用新PID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentExtInfo.deptId">
+            <summary>
+            部门Id
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentExtInfo.tenAgentPayNewSign">
+            <summary>
+            财付通代付帐号新PID是否签约
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentExtInfo.tenAgentPayOldSign">
+            <summary>
+            财付通代付帐号老PID是否签约
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentExtInfo.tenAgentPayUseType">
+            <summary>
+            财付通代付帐号是否使用新PID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentExtInfo.tenPayeeNewSign">
+            <summary>
+            财付通收款帐号新PID是否签约
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentExtInfo.tenPayeeUseType">
+            <summary>
+            财付通收款是否使用新的PID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentExtInfo.tenRoyaltyNewSign">
+            <summary>
+            财付通提成帐号新PID是否签约
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentExtInfo.tenRoyaltyUseType">
+            <summary>
+            财付通提成帐号是否使用新PID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentExtInfo.A1">
+            <summary>
+            支付宝收款帐号老PID是否签约
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentExtInfo.AliAgentPayNewSign">
+            <summary>
+            支付宝代付帐号新PID是否签约
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentExtInfo.AliAgentPayOldSign">
+            <summary>
+            支付宝代付帐号老PID是否签约
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentExtInfo.AliAgentPayUseType">
+            <summary>
+            支付宝代付帐号是否使用新PID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentExtInfo.AliPayeeSign">
+            <summary>
+            支付宝收款帐号新PID是否签约
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentExtInfo.AliPayeeUseType">
+            <summary>
+            支付宝收款是否使用新的PID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentExtInfo.AliRoyaltyNewSign">
+            <summary>
+            支付宝提成帐号新PID是否签约
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentExtInfo.AliRoyaltyOldSign">
+            <summary>
+            支付宝提成帐号老PID是否签约
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentExtInfo.AliRoyaltyUseType">
+            <summary>
+            支付宝提成帐号是否使用新PID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentExtInfo.DeptId">
+            <summary>
+            DeptId
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentExtInfo.TenAgentPayNewSign">
+            <summary>
+            财付通代付帐号新PID是否签约
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentExtInfo.TenAgentPayOldSign">
+            <summary>
+            财付通代付帐号老PID是否签约
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentExtInfo.TenAgentPayUseType">
+            <summary>
+            财付通代付帐号是否使用新PID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentExtInfo.TenPayeeNewSign">
+            <summary>
+            财付通收款帐号新PID是否签约
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentExtInfo.TenPayeeUseType">
+            <summary>
+            财付通收款是否使用新的PID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentExtInfo.TenRoyaltyNewSign">
+            <summary>
+            财付通提成帐号新PID是否签约
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentExtInfo.TenRoyaltyUseType">
+            <summary>
+            财付通提成帐号是否使用新PID
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MUserExtendInfo">
+            <summary>
+            用户扩展信息表对应model类 
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUserExtendInfo.StaffID">
+            <summary>
+             账号ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUserExtendInfo.Mobile">
+            <summary>
+             手机密文
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUserExtendInfo.MobileMD5">
+            <summary>
+             电话md5值
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUserExtendInfo.Email">
+            <summary>
+             邮件密文
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUserExtendInfo.EmailMD5">
+            <summary>
+             邮件MD5值
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUserExtendInfo.AddTime">
+            <summary>
+             添加时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUserExtendInfo.ModifyTime">
+            <summary>
+             修正时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUserExtendInfo.IsEnableMobile">
+            <summary>
+            手机是否激活:验证成功方可用于登录(0:没验证或验证失败 / 1:验证成功)
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUserExtendInfo.IsEnableEmail">
+            <summary>
+            邮箱是否激活:验证成功方可用于登录(0:没验证或验证失败 / 1:验证成功)
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUserExtendInfo.IsEditMobile">
+            <summary>
+            是否允许修改手机号(0:允许修改 / 1:禁止修改)
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUserExtendInfo.IsEditEmail">
+            <summary>
+            是否允许修改邮箱(0:允许修改 / 1:禁止修改)
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MRegister">
+            <summary>
+            供应商注册类
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MRegister.staffId">
+            <summary>
+             用户ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MRegister.password">
+            <summary>
+             用户密码
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MRegister.mobilePhone">
+            <summary>
+             手机号码
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MRegister.officeCode">
+            <summary>
+             office号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MRegister.officePhone">
+            <summary>
+             公司电话
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MRegister.departmentName">
+            <summary>
+             公司名称
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MRegister.linkMan">
+            <summary>
+             负责人
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MRegister.email">
+            <summary>
+             电子邮件
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MRegister.departmentForShort">
+            <summary>
+             公司简称
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MRegister.compAddress">
+            <summary>
+             通讯地址
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MRegister.province">
+            <summary>
+             省份
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MRegister.city">
+            <summary>
+             地级市
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MRegister.invitationOwner">
+            <summary>
+            邀请人（共享业务员）
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MRegister.motherparam">
+            <summary>
+            motherparam
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MRegister.mtypeaccount">
+            <summary>
+            mtypeaccount
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MRegister.mblackcommand">
+            <summary>
+            黑屏指令
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MRegister.printInt">
+            <summary>
+            打印权限
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MRegister.shareSaleman">
+            <summary>
+            shareSaleman
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MRegister.customerType">
+            <summary>
+            供应商客户类型
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Model.MRegister.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MRegister.Staff_id">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MRegister.Password">
+            <summary>
+            用户密码
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MRegister.Mobile_phone">
+            <summary>
+            手机号码
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MRegister.OfficeCode">
+            <summary>
+            office号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MRegister.Office_phone">
+            <summary>
+            公司电话
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MRegister.DepartmentName">
+            <summary>
+            公司名称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MRegister.LinkMan">
+            <summary>
+            负责人
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MRegister.Email">
+            <summary>
+            电子邮件
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MRegister.DepartmentForShort">
+            <summary>
+            公司简称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MRegister.CompAddress">
+            <summary>
+            通讯地址
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MRegister.Province">
+            <summary>
+            省份
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MRegister.City">
+            <summary>
+            地级市
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MRegister.InvitationOwner">
+            <summary>
+            邀请人（共享业务员）
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MRegister.OtherParam">
+            <summary>
+            真实所在地相关参数
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MRegister.TypeCode">
+            <summary>
+            帐号类型
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MRegister.BlackCommand">
+            <summary>
+            黑屏禁止指令
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MRegister.PrintPowerInt">
+            <summary>
+            打印权限
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MRegister.ShareSaleman">
+            <summary>
+            shareSaleman
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MRegister.CustomerType">
+            <summary>
+            /供应商客户类型
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MDepartmentInfo">
+            <summary>
+            部门信息数据实体
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentInfo.departmentId">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentInfo.departmentForShort">
+            <summary>
+            部门简称
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentInfo.departmentName">
+            <summary>
+            部门名称
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentInfo.typecode">
+            <summary>
+            部门类型（1平台运营商 2核心分销商 3分销商 4采购商）
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentInfo.departmentNo">
+            <summary>
+            部门编号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentInfo.corporationId">
+            <summary>
+            财付通提成账号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentInfo.corporation">
+            <summary>
+            财付通部门名称
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentInfo.payUserName1">
+            <summary>
+            支付宝接收票款账号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentInfo.payPwd1">
+            <summary>
+            支付宝提成账号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentInfo.payUserName2">
+            <summary>
+            支付宝代付账号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentInfo.payPwd2">
+            <summary>
+            块钱接收票款账号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentInfo.payUserName3">
+            <summary>
+            块钱提成账号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentInfo.payPwd3">
+            <summary>
+            财付通接收票款账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfo.DepartmentID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfo.DepartmentForShort">
+            <summary>
+            部门简称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfo.DepartmentName">
+            <summary>
+            部门名称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfo.TypeCode">
+            <summary>
+            部门类型（1平台运营商 2核心分销商 3分销商 4采购商）
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfo.DepartmentNo">
+            <summary>
+            部门编号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfo.CorporationID">
+            <summary>
+            财付通提成账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfo.Corporation">
+            <summary>
+            单位名称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfo.PayUserName1">
+            <summary>
+            支付宝接收票款账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfo.PayPwd1">
+            <summary>
+            支付宝提成账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfo.PayUserName2">
+            <summary>
+            支付宝代付账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfo.PayPwd2">
+            <summary>
+            块钱接收票款账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfo.PayUserName3">
+            <summary>
+            块钱提成账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfo.PayPwd3">
+            <summary>
+            财付通接收票款账号
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MEmailCode">
+            <summary>
+            MEmailCode类 
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MEmailCode.keyID">
+            <summary>
+             主键ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MEmailCode.staffId">
+            <summary>
+             用户名
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MEmailCode.deptId">
+            <summary>
+             用户部门ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MEmailCode.email">
+            <summary>
+             Email
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MEmailCode.emailMd5">
+            <summary>
+             Email的Md5值
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MEmailCode.validateCode">
+            <summary>
+             验证码
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MEmailCode.isDelete">
+            <summary>
+             删除标志
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MEmailCode.modifyTime">
+            <summary>
+             修改时间
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MEmailCode.nowTime">
+            <summary>
+            数据库当前是时间
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Model.MEmailCode.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MEmailCode.KeyID">
+            <summary>
+            主键ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MEmailCode.StaffId">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MEmailCode.DeptId">
+            <summary>
+            用户部门ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MEmailCode.Email">
+            <summary>
+            Email
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MEmailCode.EmailMd5">
+            <summary>
+            Email的Md5值
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MEmailCode.ValidateCode">
+            <summary>
+            验证码
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MEmailCode.IsDelete">
+            <summary>
+            删除标志
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MEmailCode.ModifyTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MEmailCode.NowTime">
+            <summary>
+            数据库当前时间
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MStaffInfoContainExtend">
+            <summary>
+            员工账号信息（包含扩展信息表字段） 
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoContainExtend.staffInfo">
+            <summary>
+             账号信息
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoContainExtend.userExtentdInfo">
+            <summary>
+            用户扩展信息
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoContainExtend.MStaffInfo">
+            <summary>
+            账户基本信息
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoContainExtend.UserExtentdInfo">
+            <summary>
+            用户扩展信息
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MBusiManageStaff">
+            <summary>
+            MBusiManageStaff类 
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MBusiManageStaff.staffId">
+            <summary>
+            员工Id
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MBusiManageStaff.staffName">
+            <summary>
+            员工姓名
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MBusiManageStaff.mobileNo">
+            <summary>
+            手机
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MBusiManageStaff.status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MBusiManageStaff.StaffId">
+            <summary>
+            员工ID集
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MBusiManageStaff.StaffName">
+            <summary>
+            员工ID集
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MBusiManageStaff.MobileNo">
+            <summary>
+            手机
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MBusiManageStaff.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MJoinUser">
+            <summary>
+            用户临时表对象
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MJoinUser.keyID">
+            <summary>
+            主键ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MJoinUser.staffID">
+            <summary>
+            账户ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MJoinUser.userName">
+            <summary>
+            用户姓名
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MJoinUser.userPwd">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MJoinUser.reversiblePwd">
+            <summary>
+            密码【可逆】
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MJoinUser.deptID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MJoinUser.deptName">
+            <summary>
+            部门名称 
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MJoinUser.deptNameForShort">
+            <summary>
+            部门简称
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MJoinUser.province">
+            <summary>
+            省份
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MJoinUser.city">
+            <summary>
+            市
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MJoinUser.county">
+            <summary>
+            县
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MJoinUser.linkman">
+            <summary>
+            联系人
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MJoinUser.mobile">
+            <summary>
+            手机
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MJoinUser.phone">
+            <summary>
+            电话
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MJoinUser.email">
+            <summary>
+            邮箱
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MJoinUser.address">
+            <summary>
+            地址
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MJoinUser.ipaddress">
+            <summary>
+            ip地址
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MJoinUser.isPlatform">
+            <summary>
+            是否是大平台
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MJoinUser.isEnable">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MJoinUser.addTime">
+            <summary>
+            添加时间
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MJoinUser.modifyTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MJoinUser.verifyCode">
+            <summary>
+             验证码
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MJoinUser.verifyType">
+            <summary>
+             验证类型0:未知1:邮箱 2:短信
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MJoinUser.verifyNum">
+            <summary>
+             验证次数
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MJoinUser.supDepartId">
+            <summary>
+            上级部门ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MJoinUser.registerType">
+            <summary>
+            注册方式 0默认为手机，1表示邮箱
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MJoinUser.isActivated">
+            <summary>
+            是否直接激活
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.VerifyCode">
+            <summary>
+             验证码
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.VerifyType">
+            <summary>
+             验证类型0:未知1:邮箱 2:短信
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.VerifyNum">
+            <summary>
+             验证次数
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.KeyID">
+            <summary>
+            主键ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.StaffID">
+            <summary>
+            账户Id
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.UserName">
+            <summary>
+            用户名称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.UserPwd">
+            <summary>
+            用户密码
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.ReversiblePwd">
+            <summary>
+            用户密码【可逆】
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.DeptID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.DeptName">
+            <summary>
+            部门名称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.DeptNameForShort">
+            <summary>
+            部门简称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.Province">
+            <summary>
+            省份
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.City">
+            <summary>
+            城市
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.County">
+            <summary>
+            县
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.LinkMan">
+            <summary>
+            联系人
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.Mobile">
+            <summary>
+            手机
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.Phone">
+            <summary>
+            电话
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.Email">
+            <summary>
+            邮箱
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.Address">
+            <summary>
+            地址
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.IPAddress">
+            <summary>
+            IP地址
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.IsPlatform">
+            <summary>
+            是否是平台【0未知，1平台，2非平台】
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.IsEnable">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.AddTime">
+            <summary>
+            添加时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.ModifyTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.MobileMD5">
+            <summary>
+             电话的md5值
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.EmailMD5">
+            <summary>
+             邮箱的md5值
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.SupDepartId">
+            <summary>
+            上级部门ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.RegisterType">
+            <summary>
+            注册方式 0默认为手机，1表示邮箱
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MJoinUser.IsActivated">
+            <summary>
+            是否直接激活
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MDepartMentType">
+            <summary>
+            部门类型
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartMentType.keyID">
+            <summary>
+             主键ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartMentType.deptNodeCode">
+            <summary>
+             类型编码
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartMentType.deptNodeName">
+            <summary>
+             类型名称
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartMentType.foreNodeCode">
+            <summary>
+             父类型编码
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartMentType.foreNodeName">
+            <summary>
+             父类型名称
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartMentType.nodeDesc">
+            <summary>
+             描述
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartMentType.insertTime">
+            <summary>
+             添加时间
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartMentType.isValid">
+            <summary>
+             是否启用
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartMentType.isDelete">
+            <summary>
+             删除标志
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Model.MDepartMentType.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartMentType.KeyID">
+            <summary>
+            主键ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartMentType.DeptNodeCode">
+            <summary>
+            类型编码
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartMentType.DeptNodeName">
+            <summary>
+            类型名称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartMentType.ForeNodeCode">
+            <summary>
+            父类型编码
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartMentType.ForeNodeName">
+            <summary>
+            父类型名称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartMentType.NodeDesc">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartMentType.InsertTime">
+            <summary>
+            添加时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartMentType.IsValid">
+            <summary>
+            是否启用
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartMentType.IsDelete">
+            <summary>
+            删除标志
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MDepartmentInfoExtend">
+            <summary>
+            部门信息扩展表 
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentInfoExtend.keyID">
+            <summary>
+             主键ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentInfoExtend.deptID">
+            <summary>
+             部门ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentInfoExtend.deptTypeList">
+            <summary>
+             部门类型组ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentInfoExtend.isMajor">
+            <summary>
+             大客户标志
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentInfoExtend.carrierLimit">
+            <summary>
+            航司限制信息
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentInfoExtend.fromCityLimit">
+            <summary>
+            出发限制信息
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentInfoExtend.addType">
+            <summary>
+             添加类型 0:手动 1：自动
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentInfoExtend.isShowLinkMan">
+            <summary>
+             提醒维护状态
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentInfoExtend.isDelete">
+            <summary>
+             删除标志
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Model.MDepartmentInfoExtend.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Model.MDepartmentInfoExtend.Clone">
+            <summary>
+            深拷贝
+            </summary>
+            <returns>对象</returns>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfoExtend.KeyID">
+            <summary>
+            主键ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfoExtend.DeptID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfoExtend.DeptTypeList">
+            <summary>
+            部门类型组ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfoExtend.IsMajor">
+            <summary>
+            大客户标志
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfoExtend.CarrierLimit">
+            <summary>
+            航司限制信息
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfoExtend.FromCityLimit">
+            <summary>
+            出发限制信息
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfoExtend.AddType">
+            <summary>
+             添加类型 0:手动 1：自动
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfoExtend.IsShowLinkMan">
+            <summary>
+            提醒维护状态
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfoExtend.IsDelete">
+            <summary>
+            删除标志
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MTDepartmentInfo">
+            <summary>
+            部门信息临时对象
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MTDepartmentInfo.departmentId">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MTDepartmentInfo.departmentName">
+            <summary>
+            部门名称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MTDepartmentInfo.DepartmentName">
+            <summary>
+            部门名称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MTDepartmentInfo.DepartmentId">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas">
+            <summary>
+            接口用户创单参数
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.keyID">
+            <summary>
+             主键
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.staffID">
+            <summary>
+             用户ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.userName">
+            <summary>
+             用户名
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a1">
+            <summary>
+             备用1
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a2">
+            <summary>
+             备用2
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a3">
+            <summary>
+             备用3
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a4">
+            <summary>
+             备用4
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a5">
+            <summary>
+             备用5
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a6">
+            <summary>
+             备用6
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a7">
+            <summary>
+             备用7
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a8">
+            <summary>
+             备用8
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a9">
+            <summary>
+             备用9
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a10">
+            <summary>
+             备用10
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a11">
+            <summary>
+             备用11
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a12">
+            <summary>
+             备用12
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a13">
+            <summary>
+             备用13
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a14">
+            <summary>
+             备用14
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a15">
+            <summary>
+             备用15
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a16">
+            <summary>
+             备用16
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a17">
+            <summary>
+             备用17
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a18">
+            <summary>
+             备用18
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a19">
+            <summary>
+             备用19
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a20">
+            <summary>
+             备用20
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a21">
+            <summary>
+             备用21
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a22">
+            <summary>
+             备用22
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a23">
+            <summary>
+             备用23
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a24">
+            <summary>
+             备用24
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a25">
+            <summary>
+             备用25
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a26">
+            <summary>
+             备用26
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a27">
+            <summary>
+             备用27
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a28">
+            <summary>
+             备用28
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a29">
+            <summary>
+             备用29
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a30">
+            <summary>
+             备用30
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a31">
+            <summary>
+             备用31
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a32">
+            <summary>
+             备用32
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a33">
+            <summary>
+             备用33
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a34">
+            <summary>
+             备用34
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a35">
+            <summary>
+             备用35
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a36">
+            <summary>
+             备用36
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a37">
+            <summary>
+             备用37
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a38">
+            <summary>
+             备用38
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.a39">
+            <summary>
+             备用39
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.insertTime">
+            <summary>
+             插入时间
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.isDelete">
+            <summary>
+             删除标记
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.KeyID">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.StaffID">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A1">
+            <summary>
+            备用1
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A2">
+            <summary>
+            备用2
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A3">
+            <summary>
+            备用3
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A4">
+            <summary>
+            备用4
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A5">
+            <summary>
+            备用5
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A6">
+            <summary>
+            备用6
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A7">
+            <summary>
+            备用7
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A8">
+            <summary>
+            备用8
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A9">
+            <summary>
+            备用9
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A10">
+            <summary>
+            备用10
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A11">
+            <summary>
+            备用11
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A12">
+            <summary>
+            备用12
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A13">
+            <summary>
+            备用13
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A14">
+            <summary>
+            备用14
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A15">
+            <summary>
+            备用15
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A16">
+            <summary>
+            备用16
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A17">
+            <summary>
+            备用17
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A18">
+            <summary>
+            备用18
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A19">
+            <summary>
+            备用19
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A20">
+            <summary>
+            备用20
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A21">
+            <summary>
+            备用21
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A22">
+            <summary>
+            备用22
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A23">
+            <summary>
+            备用23
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A24">
+            <summary>
+            备用24
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A25">
+            <summary>
+            备用25
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A26">
+            <summary>
+            备用26
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A27">
+            <summary>
+            备用27
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A28">
+            <summary>
+            备用28
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A29">
+            <summary>
+            备用29
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A30">
+            <summary>
+            备用30
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A31">
+            <summary>
+            备用31
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A32">
+            <summary>
+            备用32
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A33">
+            <summary>
+            备用33
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A34">
+            <summary>
+            备用34
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A35">
+            <summary>
+            备用35
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A36">
+            <summary>
+            备用36
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A37">
+            <summary>
+            备用37
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A38">
+            <summary>
+            备用38
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.A39">
+            <summary>
+            备用39
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.InsertTime">
+            <summary>
+            插入时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas.IsDelete">
+            <summary>
+            删除标记
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MUserValidateTimes">
+            <summary>
+            验证次数model
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MUserValidateTimes.keyID">
+            <summary>
+             主键ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MUserValidateTimes.validateKey">
+            <summary>
+             次数控制关键字
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MUserValidateTimes.validateTime">
+            <summary>
+             验证次数
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MUserValidateTimes.validateType">
+            <summary>
+             类型
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MUserValidateTimes.isDelete">
+            <summary>
+             删除标志
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MUserValidateTimes.modifyTime">
+            <summary>
+             修改时间
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MUserValidateTimes.nowTime">
+            <summary>
+            数据库当前是时间
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Model.MUserValidateTimes.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUserValidateTimes.KeyID">
+            <summary>
+            主键ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUserValidateTimes.ValidateKey">
+            <summary>
+            次数控制关键字
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUserValidateTimes.ValidateTime">
+            <summary>
+            验证次数
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUserValidateTimes.ValidateType">
+            <summary>
+            类型 0:电话 1:短信
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUserValidateTimes.IsDelete">
+            <summary>
+            删除标志
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUserValidateTimes.ModifyTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUserValidateTimes.NowTime">
+            <summary>
+            数据库当前时间
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MUserValidateCode">
+            <summary>
+            联系方式验证码存储表
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MUserValidateCode.keyID">
+            <summary>
+             主键ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MUserValidateCode.staffId">
+            <summary>
+             用户名
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MUserValidateCode.phoneNo">
+            <summary>
+             电话号码
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MUserValidateCode.validateCode">
+            <summary>
+             验证码
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MUserValidateCode.validateType">
+            <summary>
+             电话类型
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MUserValidateCode.isDelete">
+            <summary>
+             删除标志
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MUserValidateCode.modifyTime">
+            <summary>
+             修改时间
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MUserValidateCode.nowTime">
+            <summary>
+            数据库当前是时间
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Model.MUserValidateCode.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUserValidateCode.KeyID">
+            <summary>
+            主键ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUserValidateCode.StaffId">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUserValidateCode.PhoneNo">
+            <summary>
+            电话号码
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUserValidateCode.ValidateCode">
+            <summary>
+            验证码
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUserValidateCode.ValidateType">
+            <summary>
+            电话类型
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUserValidateCode.IsDelete">
+            <summary>
+            删除标志
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUserValidateCode.ModifyTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUserValidateCode.NowTime">
+            <summary>
+            数据库当前时间
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MUnitParametInfo">
+            <summary>
+            部门参数对象
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUnitParametInfo.DepartmentId">
+            <summary>
+            部门编号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUnitParametInfo.DepartmentName">
+            <summary>
+            部门名称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUnitParametInfo.ParameterID">
+            <summary>
+            参数ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUnitParametInfo.ParameterName">
+            <summary>
+            参数名称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUnitParametInfo.ParameterValue">
+            <summary>
+            参数值(0:未开启;1:开启)
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUnitParametInfo.AddName">
+            <summary>
+            添加人
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUnitParametInfo.AddTime">
+            <summary>
+            添加时间
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew">
+            <summary>
+            MSignContractAccountInfoNew
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.departmentID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.aliPayee">
+            <summary>
+            支付宝票款账号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.alipayeeOldSign">
+            <summary>
+            支付宝票款账号老签约标记
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.aliPayeeNewSign">
+            <summary>
+             支付宝票款账号新签约标记
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.aliRoyalty">
+            <summary>
+            支付宝提成账号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.aliRoyaltyOldSign">
+            <summary>
+            支付宝提成账号老签约标记
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.aliRoyaltyNewSign">
+            <summary>
+            支付宝提成账号新签约标记
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.aliAgentPay">
+            <summary>
+            支付宝代付账号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.aliAgentPayOldSign">
+            <summary>
+            支付宝代付账号老签约标记
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.aliAgentPayNewSign">
+            <summary>
+            支付宝代付账号新签约标记
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.tenPayee">
+            <summary>
+            财付通票款账号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.tenPayeeOldSign">
+            <summary>
+            财付通票款老签约账号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.tenPayeeNewSign">
+            <summary>
+            财付通票款新签约账号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.tenPayRoyalty">
+            <summary>
+            财付通提成账号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.tenRoyaltyOldSign">
+            <summary>
+            财付通提成账号老签约标示
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.tenRoyaltyNewSign">
+            <summary>
+            财付通提成账号新签约标示
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.tenAgentPay">
+            <summary>
+            财付通代付账号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.tenAgentPayOldSign">
+            <summary>
+            财付通代付账号老签约标示
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.tenAgentPayNewSign">
+            <summary>
+            财付通代付账号新签约标示
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.aliPayeeUseType">
+            <summary>
+            支付宝签约类型
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.tenPayeeUseType">
+            <summary>
+            财付通签约类型
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.aliRoyaltyUseType">
+            <summary>
+            支付宝分润类型
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.tenRoyaltyUseType">
+            <summary>
+            财付通分润类型
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.aliAgentPayUseType">
+            <summary>
+            支付宝
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.tenAgentPayUseType">
+            <summary>
+            财付通
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.AliPayeeUseType">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.DepartmentID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.AliPayee">
+            <summary>
+            支付宝票款账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.AlipayeeOldSign">
+            <summary>
+            支付宝票款账号老签约标记
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.AliPayeeNewSign">
+            <summary>
+             支付宝票款账号新签约标记
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.AliRoyalty">
+            <summary>
+            支付宝提成账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.AliRoyaltyOldSign">
+            <summary>
+            支付宝提成账号老签约标记
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.AliRoyaltyNewSign">
+            <summary>
+            支付宝提成账号新签约标记
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.AliAgentPay">
+            <summary>
+            支付宝代付账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.AliAgentPayOldSign">
+            <summary>
+            支付宝代付账号老签约标记
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.AliAgentPayNewSign">
+            <summary>
+            支付宝代付账号新签约标记
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.TenPayee">
+            <summary>
+            财付通票款账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.TenPayeeOldSign">
+            <summary>
+            财付通票款老签约账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.TenPayeeNewSign">
+            <summary>
+            财付通票款新签约账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.TenPayRoyalty">
+            <summary>
+            财付通提成账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.TenRoyaltyOldSign">
+            <summary>
+            财付通提成账号老签约标示
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.TenRoyaltyNewSign">
+            <summary>
+            财付通提成账号新签约标示
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.TenAgentPay">
+            <summary>
+            财付通代付账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.TenAgentPayOldSign">
+            <summary>
+            财付通代付账号老签约标示
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.TenAgentPayNewSign">
+            <summary>
+            财付通代付账号新签约标示
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.TenPayeeUseType">
+            <summary>
+            财付通签约类型
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.AliRoyaltyUseType">
+            <summary>
+            支付宝分润类型
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.TenRoyaltyUseType">
+            <summary>
+            财付通分润类型
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.AliAgentPayUseType">
+            <summary>
+            支付宝
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSignContractAccountInfoNew.TenAgentPayUseType">
+            <summary>
+            财付通
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MOperateLogInfo">
+            <summary>
+            操作日志实体类
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLogInfo.iD">
+            <summary>
+             操作日志编号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLogInfo.operStaffId">
+            <summary>
+             操作员ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLogInfo.operStaffName">
+            <summary>
+             操作员姓名
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLogInfo.operCorpId">
+            <summary>
+             操作员所在单位编号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLogInfo.operCorpName">
+            <summary>
+             操作员所在单位名称
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLogInfo.operType">
+            <summary>
+             操作类型
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLogInfo.operDatetime">
+            <summary>
+             操作时间
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLogInfo.operKey">
+            <summary>
+             操作关键字
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLogInfo.operObjId">
+            <summary>
+             被操作数据ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLogInfo.operTable">
+            <summary>
+             操作的表
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLogInfo.operContent">
+            <summary>
+             操作描述
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLogInfo.a1">
+            <summary>
+             A1
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLogInfo.a2">
+            <summary>
+             A2
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLogInfo.a3">
+            <summary>
+             A3
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLogInfo.a4">
+            <summary>
+             A4
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLogInfo.a5">
+            <summary>
+             A5
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLogInfo.a6">
+            <summary>
+             A6
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLogInfo.a7">
+            <summary>
+             A7
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLogInfo.a8">
+            <summary>
+             A8
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLogInfo.a9">
+            <summary>
+             A9
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLogInfo.a10">
+            <summary>
+             A十
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLogInfo.a11">
+            <summary>
+             A十一
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLogInfo.ID">
+            <summary>
+            操作日志编号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLogInfo.OperStaffId">
+            <summary>
+            操作员ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLogInfo.OperStaffName">
+            <summary>
+            操作员姓名
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLogInfo.OperCorpId">
+            <summary>
+            操作员所在单位编号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLogInfo.OperCorpName">
+            <summary>
+            操作员所在单位名称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLogInfo.OperType">
+            <summary>
+            操作类型
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLogInfo.OperDatetime">
+            <summary>
+            操作时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLogInfo.OperKey">
+            <summary>
+            操作关键字
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLogInfo.OperObjId">
+            <summary>
+            被操作数据ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLogInfo.OperTable">
+            <summary>
+            操作的表
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLogInfo.OperContent">
+            <summary>
+            操作描述
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLogInfo.A1">
+            <summary>
+            A1
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLogInfo.A2">
+            <summary>
+            A2
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLogInfo.A3">
+            <summary>
+            A3
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLogInfo.A4">
+            <summary>
+            A4
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLogInfo.A5">
+            <summary>
+            A5
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLogInfo.A6">
+            <summary>
+            A6
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLogInfo.A7">
+            <summary>
+            A7
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLogInfo.A8">
+            <summary>
+            A8
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLogInfo.A9">
+            <summary>
+            A9
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLogInfo.A10">
+            <summary>
+            A十
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLogInfo.A11">
+            <summary>
+            A十一
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MInBusiManageStaffInfo">
+            <summary>
+            MInBusiManageStaff类 
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInBusiManageStaffInfo.oneStaffId">
+            <summary>
+             只查询一个员工
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInBusiManageStaffInfo.staffId">
+            <summary>
+             员工账号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInBusiManageStaffInfo.pageNum">
+            <summary>
+            页码
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInBusiManageStaffInfo.pageSize">
+            <summary>
+            每页大小
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInBusiManageStaffInfo.existStaffIdList">
+            <summary>
+            已经存在的员工
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInBusiManageStaffInfo.isPaging">
+            <summary>
+            是否分页0不分页,1代表分页
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInBusiManageStaffInfo.OneStaffId">
+            <summary>
+            只查询一个员工
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInBusiManageStaffInfo.StaffId">
+            <summary>
+            员工账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInBusiManageStaffInfo.PageNum">
+            <summary>
+            页码
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInBusiManageStaffInfo.PageSize">
+            <summary>
+            每页大小
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInBusiManageStaffInfo.ExistStaffIdList">
+            <summary>
+            已经存在的员工
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInBusiManageStaffInfo.IsPaging">
+            <summary>
+            是否分页0不分页,1代表分页
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.PaySetting.MDepartmentInfoShort">
+            <summary>
+            MDepartmentInfoShort类 
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.PaySetting.MDepartmentInfoShort.departmentId">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.PaySetting.MDepartmentInfoShort.departmentName">
+            <summary>
+            部门名称
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.PaySetting.MDepartmentInfoShort.account">
+            <summary>
+            账户信息，对应A5字段
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Model.PaySetting.MDepartmentInfoShort.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.PaySetting.MDepartmentInfoShort.DepartmentId">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.PaySetting.MDepartmentInfoShort.DepartmentName">
+            <summary>
+            部门名称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.PaySetting.MDepartmentInfoShort.Account">
+            <summary>
+            账户信息，对应A5字段
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MAccountPayInfo">
+            <summary>
+            AccountPayInfo数据实体
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountPayInfo.aliPayAccount">
+            <summary>
+            支付宝账号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountPayInfo.aliPayIsSign">
+            <summary>
+            支付宝是否签约0-未签约；1-签约
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountPayInfo.aliPayIsSignNew">
+            <summary>
+            支付宝新PID是否签约0-未签约；1-签约
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountPayInfo.aliPayIsUseType">
+            <summary>
+            支付宝新PID是否启用0-未启用；1-启用
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountPayInfo.departId">
+            <summary>
+            部门编号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountPayInfo.payLimit">
+            <summary>
+            是否有支付权限0-无权限；1-有权限
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountPayInfo.payType">
+            <summary>
+            支付方式0-支付宝；1-财付通
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountPayInfo.tenPayAccount">
+            <summary>
+            财付通账号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountPayInfo.tenPayIsSign">
+            <summary>
+            财付通是否签约0-未签约；1-签约
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountPayInfo.tenPayIsSignNew">
+            <summary>
+            财付通新PID是否签约0-未签约；1-签约
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountPayInfo.tenPayIsUseType">
+            <summary>
+            财付通新PID是否启用0-未启用；1-启用
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountPayInfo.AliPayAccount">
+            <summary>
+            支付宝账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountPayInfo.AliPayIsSign">
+            <summary>
+            支付宝是否签约0-未签约；1-签约
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountPayInfo.AliPayIsSignNew">
+            <summary>
+            支付宝新PID是否签约0-未签约；1-签约
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountPayInfo.AliPayIsUseType">
+            <summary>
+            支付宝新PID是否启用0-未启用；1-启用
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountPayInfo.DepartId">
+            <summary>
+            部门编号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountPayInfo.PayLimit">
+            <summary>
+            是否有支付权限0-无权限；1-有权限
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountPayInfo.PayType">
+            <summary>
+            支付方式0-支付宝；1-财付通
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountPayInfo.TenPayAccount">
+            <summary>
+            财付通账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountPayInfo.TenPayIsSign">
+            <summary>
+            财付通是否签约0-未签约；1-签约
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountPayInfo.TenPayIsSignNew">
+            <summary>
+            财付通新PID是否签约0-未签约；1-签约
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountPayInfo.TenPayIsUseType">
+            <summary>
+            财付通新PID是否启用0-未启用；1-启用
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MOperateLog">
+            <summary>
+            实体类MOperateLog 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLog.id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLog.operstaffid">
+            <summary>
+            operstaffid
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLog.operstaffname">
+            <summary>
+            operstaffname
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLog.opercorpid">
+            <summary>
+            opercorpid
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLog.opercorpname">
+            <summary>
+            opercorpname
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLog.opertype">
+            <summary>
+            opertype
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLog.operkey">
+            <summary>
+            operkey
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLog.operdatetime">
+            <summary>
+            operdatetime
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLog.operobjid">
+            <summary>
+            operobjid
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLog.opertable">
+            <summary>
+            opertable
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLog.opercontent">
+            <summary>
+            opercontent
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLog.a1">
+            <summary>
+            a1
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLog.a2">
+            <summary>
+            a2
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLog.a3">
+            <summary>
+            a3
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLog.a4">
+            <summary>
+            a4
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLog.a5">
+            <summary>
+            a5
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLog.a6">
+            <summary>
+            a6
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLog.a7">
+            <summary>
+            a7
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLog.a8">
+            <summary>
+            a8
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLog.a9">
+            <summary>
+            a9
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLog.a10">
+            <summary>
+            a10  sadf
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MOperateLog.a11">
+            <summary>
+            a11 asdf
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Model.MOperateLog.#ctor">
+            <summary>
+            MOperateLog
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLog.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLog.Operstaffid">
+            <summary>
+            Operstaffid
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLog.Operstaffname">
+            <summary>
+            Operstaffname
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLog.Opercorpid">
+            <summary>
+            Opercorpid
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLog.Opercorpname">
+            <summary>
+            Opercorpname
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLog.Opertype">
+            <summary>
+            Opertype
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLog.Operkey">
+            <summary>
+            Operkey
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLog.Operdatetime">
+            <summary>
+            Operdatetime
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLog.Operobjid">
+            <summary>
+            Operobjid
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLog.Opertable">
+            <summary>
+            Opertable
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLog.Opercontent">
+            <summary>
+            Opercontent
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLog.A1">
+            <summary>
+            A1
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLog.A2">
+            <summary>
+            A2
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLog.A3">
+            <summary>
+            A3
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLog.A4">
+            <summary>
+            A4
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLog.A5">
+            <summary>
+            A5
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLog.A6">
+            <summary>
+            A6
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLog.A7">
+            <summary>
+            A7
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLog.A8">
+            <summary>
+            A8
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLog.A9">
+            <summary>
+            A9
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLog.A10">
+            <summary>
+            A10 adsf
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MOperateLog.A11">
+            <summary>
+            A11 dfdsa
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MLoginDepartmentInfo">
+            <summary>
+            MLoginDepartmentInfo类 
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MLoginDepartmentInfo.DeptId">
+            <summary>
+            部门Id
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MLoginDepartmentInfo.DeptForShort">
+            <summary>
+            部门简称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MLoginDepartmentInfo.DepartmentName">
+            <summary>
+            部门名称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MLoginDepartmentInfo.IsValid">
+            <summary>
+            是否有效，平台审核标志
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MLoginDepartmentInfo.ParertDeptId">
+            <summary>
+            父部门编号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MLoginDepartmentInfo.TypeCode">
+            <summary>
+            部门类型（1平台运营商 2核心分销商 3分销商 4采购商）
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MLoginDepartmentInfo.SuperDeptID">
+            <summary>
+            所属核心部门Id
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MLoginDepartmentInfo.IsSupDuliDept">
+            <summary>
+            是否核心独立供应商
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MInvitation">
+            <summary>
+            邀请码
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInvitation.keyID">
+            <summary>
+             主键ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInvitation.invitationCode">
+            <summary>
+             邀请码
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInvitation.invitationOwner">
+            <summary>
+             邀请人
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInvitation.customerMail">
+            <summary>
+             客户邮箱
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInvitation.inviCodeName">
+            <summary>
+             邀请码名称
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInvitation.invitationCodeState">
+            <summary>
+             邀请码状态
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInvitation.invitationCustomer">
+            <summary>
+             邀请客户名称
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInvitation.effectTime">
+            <summary>
+             邀请时间
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInvitation.expireTime">
+            <summary>
+             失效时间
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInvitation.regTypeName">
+            <summary>
+             注册类型名称
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInvitation.registerType">
+            <summary>
+             注册类型
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInvitation.isDelete">
+            <summary>
+             是否删除
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Model.MInvitation.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInvitation.KeyID">
+            <summary>
+            主键ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInvitation.InvitationCode">
+            <summary>
+            邀请码
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInvitation.InvitationOwner">
+            <summary>
+            邀请人
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInvitation.CustomerMail">
+            <summary>
+            客户邮箱
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInvitation.InviCodeName">
+            <summary>
+            邀请码名称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInvitation.InvitationCodeState">
+            <summary>
+            邀请码状态
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInvitation.InvitationCustomer">
+            <summary>
+            邀请客户名称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInvitation.EffectTime">
+            <summary>
+            邀请时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInvitation.ExpireTime">
+            <summary>
+            失效时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInvitation.RegTypeName">
+            <summary>
+            注册类型名称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInvitation.RegisterType">
+            <summary>
+            注册类型
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInvitation.IsDelete">
+            <summary>
+            是否删除
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MAccountBase">
+            <summary>
+            账号信息
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.memail">
+            <summary>
+            mEmail
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.mpwdMD5">
+            <summary>
+            mpwdMD5
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.mpwdDES">
+            <summary>
+            mpwdDES
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.mcompanyaddr">
+            <summary>
+            mcompanyaddr
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.mdeptid">
+            <summary>
+            mdeptid
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.mdeptname">
+            <summary>
+            mdeptname
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.mdeptshortname">
+            <summary>
+            mdeptshortname
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.mefficientdate">
+            <summary>
+            mefficientdate
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.mexpirydate">
+            <summary>
+            mexpirydate
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.mprovince">
+            <summary>
+            mprovince
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.mlinkman">
+            <summary>
+            mlinkman
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.mcity">
+            <summary>
+            mcity
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.mdefaultfromcity">
+            <summary>
+            mdefaultfromcity
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.mdefaulttocity">
+            <summary>
+            mdefaulttocity
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.msharesalesman">
+            <summary>
+            msharesalesman
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.mmobileno">
+            <summary>
+            mmobileno
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.mdeptphoneno">
+            <summary>
+            mdeptphoneno
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.mpostno">
+            <summary>
+            mpostno
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.mavailableaccountno">
+            <summary>
+            mavailableaccountno
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.madminstaffid">
+            <summary>
+            madminstaffid
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.malipayaccount">
+            <summary>
+            malipayaccount
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.madminstaffName">
+            <summary>
+            madminstaffName
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.mlinkmanphone">
+            <summary>
+            mlinkmanphone
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.mopstaffId">
+            <summary>
+            mopstaffId
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.motherparam">
+            <summary>
+            motherparam
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.mtypeaccount">
+            <summary>
+            mtypeaccount
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.mlinkmanmail">
+            <summary>
+            mlinkmanmail
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.misall">
+            <summary>
+            misall
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.mopdatetime">
+            <summary>
+            mopdatetime
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.mopstaffname">
+            <summary>
+            mopstaffname
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.mblackcommand">
+            <summary>
+            mblackcommand
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.mopdeptid">
+            <summary>
+            mopdeptid
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MAccountBase.mparetDeptId">
+            <summary>
+            mparetDeptId
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.Email">
+            <summary>
+            电子邮件
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.PassWordMD5">
+            <summary>
+            MD5密码
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.PassWordDES">
+            <summary>
+            DES密码
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.CompanyAddr">
+            <summary>
+            公司地址
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.DeptId">
+            <summary>
+            部门编号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.DeptShortName">
+            <summary>
+            部门简称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.DeptName">
+            <summary>
+            部门名
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.EfficientDate">
+            <summary>
+            生效日期
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.ExpiryDate">
+            <summary>
+            失效时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.LinkMan">
+            <summary>
+            联系人
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.Province">
+            <summary>
+            所属省份
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.City">
+            <summary>
+            所属城市
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.DefaultFromCity">
+            <summary>
+            默认出发城市
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.DefaultToCity">
+            <summary>
+            默认到达城市
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.ShareSaleman">
+            <summary>
+            共享业务员
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.MobileNo">
+            <summary>
+            移动电话
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.DeptPhoneNo">
+            <summary>
+            部门电话
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.PostNo">
+            <summary>
+            邮编
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.AvailableAccountNo">
+            <summary>
+            能使用帐号数
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.AlipayAccount">
+            <summary>
+            支付宝账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.AdminStaffId">
+            <summary>
+            管理员帐号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.AdminStaffName">
+            <summary>
+            管理员名
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.LinkManPhone">
+            <summary>
+            联系人电话
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.TypeCode">
+            <summary>
+            帐号类型
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.LinkmanMail">
+            <summary>
+            联系人邮箱
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.IsAll">
+            <summary>
+            (0/1)1:所有员工都有权限,0:不是所有员工有权限
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.OpDateTime">
+            <summary>
+            操作时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.OpstaffId">
+            <summary>
+            操作员ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.OpStaffName">
+            <summary>
+            操作员姓名
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.OpDeptId">
+            <summary>
+            操作员部门编号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.BlackCommand">
+            <summary>
+            黑屏禁止指令
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.ParetDeptId">
+            <summary>
+            上级部门编号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.OtherParam">
+            <summary>
+            真实所在地相关参数
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.PayPwd1">
+            <summary>
+            支付宝提成账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.PayPwd2">
+            <summary>
+            快钱接收票款账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.PayUserName3">
+            <summary>
+            快钱提成账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.PayPwd3">
+            <summary>
+            财付通接收票款账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.CorporationID">
+            <summary>
+            财付通提成账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.PrintPowerInt">
+            <summary>
+            打印权限
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.UseEmploreeNo">
+            <summary>
+            已使用员工数
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.OperationList">
+            <summary>
+            操作日志
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MAccountBase.QQ">
+            <summary>
+            部门QQ（单位名称(现转存部门QQ号))
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MDepartMentTypeRelation">
+            <summary>
+            部门类型关联表
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartMentTypeRelation.keyID">
+            <summary>
+             主键ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartMentTypeRelation.deptID">
+            <summary>
+             部门ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartMentTypeRelation.deptTypeID">
+            <summary>
+             客户类型ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartMentTypeRelation.isDelete">
+            <summary>
+             删除标志
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Model.MDepartMentTypeRelation.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartMentTypeRelation.KeyID">
+            <summary>
+            主键ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartMentTypeRelation.DeptID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartMentTypeRelation.DeptTypeID">
+            <summary>
+            客户类型ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartMentTypeRelation.IsDelete">
+            <summary>
+            删除标志
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MContact">
+            <summary>
+            MContact类 
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MContact.linkEmail">
+            <summary>
+             联系人电子邮箱
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MContact.linkEmailMD5">
+            <summary>
+             联系人电子邮箱
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MContact.KeyID">
+            <summary>
+             keyID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MContact.DeptID">
+            <summary>
+             部门ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MContact.DeptName">
+            <summary>
+             部门名称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MContact.LinkmanName">
+            <summary>
+             联系人名称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MContact.QQNo">
+            <summary>
+             QQ号码
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MContact.LinkManType">
+            <summary>
+             联系人类型
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MContact.Phone">
+            <summary>
+             电话
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MContact.PhoneMD5">
+            <summary>
+             电话号码对应md5值
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MContact.BusinessType">
+            <summary>
+             业务类型
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MContact.MobilePhone">
+            <summary>
+             移动电话
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MContact.MobilePhoneMD5">
+            <summary>
+             移动电话对应MD5值
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MContact.LinkTime">
+            <summary>
+             联系时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MContact.LinkEmail">
+            <summary>
+            联系人电子邮箱
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MContact.LinkEmailMD5">
+            <summary>
+            联系人电子邮箱
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MContact.Remark">
+            <summary>
+             备注
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MUnitDepartmentInfo4PolicyMatch">
+            <summary>
+            MUnitDepartmentInfo4PolicyMatch类
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUnitDepartmentInfo4PolicyMatch.DepartmentID">
+            <summary>
+            Gets or sets the department unique identifier.
+            </summary>
+            <value>The department unique identifier.</value>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUnitDepartmentInfo4PolicyMatch.ParameterID">
+            <summary>
+            Gets or sets the parameter unique identifier.
+            </summary>
+            <value>The parameter unique identifier.</value>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MUnitDepartmentInfo4PolicyMatch.ParameterValue">
+            <summary>
+            Gets or sets the parameter value.
+            </summary>
+            <value>The parameter value.</value>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MDepartmentInfo4PolicyMatch">
+            <summary>
+            MDepartmentInfo4PolicyMatch类
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfo4PolicyMatch.DepartmentID">
+            <summary>
+            Gets or sets the department unique identifier.
+            </summary>
+            <value>The department unique identifier.</value>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfo4PolicyMatch.A11">
+            <summary>
+            Gets or sets the a11.
+            </summary>
+            <value>The a11.</value>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfo4PolicyMatch.A12">
+            <summary>
+            Gets or sets the a12.
+            </summary>
+            <value>The a12.</value>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfo4PolicyMatch.A27">
+            <summary>
+            Gets or sets the a27.
+            </summary>
+            <value>The a27.</value>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfo4PolicyMatch.A28">
+            <summary>
+            Gets or sets the a28.
+            </summary>
+            <value>The a28.</value>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfo4PolicyMatch.A29">
+            <summary>
+            Gets or sets the a29.
+            </summary>
+            <value>The a29.</value>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfo4PolicyMatch.A30">
+            <summary>
+            Gets or sets the a30.
+            </summary>
+            <value>The a30.</value>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfo4PolicyMatch.A17">
+            <summary>
+            Gets or sets the a17.
+            </summary>
+            <value>The a17.</value>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfo4PolicyMatch.DepartmentName">
+            <summary>
+            部门名称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentInfo4PolicyMatch.OfficeCode">
+            <summary>
+            Office号
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MStaffInfoCRM">
+            <summary>
+            实体类StaffInfoCRM 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.staffid">
+            <summary>
+            staffid
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.dictionaryid">
+            <summary>
+            dictionaryid
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.stationname">
+            <summary>
+            stationname
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.departmentid">
+            <summary>
+            departmentid
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.companyid">
+            <summary>
+            companyid
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.adminflag">
+            <summary>
+            adminflag
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.departmentname">
+            <summary>
+            departmentname
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.parerstaffid">
+            <summary>
+            parerstaffid
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.staffname">
+            <summary>
+            staffname
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.staffno">
+            <summary>
+            staffno
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.depadminflage">
+            <summary>
+            depadminflage
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.employeenumber">
+            <summary>
+            employeenumber
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.idcardnumber">
+            <summary>
+            idcardnumber
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.folkname">
+            <summary>
+            folkname
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.marrid">
+            <summary>
+            marrid
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.nativeplace">
+            <summary>
+            nativeplace
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.polityname">
+            <summary>
+            polityname
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.topdiploma">
+            <summary>
+            topdiploma
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.graduateschool">
+            <summary>
+            graduateschool
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.specialtyname">
+            <summary>
+            specialtyname
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.competencecertificate">
+            <summary>
+            competencecertificate
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.remark">
+            <summary>
+            remark
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.staffstafe">
+            <summary>
+            staffstafe
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.entrytime">
+            <summary>
+            entrytime
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.probationtime">
+            <summary>
+            probationtime
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.separationtime">
+            <summary>
+            separationtime
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.modifiedstaffid">
+            <summary>
+            modifiedstaffid
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.modifiedstaffname">
+            <summary>
+            modifiedstaffname
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.sex">
+            <summary>
+            sex
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.sbaddTime">
+            <summary>
+            sBAddTime
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.idaddress">
+            <summary>
+            iDAddress
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.changePosts">
+            <summary>
+            changePosts
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MStaffInfoCRM.graduateTime">
+            <summary>
+            graduateTime
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Model.MStaffInfoCRM.#ctor">
+            <summary>
+            MStaffInfoCRM
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Staffid">
+            <summary>
+            Staffid
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Dictionaryid">
+            <summary>
+            Dictionaryid
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Stationname">
+            <summary>
+            Stationname
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Departmentid">
+            <summary>
+            Departmentid
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Companyid">
+            <summary>
+            Companyid
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Adminflag">
+            <summary>
+            Adminflag
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Departmentname">
+            <summary>
+            Departmentname
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Parerstaffid">
+            <summary>
+            Parerstaffid
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Staffname">
+            <summary>
+            Staffname
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Staffno">
+            <summary>
+            Staffno
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Depadminflage">
+            <summary>
+            Depadminflage
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Employeenumber">
+            <summary>
+            Employeenumber
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Idcardnumber">
+            <summary>
+            Idcardnumber
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Folkname">
+            <summary>
+            Folkname
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Marrid">
+            <summary>
+            Marrid
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Nativeplace">
+            <summary>
+            Nativeplace
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Polityname">
+            <summary>
+            Polityname
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Topdiploma">
+            <summary>
+            Topdiploma
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Graduateschool">
+            <summary>
+            Graduateschool
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Specialtyname">
+            <summary>
+            Specialtyname
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Competencecertificate">
+            <summary>
+            Competencecertificate
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Remark">
+            <summary>
+            Remark
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Staffstafe">
+            <summary>
+            Staffstafe
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Entrytime">
+            <summary>
+            Entrytime
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Probationtime">
+            <summary>
+            Probationtime
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Separationtime">
+            <summary>
+            Separationtime
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Modifiedstaffid">
+            <summary>
+            Modifiedstaffid
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Modifiedstaffname">
+            <summary>
+            Modifiedstaffname
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.Sex">
+            <summary>
+            Sex
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.SBAddTime">
+            <summary>
+            SBAddTime
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.IDAddress">
+            <summary>
+            IDAddress
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.ChangePosts">
+            <summary>
+            ChangePosts
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MStaffInfoCRM.GraduateTime">
+            <summary>
+            GraduateTime
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MDictionaryInfo">
+            <summary>
+            参数model 
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDictionaryInfo.ID">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDictionaryInfo.CorporationID">
+            <summary>
+            核心部门Id
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDictionaryInfo.Corporation">
+            <summary>
+            部门名称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDictionaryInfo.TypeName">
+            <summary>
+            参数名字
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDictionaryInfo.TypeID">
+            <summary>
+            参数类型ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDictionaryInfo.ItemID">
+            <summary>
+            参数ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDictionaryInfo.ItemName">
+            <summary>
+            参数名字
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDictionaryInfo.DefaultFlag">
+            <summary>
+            默认值
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MDeptOrderSpeed">
+            <summary>
+            MDeptOrderSpeed类 
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDeptOrderSpeed.airName">
+            <summary>
+            航司
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDeptOrderSpeed.AirName">
+            <summary>
+            航司
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDeptOrderSpeed.DepartID">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDeptOrderSpeed.OutTicketSpeed">
+            <summary>
+            出票速度
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDeptOrderSpeed.ReturnMoneySpeed">
+            <summary>
+            ReturnMoneySpeed
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDeptOrderSpeed.OutTicketType">
+            <summary>
+            出票类型
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.ReturnResult">
+            <summary>
+            ReturnResult类 
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.ReturnResult.isSuccess">
+            <summary>
+            操作结果
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.ReturnResult.resMsg">
+            <summary>
+            操作返回消息
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Model.ReturnResult.#ctor(System.Boolean,System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="isSuccess">操作结果</param>
+            <param name="resMsg">操作返回消息</param>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.ReturnResult.IsSuccess">
+            <summary>
+            操作结果(true:操作成功 false:操作失败)
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.ReturnResult.ResMsg">
+            <summary>
+            操作返回消息
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MCompanyLogoImage">
+            <summary>
+             公司Logo图片类 
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MCompanyLogoImage.id">
+            <summary>
+             图片id
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MCompanyLogoImage.imageType">
+            <summary>
+             图片类型
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MCompanyLogoImage.imageContent">
+            <summary>
+             图片内容
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MCompanyLogoImage.imageLength">
+            <summary>
+             图片大小
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MCompanyLogoImage.remark">
+            <summary>
+             备注
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MCompanyLogoImage.ID">
+            <summary>
+             图片id
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MCompanyLogoImage.ImageType">
+            <summary>
+             图片类型
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MCompanyLogoImage.ImageContent">
+            <summary>
+             图片内容
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MCompanyLogoImage.ImageLength">
+            <summary>
+             图片长度
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MCompanyLogoImage.Remark">
+            <summary>
+             备注
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MSystemParamInfo">
+            <summary>
+            系统参数实体类
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSystemParamInfo.setName">
+            <summary>
+            参数名
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MSystemParamInfo.setValue">
+            <summary>
+            参数值
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSystemParamInfo.SetName">
+            <summary>
+            参数名
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MSystemParamInfo.SetValue">
+            <summary>
+            参数值
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MClientDistribute">
+            <summary>
+            实体类MClientDistribute 。(属性说明自动提取数据库字段的描述信息)
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MClientDistribute.clientid">
+            <summary>
+            客户ID,部门ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MClientDistribute.staffidlist">
+            <summary>
+            员工ID集
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MClientDistribute.staffnolist">
+            <summary>
+            员工No集
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MClientDistribute.type">
+            <summary>
+            分配类型 0:分配销售代表  1:分配共享业务员 ,
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MClientDistribute.onlyreadflag">
+            <summary>
+            只读标示
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MClientDistribute.salesmanstaffid">
+            <summary>
+            销售代表账号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MClientDistribute.salesmanstaffno">
+            <summary>
+             销售代表NO
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MClientDistribute.sharestaffId">
+            <summary>
+            共享业务员ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MClientDistribute.sharestaffName">
+            <summary>
+            共享业务员名称
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MClientDistribute.ticketingstffid">
+            <summary>
+            出票客服代表名称
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MClientDistribute.noticketingstffid">
+            <summary>
+            取消出票客服代表名称
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MClientDistribute.roleid">
+            <summary>
+            客户角色ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MClientDistribute.ClientID">
+            <summary>
+            客户ID，部门ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MClientDistribute.StaffidList">
+            <summary>
+            员工ID集
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MClientDistribute.StaffNoList">
+            <summary>
+            员工No集
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MClientDistribute.Type">
+            <summary>
+            分配类型 0:分配销售代表  1:分配共享业务员 ,
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MClientDistribute.OnlyReadFlag">
+            <summary>
+            只读标示
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MClientDistribute.SalesmanStaffid">
+            <summary>
+            销售代表账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MClientDistribute.SalesmanStaffNo">
+            <summary>
+             销售代表NO
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MClientDistribute.ShareStaffId">
+            <summary>
+            共享业务员ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MClientDistribute.ShareStaffName">
+            <summary>
+            共享业务员名称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MClientDistribute.TicketingStffid">
+            <summary>
+            出票客服代表名称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MClientDistribute.NoTicketingStffid">
+            <summary>
+            取消出票客服代表名称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MClientDistribute.RoleID">
+            <summary>
+            客户角色ID
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MRetrievePassWord">
+            <summary>
+            临时表对应类  
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MRetrievePassWord.keyId">
+            <summary>
+             主键ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MRetrievePassWord.staffId">
+            <summary>
+             用户ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MRetrievePassWord.verifyAccount">
+            <summary>
+             验证账号,手机号码或电子邮箱
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MRetrievePassWord.userIpAddress">
+            <summary>
+             操作IP
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MRetrievePassWord.verifyCode">
+            <summary>
+             验证码
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MRetrievePassWord.verifyType">
+            <summary>
+             验证方式0:未知1:邮箱2:短信
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MRetrievePassWord.isEnable">
+            <summary>
+             是否启用,1 启用，0 禁用用于用户验证
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MRetrievePassWord.addTime">
+            <summary>
+             添加时间
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MRetrievePassWord.modifyTime">
+            <summary>
+             修改时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MRetrievePassWord.KeyID">
+            <summary>
+             主键ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MRetrievePassWord.StaffID">
+            <summary>
+             用户ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MRetrievePassWord.VerifyAccount">
+            <summary>
+             验证账号,手机号码或电子邮箱
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MRetrievePassWord.IpAddress">
+            <summary>
+             操作IP
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MRetrievePassWord.VerifyCode">
+            <summary>
+             验证码
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MRetrievePassWord.VerifyType">
+            <summary>
+             验证方式0:未知1:邮箱2:短信
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MRetrievePassWord.IsEnable">
+            <summary>
+             是否启用,1 启用，0 禁用用于用户验证
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MRetrievePassWord.AddTime">
+            <summary>
+             添加时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MRetrievePassWord.ModifyTime">
+            <summary>
+             修改时间
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MInvalidTime">
+            <summary>
+            供应商废票时间表 
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInvalidTime.deptID">
+            <summary>
+            部门编号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInvalidTime.invalidTimeType">
+            <summary>
+            生效日期  0代表星期天 1代表星期一 类推
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInvalidTime.invalidTime">
+            <summary>
+            废票时间
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MInvalidTime.beginDate">
+            <summary>
+            生效日期
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Model.MInvalidTime.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInvalidTime.DeptID">
+            <summary>
+            部门编号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInvalidTime.InvalidTimeType">
+            <summary>
+            生效日期  0代表星期天 1代表星期一 类推
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInvalidTime.InvalidTime">
+            <summary>
+            废票时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MInvalidTime.BeginDate">
+            <summary>
+            生效日期
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MBusiManageStaffPage">
+            <summary>
+            MBusiManageStaffPage
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MBusiManageStaffPage.staffList">
+            <summary>
+            员工Id
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MBusiManageStaffPage.maxDataCount">
+            <summary>
+            最大数据条数
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MBusiManageStaffPage.StaffList">
+            <summary>
+            员工Id
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MBusiManageStaffPage.MaxDataCount">
+            <summary>
+            最大数据条数
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.RegResult">
+            <summary>
+            RegResult类 
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.RegResult.isNeedActive">
+            <summary>
+            操作结果
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.RegResult.staffId">
+            <summary>
+            操作结果
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.RegResult.deptId">
+            <summary>
+            部门ID
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Model.RegResult.#ctor(System.Boolean,System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="isSuccess">操作结果</param>
+            <param name="resMsg">操作返回消息</param>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Model.RegResult.#ctor(System.Boolean,System.Boolean,System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="isSuccess">操作结果</param>
+            <param name="isNeedActive">注册失败时(未激活时是否需要激活）</param>
+            <param name="resMsg">操作返回消息</param>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Model.RegResult.#ctor(System.Boolean,System.String,System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="isSuccess">操作结果</param>
+            <param name="resMsg">操作返回消息</param>
+            <param name="staffId">用户Id</param>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Model.RegResult.#ctor(System.Boolean,System.String,System.Int32)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="isSuccess">操作结果</param>
+            <param name="resMsg">操作返回消息</param>
+            <param name="deptId">部门Id</param>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.RegResult.IsNeedActive">
+            <summary>
+             注册失败时(未激活时是否需要激活）(true:需要激活 false:不需要激活)
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.RegResult.StaffId">
+            <summary>
+             注册成功，返回用户ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.RegResult.DeptId">
+            <summary>
+             注册成功，返回部门ID
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo">
+            <summary> 
+            支付设置签约银行信息
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo.bankId">
+            <summary>
+            接口编号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo.name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo.content">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo.opening">
+            <summary>
+            opening
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo.openingDate">
+            <summary>
+            openingDate
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo.closeingDate">
+            <summary>
+            closeingDate
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo.userId">
+            <summary>
+            userId
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo.keyPage">
+            <summary>
+            keyPage
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo.sentPage">
+            <summary>
+            sentPage
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo.receivePage">
+            <summary>
+            receivePage
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo.bankPage">
+            <summary>
+            bankPage
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo.coporationId">
+            <summary>
+            coporationId
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo.coporationName">
+            <summary>
+            coporationName
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo.defaultFlag">
+            <summary>
+            defaultFlag
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo.BankId">
+            <summary>
+            接口编号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo.Content">
+            <summary>
+            Content
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo.Opening">
+            <summary>
+            Opening
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo.OpeningDate">
+            <summary>
+            OpeningDate
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo.CloseingDate">
+            <summary>
+            CloseingDate
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo.UserId">
+            <summary>
+            UserId
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo.KeyPage">
+            <summary>
+            KeyPage
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo.SentPage">
+            <summary>
+            SentPage
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo.ReceivePage">
+            <summary>
+            ReceivePage
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo.BankPage">
+            <summary>
+            BankPage
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo.CoporationId">
+            <summary>
+            CoporationId
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo.CoporationName">
+            <summary>
+            CoporationName
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MPaySetSignContractBankInfo.DefaultFlag">
+            <summary>
+            DefaultFlag
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MMailAddress">
+            <summary>
+            邮寄地址信息表
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MMailAddress.keyID">
+            <summary>
+             主键
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MMailAddress.deptID">
+            <summary>
+             平台部门ID
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MMailAddress.addressee">
+            <summary>
+             收件人
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MMailAddress.tel">
+            <summary>
+             电话
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MMailAddress.telMD5">
+            <summary>
+             电话MD5
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MMailAddress.phone">
+            <summary>
+             手机号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MMailAddress.phoneMD5">
+            <summary>
+             手机号MD5
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MMailAddress.provice">
+            <summary>
+             省
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MMailAddress.city">
+            <summary>
+             市
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MMailAddress.district">
+            <summary>
+             区
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MMailAddress.street">
+            <summary>
+             街道
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MMailAddress.streetMD5">
+            <summary>
+             街道MD5
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MMailAddress.postcode">
+            <summary>
+             邮编
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MMailAddress.isDefault">
+            <summary>
+             是否默认
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MMailAddress.modifyUser">
+            <summary>
+             操作人
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MMailAddress.isDelete">
+            <summary>
+             删除标志
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Model.MMailAddress.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MMailAddress.KeyID">
+            <summary>
+            主键
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MMailAddress.DeptID">
+            <summary>
+            平台部门ID
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MMailAddress.Addressee">
+            <summary>
+            收件人
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MMailAddress.Tel">
+            <summary>
+            电话
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MMailAddress.TelMD5">
+            <summary>
+            电话MD5
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MMailAddress.Phone">
+            <summary>
+            手机号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MMailAddress.PhoneMD5">
+            <summary>
+            手机号MD5
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MMailAddress.Provice">
+            <summary>
+            省
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MMailAddress.City">
+            <summary>
+            市
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MMailAddress.District">
+            <summary>
+            区
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MMailAddress.Street">
+            <summary>
+            街道
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MMailAddress.StreetMD5">
+            <summary>
+            街道MD5
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MMailAddress.Postcode">
+            <summary>
+            邮编
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MMailAddress.IsDefault">
+            <summary>
+            是否默认
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MMailAddress.ModifyUser">
+            <summary>
+            操作人
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MMailAddress.IsDelete">
+            <summary>
+            删除标志
+            </summary>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Model.MDepartmentPartial">
+            <summary>
+            MDepartmentPartial类 
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentPartial.companyName">
+            <summary>
+             单位名称
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentPartial.platAccount">
+            <summary>
+             平台账号
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentPartial.city">
+            <summary>
+             城市
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentPartial.orgTelPhoneNum">
+            <summary>
+             单位电话
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentPartial.contactName">
+            <summary>
+             联系人
+            </summary>
+        </member>
+        <member name="F:Better517Na.UserDataManager.Model.MDepartmentPartial.privatePhoneNum">
+            <summary>
+             联系电话
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Model.MDepartmentPartial.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentPartial.CompanyName">
+            <summary>
+            单位名称
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentPartial.PlatAccount">
+            <summary>
+            平台账号
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentPartial.City">
+            <summary>
+            城市
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentPartial.OrgTelPhoneNum">
+            <summary>
+            单位电话
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentPartial.ContactName">
+            <summary>
+            联系人
+            </summary>
+        </member>
+        <member name="P:Better517Na.UserDataManager.Model.MDepartmentPartial.PrivatePhoneNum">
+            <summary>
+            联系电话
+            </summary>
+        </member>
+    </members>
+</doc>

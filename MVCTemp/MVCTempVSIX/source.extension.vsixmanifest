@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="517Na.MVCTempVSIX.Microsoft.9efe9e3e-25b6-43a8-a95a-8f05ddba2123" Version="1.0" Language="en-US" Publisher="WanSan" />
+    <DisplayName>517Na.MVCTempVSIX</DisplayName>
+    <Description xml:space="preserve">外网用户网站扩展工具（采购、供应、平台）
+已包含单点登录，采购、供应IP限制及城市记录
+具体操作请看说明文档外网</Description>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="11.0" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="4.5" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="MVCTemp" d:TargetPath="|MVCTemp;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+    <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="Project" d:ProjectName="MVCTempWizard" Path="|MVCTempWizard|" AssemblyName="|MVCTempWizard;AssemblyName|" />
+  </Assets>
+</PackageManifest>

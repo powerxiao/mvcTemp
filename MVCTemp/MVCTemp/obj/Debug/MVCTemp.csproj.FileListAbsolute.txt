@@ -1,0 +1,4 @@
+E:\有意义的东东\项目模板\MVCTemp\MVCTemp\bin\Debug\ProjectTemplates\CSharp\1033\MVCTemp.zip
+E:\有意义的东东\项目模板\MVCTemp\MVCTemp\obj\Debug\CSharp\1033\MVCTemp.zip
+E:\有意义的东东\项目模板\MVCTemp\MVCTemp\obj\Debug\MVCTemp.dll
+E:\有意义的东东\项目模板\MVCTemp\MVCTemp\obj\Debug\MVCTemp.pdb

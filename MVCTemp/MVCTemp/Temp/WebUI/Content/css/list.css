@@ -1,0 +1,861 @@
+﻿
+@charset "utf-8";
+.query {
+    line-height: 24px;
+    margin: 10px auto 5px;
+    padding: 5px 0;
+    width: 98%;
+}
+.query ul {
+    padding-left: 20px;
+}
+.query ul li {
+    float: left;
+    vertical-align: middle;
+}
+.textwarning {
+    color: #FE0053;
+}
+.query-table {
+}
+.query-table td {
+    line-height: 22px;
+    padding: 2px;
+    vertical-align: middle;
+}
+input[type="text"] {
+    background-color: #FFFFFF;
+    border-color: #ADADAD #EEEEEE #EEEEEE #ADADAD;
+    border-style: solid;
+    border-width: 1px;
+    color: #999999;
+    height: 18px;
+    line-height: 18px;
+    padding-left: 3px;
+}
+input[type="text"]:focus {
+    background-color: #F1FAFE;
+    border-color: #6BC0F3;
+    color: #3B3B3B;
+}
+.query p {
+    border-bottom: 1px solid #CCCCCC;
+    line-height: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+}
+.page-num {
+    margin: 0 auto 0px;
+    position: relative;
+    text-align: right;
+    width: 98%;
+}
+.page-num .pagebtn {
+    margin-top: 5px;
+    position: absolute;
+}
+.page-num p {
+    padding-top: 5px;
+}
+.page-num span {
+    color: #FF0000;
+}
+.page-num button {
+    background-color: #F3F3F3;
+    border: 1px solid #CCCCCC;
+    height: 20px;
+    line-height: 20px;
+    width: 40px;
+}
+.page-num button:hover {
+    background-color: #EBEBEB;
+}
+.page-num1 {
+    margin: 5px 0;
+    position: relative;
+    text-align: right;
+    width: 800px;
+}
+.page-num1 .pagebtn {
+    margin-top: 5px;
+    position: absolute;
+}
+.page-num1 p {
+    padding-top: 5px;
+}
+.page-num1 span {
+    color: #FF0000;
+}
+.page-num1 button {
+    background-color: #F3F3F3;
+    border: 1px solid #CCCCCC;
+    height: 20px;
+    line-height: 20px;
+    width: 40px;
+}
+.page-num1 button:hover {
+    background-color: #EBEBEB;
+}
+.page-line input[type="submit"] {
+    background-color: #F3F3F3;
+    border: 1px solid #CCCCCC;
+    height: 20px;
+    line-height: 20px;
+    width: 40px;
+}
+.page-line input[type="submit"]:hover {
+    background-color: #DDDDDD;
+}
+.query-result {
+    margin: 0 auto 5px;
+    width: 98%;
+}
+.query-result em {
+    color: #999999;
+    font-size: 11px;
+    font-style: normal;
+}
+.info-table {
+}
+.info-table .table-header {
+    background-color: #F5F5F5;
+    border-top: 1px solid #DDDDDD;
+    padding: 9px 3px;
+}
+.info-table tr:hover {
+    background-color: #F5F5F5;
+}
+.info-table th {
+    background-color: #F5F5F5;
+    border-top: 1px solid #DDDDDD;
+    font-weight: bold;
+    padding: 5px 3px;
+}
+.info-table td {
+    border-bottom: 1px solid #DDDDDD;
+    line-height: 20px;
+    padding: 5px 3px;
+    vertical-align: top;
+}
+.info-table tr:nth-child(2n+1) {
+    background-color: #F0F8FF;
+}
+.info-table .textleft {
+    padding-left: 10px;
+    text-align: left;
+}
+.info-table .textright {
+    padding-right: 10px;
+    text-align: right;
+}
+.info-table td.mid {
+    border-bottom: 1px solid #DDDDDD;
+    line-height: 20px;
+    padding: 5px 5px 5px 3px;
+    vertical-align: middle;
+}
+.order-tab {
+    border-bottom: 2px solid #51C3BB;
+    font: 14px/18px simsun;
+    height: 32px;
+    padding: 0 0 0 10px;
+}
+.order-tab:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.order-tab li {
+    background-color: #E9F8F7;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-width: 2px 2px 0;
+    color: #39A89F;
+    cursor: pointer;
+    float: left;
+    margin-right: 5px;
+    padding: 5px 10px 7px;
+    position: relative;
+}
+.order-tab li em {
+    background: url("http://img.517na.com/common/changeTicket/img/sprite.png") no-repeat scroll -1px -473px ;
+    height: 20px;
+    position: absolute;
+    right: -7px;
+    top: -10px;
+    width: 19px;
+    z-index: 1000;
+}
+.order-tab li:hover {
+    background-color: #FFFFFF;
+    border-color: #51C3BB #51C3BB #FFFFFF;
+    border-style: solid;
+    border-width: 2px;
+    color: #FF6600;
+    padding: 5px 10px 6px;
+    position: relative;
+    top: 1px;
+}
+.order-tab li.active {
+    background-color: #FFFFFF;
+    border-color: #51C3BB #51C3BB #FFFFFF;
+    border-style: solid;
+    border-width: 2px;
+    color: #065CCB;
+    cursor: default;
+    font-weight: 700;
+    padding: 5px 10px 6px;
+    position: relative;
+    top: 1px;
+}
+.status-tab {
+    border-bottom: 1px solid #CCCCCC;
+    height: 28px;
+    padding: 0 0 0 18px;
+    position: relative;
+}
+.query-result em {
+    color: #999999;
+    font-size: 11px;
+    font-style: normal;
+}
+.info-table {
+}
+.info-table .table-header {
+    background-color: #F5F5F5;
+    border-top: 1px solid #DDDDDD;
+    padding: 9px 3px;
+}
+.info-table tr:hover {
+    background-color: #F5F5F5;
+}
+.info-table th {
+    background-color: #F5F5F5;
+    border-top: 1px solid #DDDDDD;
+    font-weight: bold;
+    padding: 5px 3px;
+}
+.AutoTicketToReport th {
+    text-align: center;
+}
+.info-table td {
+    border-bottom: 1px solid #DDDDDD;
+    line-height: 20px;
+    padding: 5px 3px;
+    vertical-align: top;
+}
+.info-table tr:nth-child(2n+1) {
+    background-color: #F0F8FF;
+}
+.info-table .textleft {
+    padding-left: 10px;
+    text-align: left;
+}
+.info-table .textright {
+    padding-right: 10px;
+    text-align: right;
+}
+.order-tab {
+    border-bottom: 2px solid #51C3BB;
+    font: 14px/18px simsun;
+    height: 32px;
+    padding: 0 0 0 10px;
+}
+.order-tab:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.order-tab li {
+    background-color: #E9F8F7;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-width: 2px 2px 0;
+    color: #39A89F;
+    cursor: pointer;
+    float: left;
+    margin-right: 5px;
+    padding: 5px 10px 7px;
+    position: relative;
+}
+.order-tab li em {
+    background: url("http://img.517na.com/common/changeTicket/img/sprite.png") no-repeat scroll -1px -473px ;
+    height: 20px;
+    position: absolute;
+    right: -7px;
+    top: -10px;
+    width: 19px;
+    z-index: 1000;
+}
+.status-tab:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.status-tab li {
+    border-color: #CCCCCC #CCCCCC #FFFFFF;
+    border-style: solid;
+    border-width: 1px 1px 0;
+    color: #51C3BB;
+    cursor: pointer;
+    float: left;
+    margin-right: 10px;
+    margin-top: 1px;
+    padding: 5px 20px 7px;
+}
+.status-tab li:hover {
+    background-color: #FFFFFF;
+    border-color: #CCCCCC #CCCCCC #FFFFFF;
+    border-style: solid;
+    border-width: 1px;
+    color: #FF6600;
+    padding: 5px 20px 6px;
+    top: 0;
+}
+.status-tab li.active {
+    background-color: #FFFFFF;
+    border-color: #CCCCCC #CCCCCC #FFFFFF;
+    border-style: solid;
+    border-width: 1px;
+    color: #666666;
+    cursor: default;
+    font-weight: 700;
+    padding: 5px 20px 6px;
+    top: 0;
+}
+.status-tab li i {
+    color: #FF0000;
+    font-style: normal;
+}
+.status-tab span {
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    margin-top: 8px;
+    padding-left: 50px;
+    position: absolute;
+    right: 5px;
+}
+.order-table {
+    font-family: "宋体";
+    text-align: center;
+}
+.order-table .table-header {
+    background-color: #F7FDFB;
+    border-bottom: 1px solid #D2DFDF;
+    border-top: 1px solid #D2DFDF;
+}
+.order-table tr:hover {
+    background-color: #F7F7F7;
+}
+.order-table th {
+    background-color: #F7FDFB;
+    border-bottom: 1px solid #D2DFDF;
+    border-top: 1px solid #D2DFDF;
+    font-weight: bold;
+    padding: 9px 4px;
+	text-align:left;
+}
+.order-table td {
+    border-bottom: 1px solid #DADADA;
+    line-height: 18px;
+    padding: 6px 4px;
+    vertical-align: top;
+	text-align:left;
+}
+.order-table td b {
+}
+.order-table td em {
+    color: #999999;
+}
+.order-table .textleft {
+    text-align: left;
+}
+.btn {
+    display: inline-block;
+    line-height: 22px;
+    vertical-align: middle;
+}
+.btn span {
+    background:url(http://img.517na.com/common/changeTicket/img/bg_pop_a.png) no-repeat scroll 0 -20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    height: 22px;
+    margin-right: 10px;
+    margin-top: 3px;
+    overflow: hidden;
+    padding: 0 0 0 5px;
+}
+.btn b {
+    background:url(http://img.517na.com/common/changeTicket/img/bg_pop_a.png) no-repeat scroll 100% -50px;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 22px;
+    padding: 0 12px 0 7px;
+    white-space: nowrap;
+}
+.btn a:hover {
+    text-decoration: none;
+}
+.btn:hover span {
+    background-position: 0 -85px;
+    color: #FFFFFF;
+}
+.btn:hover b {
+    background-position: 100% -115px;
+}
+.btn-add {
+    background:url(http://img.517na.com/common/changeTicket/img/bg_pop_a.png) no-repeat scroll -1px -638px #999999;
+    border: medium none;
+    color: #FFFFFF;
+    height: 22px;
+    line-height: 22px;
+    width: 52px;
+}
+.btn-add:hover {
+    background-color: #FF6600;
+}
+.btn-primary {
+    display: inline-block;
+    line-height: 22px;
+    vertical-align: middle;
+}
+.btn-add {
+    background: url(http://img.517na.com/common/changeTicket/img/bg_pop_a.png) no-repeat scroll -1px -638px #999999;
+    border: medium none;
+    color: #FFFFFF;
+    height: 22px;
+    line-height: 22px;
+    width: 52px;
+}
+.btn-primary span {
+    background: url(http://img.517na.com/common/changeTicket/img/bg_pop_a.png) no-repeat scroll 0 -345px ;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    height: 22px;
+    margin-right: 10px;
+    margin-top: 3px;
+    overflow: hidden;
+    padding: 0 0 0 5px;
+}
+.btn-primary b {
+    background: url(http://img.517na.com/common/changeTicket/img/bg_pop_a.png) no-repeat scroll 100% -375px ;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 22px;
+    padding: 0 12px 0 7px;
+    white-space: nowrap;
+}
+.btn-primary:hover span {
+    background-position: 0 -410px;
+}
+.btn-primary:hover b {
+    background-position: 100% -440px;
+}
+.note {
+    margin: 0 auto 5px;
+    width: 98%;
+}
+.btn-add:hover {
+    background-color: #FF6600;
+}
+.btn-primary {
+    display: inline-block;
+    line-height: 22px;
+    vertical-align: middle;
+}
+.btn-primary span {
+    background: url(http://img.517na.com/common/changeTicket/img/bg_pop_a.png) no-repeat scroll 0 -345px ;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    height: 22px;
+    margin-right: 10px;
+    margin-top: 3px;
+    overflow: hidden;
+    padding: 0 0 0 5px;
+}
+.btn-primary b {
+    background: url(http://img.517na.com/common/changeTicket/img/bg_pop_a.png) no-repeat scroll 100% -375px ;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 22px;
+    padding: 0 12px 0 7px;
+    white-space: nowrap;
+}
+.btn-primary:hover span {
+    background-position: 0 -410px;
+}
+.btn-primary:hover b {
+    background-position: 100% -440px;
+}
+.note {
+    margin: 0 auto 5px;
+    width: 98%;
+}
+.note li {
+    line-height: 20px;
+    padding-left: 20px;
+}
+.ico-no {
+    background-image: url("http://img.517na.com/common/changeTicket/img/sprite.png");
+    background-position: left -63px;
+    background-repeat: no-repeat;
+    font-size: 12px;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 20px;
+}
+.ico-no {
+    background-image: url("http://img.517na.com/common/changeTicket/img/sprite.png");
+    background-position: left -63px;
+    background-repeat: no-repeat;
+    font-size: 12px;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 20px;
+}
+.current-info {
+    background: url("http://img.517na.com/common/changeTicket/img/dotline.gif") repeat-x scroll left bottom ;
+    margin: 10px auto;
+    padding: 10px 0;
+    vertical-align: top;
+    width: 98%;
+}
+.current-info {
+    background: url("http://img.517na.com/common/changeTicket/img/dotline.gif") repeat-x scroll left bottom ;
+    margin: 10px auto;
+    padding: 10px 0;
+    vertical-align: top;
+    width: 98%;
+}
+.divtop {
+    background-color: #F7FCFF;
+    border: 1px solid #000000;
+    color: #000000;
+    display: none;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 6px;
+    position: absolute;
+    text-align: left;
+    top: 1520px;
+    width: 300px;
+    z-index: 9;
+}
+.codecss {
+    color: #CEEFFF;
+}
+.condition {
+    width: 800px;
+}
+.condition li {
+    float: left;
+    margin: 5px 0;
+}
+.condition li label {
+    display: inline-block;
+    padding-right: 5px;
+    text-align: right;
+    width: 70px;
+}
+.condition li span {
+    display: inline-block;
+    width: 120px;
+}
+.seat {
+    padding: 5px 0;
+}
+.seat b {
+    color: #333333;
+    display: inline-block;
+    font-weight: normal;
+    width: 60px;
+}
+.control {
+    line-height: 20px;
+    margin: 5px 0;
+}
+.condition li span {
+    display: inline-block;
+    width: 120px;
+}
+.seat {
+    padding: 5px 0;
+}
+.seat b {
+    color: #333333;
+    display: inline-block;
+    font-weight: normal;
+    width: 60px;
+}
+.control {
+    line-height: 20px;
+    margin: 5px 0;
+}
+.control-btn {
+    background-color: #F3F3F3;
+    border: 1px solid #CCCCCC;
+    cursor: pointer;
+    height: 30px;
+    line-height: 20px;
+    padding: 5px;
+}
+.cp {
+    background: none repeat scroll 0 0 #FFFFEB;
+    border: 1px solid #FBD5A7;
+    margin-top: -1px;
+    padding: 5px;
+    position: relative;
+    text-align: right;
+}
+.arrow {
+    background: url("http://img.517na.com/common/changeTicket/img/sprite.gif") no-repeat scroll -104px -29px ;
+    display: inline-block;
+    height: 19px;
+    position: absolute;
+    right: 5px;
+    top: -10px;
+    width: 32px;
+}
+.control-btn {
+    background-color: #F3F3F3;
+    border: 1px solid #CCCCCC;
+    cursor: pointer;
+    height: 30px;
+    line-height: 20px;
+    padding: 5px;
+}
+.cp {
+    background: none repeat scroll 0 0 #FFFFEB;
+    border: 1px solid #FBD5A7;
+    margin-top: -1px;
+    padding: 5px;
+    position: relative;
+    text-align: right;
+}
+.arrow {
+    background: url("http://img.517na.com/common/changeTicket/img/sprite.gif") no-repeat scroll -104px -29px ;
+    display: inline-block;
+    height: 19px;
+    position: absolute;
+    right: 5px;
+    top: -10px;
+    width: 32px;
+}
+.cp-talklist {
+    float: left;
+    height: 150px;
+    overflow: auto;
+    text-align: left;
+    width: 50%;
+}
+.cp-talklist ul li {
+    width: 400px;
+}
+.cp-talklist ul li label {
+    display: block;
+    float: left;
+    line-height: 20px;
+    padding: 0;
+    text-align: right;
+    width: 38%;
+}
+.cp-talklist ul li span {
+    display: block;
+    float: left;
+    line-height: 20px;
+    width: 62%;
+}
+.cp-talk {
+    float: left;
+    padding-left: 5px;
+    text-align: left;
+    width: 25%;
+}
+.jianju {
+    float: right;
+}
+.cp-btn {
+    float: right;
+    width: 24%;
+}
+.cp-list {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #E4E4E4 #E4E4E4 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+}
+.cp-list-tit {
+    background-color: #F7F7F7;
+    border-bottom: 1px solid #F5F5F5;
+    line-height: 24px;
+    padding-left: 5px;
+}
+.contact-main {
+    margin: 40px auto 30px;
+    position: relative;
+}
+.contact-main1 {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 780px;
+}
+.msg-left {
+    float: left;
+    height: 95%;
+    margin-left: 10px;
+    width: 52%;
+}
+.contact-ul {
+}
+.contact-ul li {
+}
+.contact-ul i {
+    font-style: normal;
+}
+.contact-ul label {
+    display: inline-block;
+    font-weight: 600;
+    line-height: 24px;
+    margin-left: 10px;
+    padding-right: 5px;
+    text-align: left;
+    vertical-align: top;
+}
+.contact-ul label i {
+    font-weight: 100;
+}
+.contact-ul li span {
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    max-width: 500px;
+    vertical-align: top;
+}
+.contact-ul li span span {
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    max-width: 500px;
+    vertical-align: top;
+}
+.msg-right {
+    float: right;
+    margin-right: 5px;
+    margin-top: 40px;
+    width: 44%;
+}
+.set-table1 {
+    border: 0 none;
+    margin-left: -2px;
+    width: 500px;
+}
+.set-table1 tr {
+    margin: 0;
+    padding: 0;
+}
+.set-table1 tr td {
+    margin: 0;
+}
+.ul li span tr td {
+    width: 100px;
+}
+.width {
+    height: 100%;
+    width: 100%;
+}
+#preview{border:1px solid #cccccc; background:#fff;color:#000; padding:5px; display:none; position:absolute; line-height:22px;} 
+
+.bj01{
+background-color:#09F;
+color:#FFFFFF;
+text-align: center;
+padding-bottom:2px;
+padding-top:2px;
+padding-left:0px;
+padding-right:0px;
+width:54px;
+}
+.bj02{
+background-color:#f60;
+color:#FFFFFF;
+text-align: center;
+padding-bottom:2px;
+padding-top:2px;
+padding-left:0px;
+padding-right:0px;
+margin-bottom:4px;
+width:54px;
+}
+
+.bj03{
+background-color:red;
+color:#FFFFFF;
+text-align: center;
+padding-bottom:2px;
+padding-top:2px;
+padding-left:0px;
+padding-right:0px;
+margin-bottom:4px;
+width:54px;
+}
+
+.bj04{
+background-color: purple;
+color:#FFFFFF;
+text-align: center;
+padding-bottom:2px;
+padding-top:2px;
+padding-left:0px;
+padding-right:0px;
+margin-bottom:4px;
+width:54px;
+}
+
+.bj05{
+background-color: #00cc00;
+color:#FFFFFF;
+text-align: center;
+padding-bottom:2px;
+padding-top:2px;
+padding-left:0px;
+padding-right:0px;
+margin-bottom:4px;
+width:54px;
+}
+
+.bj06{
+background-color: #ED9121;
+color:#FFFFFF;
+text-align: center;
+padding-bottom:2px;
+padding-top:2px;
+padding-left:0px;
+padding-right:0px;
+margin-bottom:4px;
+width:54px;
+}
+
+.pad1{ padding:10px;}

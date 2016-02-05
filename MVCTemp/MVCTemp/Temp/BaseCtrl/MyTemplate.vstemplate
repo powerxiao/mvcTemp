@@ -1,0 +1,40 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>BaseCtrl</Name>
+    <Description>&lt;没有可用的说明&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1002</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>BaseCtrl</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Better517Na.$safeprojectname$.BaseCtrl.csproj" File="BaseCtrl.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="AuthorizeFilterAttribute.cs">AuthorizeFilterAttribute.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="BaseController.cs">BaseController.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="BaseFilterAttribute.cs">BaseFilterAttribute.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ErrorController.cs">ErrorController.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="ExceptionHandler.cs">ExceptionHandler.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SSOURL.cs">SSOURL.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="UserManager.cs">UserManager.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MenuManager.cs">MenuManager.cs</ProjectItem>
+      
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+    </Project>
+    <CustomParameters>
+      <CustomParameter Name="$sessionName$" Value="$safeprojectname$"/>
+      <CustomParameter Name="$namespaceName$" Value="Better517Na.$safeprojectname$.BaseCtrl"/>
+    </CustomParameters>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>MVCTempWizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2e37693b1059b247</Assembly>
+    <FullClassName>MVCTempWizard.ChildWizardImpl</FullClassName>
+  </WizardExtension>
+</VSTemplate>

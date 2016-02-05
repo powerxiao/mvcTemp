@@ -1,0 +1,178 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>WebUI</Name>
+    <Description>&lt;没有可用的说明&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1005</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>WebUI</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Better517Na.$safeprojectname$.WebUI.csproj" File="WebUI.csproj" ReplaceParameters="true">
+      <Folder Name="App_Data" TargetFolderName="App_Data" />
+      <Folder Name="App_Start" TargetFolderName="App_Start">
+        <ProjectItem ReplaceParameters="true" TargetFileName="FilterConfig.cs">FilterConfig.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="RouteConfig.cs">RouteConfig.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="BetterLogParams20130607.config">BetterLogParams20130607.config</ProjectItem>
+      <Folder Name="Content" TargetFolderName="Content">
+        <Folder Name="css" TargetFolderName="css">
+          <Folder Name="custom" TargetFolderName="custom">
+            <ProjectItem ReplaceParameters="true" TargetFileName="base.css">base.css</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="common.css">common.css</ProjectItem>
+          </Folder>
+          <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-theme.css">bootstrap-theme.css</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-theme.css.map">bootstrap-theme.css.map</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap-theme.min.css">bootstrap-theme.min.css</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.css">bootstrap.css</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.css.map">bootstrap.css.map</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.css">bootstrap.min.css</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="common.css">common.css</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="default.css">default.css</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="detail.css">detail.css</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="layer.css">layer.css</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="list.css">list.css</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="local.css">local.css</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="login.css">login.css</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="public.css">public.css</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="signIn.css">signIn.css</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="style.css">style.css</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="topleft.css">topleft.css</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="WdatePicker.css">WdatePicker.css</ProjectItem>
+        </Folder>
+        <Folder Name="img" TargetFolderName="img">
+          <ProjectItem ReplaceParameters="false" TargetFileName="bg_pop_a.png">bg_pop_a.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="dotline.gif">dotline.gif</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="login.png">login.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="red_btn100.png">red_btn100.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="sprite.gif">sprite.gif</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="sprite.png">sprite.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="top_bottom_bg.gif">top_bottom_bg.gif</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="top1_bg.gif">top1_bg.gif</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="un_sprites.png">un_sprites.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="untitled.png">untitled.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="welcome.png">welcome.png</ProjectItem>
+        </Folder>
+        <Folder Name="js" TargetFolderName="js">
+          <Folder Name="layer" TargetFolderName="layer">
+            <ProjectItem ReplaceParameters="true" TargetFileName="layer-min.js">layer-min.js</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="layer.js">layer.js</ProjectItem>
+            <Folder Name="skin" TargetFolderName="skin">
+              <Folder Name="default" TargetFolderName="default">
+                <ProjectItem ReplaceParameters="false" TargetFileName="Info_ico.png">Info_ico.png</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="xubox_ico0.png">xubox_ico0.png</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="xubox_loading0.gif">xubox_loading0.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="xubox_loading1.gif">xubox_loading1.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="xubox_loading2.gif">xubox_loading2.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="xubox_loading3.gif">xubox_loading3.gif</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="xubox_title0.png">xubox_title0.png</ProjectItem>
+              </Folder>
+              <ProjectItem ReplaceParameters="true" TargetFileName="layer.css">layer.css</ProjectItem>
+            </Folder>
+          </Folder>
+          <Folder Name="login" TargetFolderName="login">
+            <ProjectItem ReplaceParameters="true" TargetFileName="login.js">login.js</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="outLogin.js">outLogin.js</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="menu.js">menu.js</ProjectItem>
+
+          </Folder>
+          <Folder Name="My97DatePicker" TargetFolderName="My97DatePicker">
+            <ProjectItem ReplaceParameters="true" TargetFileName="calendar.js">calendar.js</ProjectItem>
+            <Folder Name="lang" TargetFolderName="lang">
+              <ProjectItem ReplaceParameters="true" TargetFileName="en.js">en.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="zh-cn.js">zh-cn.js</ProjectItem>
+              <ProjectItem ReplaceParameters="true" TargetFileName="zh-tw.js">zh-tw.js</ProjectItem>
+            </Folder>
+            <Folder Name="skin" TargetFolderName="skin">
+              <ProjectItem ReplaceParameters="false" TargetFileName="datePicker.gif">datePicker.gif</ProjectItem>
+              <Folder Name="default" TargetFolderName="default">
+                <ProjectItem ReplaceParameters="true" TargetFileName="datepicker.css">datepicker.css</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="img.gif">img.gif</ProjectItem>
+              </Folder>
+              <ProjectItem ReplaceParameters="true" TargetFileName="WdatePicker.css">WdatePicker.css</ProjectItem>
+              <Folder Name="whyGreen" TargetFolderName="whyGreen">
+                <ProjectItem ReplaceParameters="false" TargetFileName="bg.jpg">bg.jpg</ProjectItem>
+                <ProjectItem ReplaceParameters="true" TargetFileName="datepicker.css">datepicker.css</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="img.gif">img.gif</ProjectItem>
+              </Folder>
+            </Folder>
+            <ProjectItem ReplaceParameters="true" TargetFileName="WdatePicker.js">WdatePicker.js</ProjectItem>
+          </Folder>
+          <ProjectItem ReplaceParameters="true" TargetFileName="base64.js">base64.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.7.2.min.js">jquery-1.7.2.min.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery-html5Validate-min.js">jquery-html5Validate-min.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery.cookie.js">jquery.cookie.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jqueryTools.js">jqueryTools.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="sso.js">sso.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery.query.js">jquery.query.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ssoExit.js">ssoExit.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jsRenderExtPagination-1.0.4.min.js">jsRenderExtPagination-1.0.4.min.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="json2.js">json2.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jsrender.min.js">jsrender.min.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="moment.min.js">moment.min.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.js">bootstrap.min.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="BrowserTips.js">BrowserTips.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="commonFunctions.js">commonFunctions.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery.easing.1.3.js">jquery.easing.1.3.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery.watermark.min.js">jquery.watermark.min.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="sea.js">sea.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="tools-detail.js">tools-detail.js</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="ashx">
+        <ProjectItem ReplaceParameters="true" TargetFileName="SSOHandler.ashx">SSOHandler.ashx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SSOHandler.ashx.cs">SSOHandler.ashx.cs</ProjectItem>
+      </Folder>
+      <Folder Name="handler">
+        <ProjectItem ReplaceParameters="true" TargetFileName="SSOExitHandler.ashx">SSOExitHandler.ashx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SSOExitHandler.ashx.cs">SSOExitHandler.ashx.cs</ProjectItem>
+      </Folder>
+      <Folder Name="SSOConfig">
+        <ProjectItem ReplaceParameters="true" TargetFileName="SSOClient.config">SSOClient.config</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax">Global.asax</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax.cs">Global.asax.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="KeyIDGenerator.config">KeyIDGenerator.config</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Views" TargetFolderName="Views">
+        <ProjectItem ReplaceParameters="true" TargetFileName="_ViewStart.cshtml">_ViewStart.cshtml</ProjectItem>
+        <Folder Name="Login" TargetFolderName="Login">
+          <ProjectItem ReplaceParameters="true" TargetFileName="Index.cshtml">Index.cshtml</ProjectItem>
+        </Folder>
+        <Folder Name="Home" TargetFolderName="Home">
+          <ProjectItem ReplaceParameters="true" TargetFileName="Index.cshtml">Index.cshtml</ProjectItem>
+        </Folder>
+        <Folder Name="Shared" TargetFolderName="Shared">
+          <ProjectItem ReplaceParameters="true" TargetFileName="_Layout.cshtml">_Layout.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Error.cshtml">Error.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Menu.cshtml">Menu.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Top.cshtml">Top.cshtml</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      </Folder>
+      <Folder Name="WCFConfig" TargetFolderName="WCFConfig">
+        <ProjectItem ReplaceParameters="true" TargetFileName="RouteControl.config">RouteControl.config</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="UserLoginWcf.config">UserLoginWcf.config</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WcfCallHelper.config">WcfCallHelper.config</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Release.config">Web.Release.config</ProjectItem>
+    </Project>
+    <CustomParameters>
+         <CustomParameter Name="$namespaceName$" Value="Better517Na.$safeprojectname$.WebUI"/>
+    </CustomParameters>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>MVCTempWizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2e37693b1059b247</Assembly>
+    <FullClassName>MVCTempWizard.ChildWizardImpl</FullClassName>
+  </WizardExtension>
+</VSTemplate>

@@ -1,0 +1,4 @@
+C:\Users\wansan\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\WanSan\517Na.MVCTempVSIX\1.0\\extension.vsixmanifest
+C:\Users\wansan\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\WanSan\517Na.MVCTempVSIX\1.0\ProjectTemplates\CSharp\\1033\MVCTemp.zip
+C:\Users\wansan\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\WanSan\517Na.MVCTempVSIX\1.0\\MVCTempWizard.dll
+C:\Users\wansan\AppData\Local\Microsoft\VisualStudio\11.0Exp\Extensions\WanSan\517Na.MVCTempVSIX\1.0\\MVCTempWizard.pdb

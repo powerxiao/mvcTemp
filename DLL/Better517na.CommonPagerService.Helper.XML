@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Better517na.CommonPagerService.Helper</name>
+    </assembly>
+    <members>
+        <member name="T:Better517na.CommonPagerService.Helper.PagerServiceHelper">
+            <summary>
+            PagerServiceHelper类 
+            </summary>
+        </member>
+        <member name="M:Better517na.CommonPagerService.Helper.PagerServiceHelper.GetPagerTable(Better517Na.CommonPagerService.Contract.TablePager)">
+            <summary>
+            取分页数据:根据分页条件取分页数据对象
+            </summary>
+            <param name="pager">分页参数 TablePager</param>
+            <returns>分页数据 DatatableTablePagerData</returns>
+        </member>
+        <member name="M:Better517na.CommonPagerService.Helper.PagerServiceHelper.GetPagerTableByDataCenter(Better517Na.CommonPagerService.Contract.TablePager,System.String)">
+            <summary>
+             根据机房获取分页数据
+            </summary>
+            <param name="pager">分页参数 TablePager</param>
+            <param name="machineRoom">机房 成都：CTU, 北京：PEK</param>
+            <returns>分页数据 DatatableTablePagerData</returns>
+        </member>
+        <member name="M:Better517na.CommonPagerService.Helper.PagerServiceHelper.GetPagerTableParametric(Better517Na.CommonPagerService.Contract.TablePager)">
+            <summary>
+            取分页数据:根据分页条件取分页数据对象
+            </summary>
+            <param name="pager">分页参数 TablePager</param>
+            <returns>分页数据 DatatableTablePagerData</returns>
+        </member>
+        <member name="M:Better517na.CommonPagerService.Helper.PagerServiceHelper.GetPagerTableByDataCenterParametric(Better517Na.CommonPagerService.Contract.TablePager,System.String)">
+            <summary>
+             根据机房获取分页数据
+            </summary>
+            <param name="pager">分页参数 TablePager</param>
+            <param name="machineRoom">机房 成都：CTU, 北京：PEK</param>
+            <returns>分页数据 DatatableTablePagerData</returns>
+        </member>
+        <member name="M:Better517na.CommonPagerService.Helper.PagerServiceHelper.Trim(Better517Na.CommonPagerService.Contract.TablePager)">
+            <summary>
+             去除pager对象里面字段的首尾空格
+            </summary>
+            <param name="pager">分页对象</param>
+        </member>
+        <member name="M:Better517na.CommonPagerService.Helper.PagerServiceHelper.PagerParamVarify(Better517Na.CommonPagerService.Contract.TablePager)">
+            <summary>
+             基本参数规则验证
+            </summary>
+            <param name="pager">分页对象</param>
+        </member>
+        <member name="M:Better517na.CommonPagerService.Helper.PagerServiceHelper.KeysVarify(System.String,System.String)">
+            <summary>
+             关键字验证
+            </summary>
+            <param name="keyName">字段名称</param>
+            <param name="sqlStr">字段值</param>
+        </member>
+        <member name="M:Better517na.CommonPagerService.Helper.PagerServiceHelper.ParamValid(System.String)">
+            <summary>
+            参数检查
+            </summary>
+            <param name="param">参数值</param>
+        </member>
+    </members>
+</doc>

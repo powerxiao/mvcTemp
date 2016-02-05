@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{20A5E816-10A5-4104-B741-459EC3A464B2}</ProjectGuid>
+    <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Better517Na.$safeprojectname$.WebUI</RootNamespace>
+    <AssemblyName>Better517Na.$safeprojectname$.WebUI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Better.Infrastructures.Log">
+      <HintPath>..\DLL\Better.Infrastructures.Log.dll</HintPath>
+    </Reference>
+    <Reference Include="Better.Infrastructures.WCF, Version=5.2.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\Better.Infrastructures.WCF.dll</HintPath>
+    </Reference>
+    <Reference Include="Better.SecurityUtility, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\Better.SecurityUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Better517Na.Common.HtmlHelperExtensions">
+      <HintPath>..\DLL\Better517Na.Common.HtmlHelperExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Better517Na.CommonPagerService.Contract">
+      <HintPath>..\DLL\Better517Na.CommonPagerService.Contract.dll</HintPath>
+    </Reference>
+    <Reference Include="Better517na.CommonPagerService.Helper">
+      <HintPath>..\DLL\Better517na.CommonPagerService.Helper.dll</HintPath>
+    </Reference>
+    <Reference Include="Better517na.Core.AsyncInfrastructure.CommonCallHelper">
+      <HintPath>..\DLL\Better517na.Core.AsyncInfrastructure.CommonCallHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="Better517na.Core.AsyncInfrastructure.HeartBeatService">
+      <HintPath>..\DLL\Better517na.Core.AsyncInfrastructure.HeartBeatService.dll</HintPath>
+    </Reference>
+    <Reference Include="Better517na.Core.ServiceRouteControl.Contract, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\Better517na.Core.ServiceRouteControl.Contract.dll</HintPath>
+    </Reference>
+    <Reference Include="Better517na.Core.ServiceRouteControl.Helper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\Better517na.Core.ServiceRouteControl.Helper.dll</HintPath>
+    </Reference>
+    <Reference Include="Better517Na.Json, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\Better517Na.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Better517Na.SSO.Client">
+      <HintPath>..\DLL\Better517Na.SSO.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Better517Na.SSO.Common">
+      <HintPath>..\DLL\Better517Na.SSO.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Better517Na.SSO.MvcClient">
+      <HintPath>..\DLL\Better517Na.SSO.MvcClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Better517Na.UserLogin.Model">
+      <HintPath>..\DLL\Better517Na.UserLogin.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common">
+      <HintPath>..\DLL\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.PolicyInjection">
+      <HintPath>..\DLL\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\DLL\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity">
+      <HintPath>..\DLL\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception">
+      <HintPath>..\DLL\Microsoft.Practices.Unity.Interception.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\System.Web.Helpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\System.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\DLL\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\System.Web.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\System.Web.WebPages.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\System.Web.WebPages.Deployment.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\System.Web.WebPages.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="ashx\SSOHandler.ashx.cs">
+      <DependentUpon>SSOHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="handler\SSOExitHandler.ashx.cs">
+      <DependentUpon>SSOExitHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Better517Na.$safeprojectname$.BaseCtrl\Better517Na.$safeprojectname$.BaseCtrl.csproj">
+      <Project>{bc13ba90-808d-4c58-b24c-6159c01fa8f9}</Project>
+      <Name>Better517Na.$safeprojectname$.BaseCtrl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Better517Na.$safeprojectname$.LoginCtrl\Better517Na.$safeprojectname$.LoginCtrl.csproj">
+      <Project>{53213E28-A3E5-49B4-9A35-ED4C6346F843}</Project>
+      <Name>Better517Na.$safeprojectname$.LoginCtrl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\css\bootstrap-theme.css" />
+    <Content Include="Content\css\bootstrap-theme.min.css" />
+    <Content Include="Content\css\bootstrap.css" />
+    <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\css\common.css" />
+    <Content Include="Content\css\custom\base.css" />
+    <Content Include="Content\css\custom\common.css" />
+    <Content Include="Content\css\default.css" />
+    <Content Include="Content\css\detail.css" />
+    <Content Include="Content\css\layer.css" />
+    <Content Include="Content\css\list.css" />
+    <Content Include="Content\css\local.css" />
+    <Content Include="Content\css\login.css" />
+    <Content Include="Content\css\public.css" />
+    <Content Include="Content\css\signIn.css" />
+    <Content Include="Content\css\style.css" />
+    <Content Include="Content\css\topleft.css" />
+    <Content Include="Content\css\WdatePicker.css" />
+    <Content Include="Content\img\bg_pop_a.png" />
+    <Content Include="Content\img\dotline.gif" />
+    <Content Include="Content\img\login.png" />
+    <Content Include="Content\img\red_btn100.png" />
+    <Content Include="Content\img\sprite.gif" />
+    <Content Include="Content\img\sprite.png" />
+    <Content Include="Content\img\top1_bg.gif" />
+    <Content Include="Content\img\top_bottom_bg.gif" />
+    <Content Include="Content\img\untitled.png" />
+    <Content Include="Content\img\un_sprites.png" />
+    <Content Include="Content\img\welcome.png" />
+    <Content Include="Content\js\base64.js" />
+    <Content Include="Content\js\bootstrap.min.js" />
+    <Content Include="Content\js\BrowserTips.js" />
+    <Content Include="Content\js\commonFunctions.js" />
+    <Content Include="Content\js\jquery-1.7.2.min.js" />
+    <Content Include="Content\js\jquery-html5Validate-min.js" />
+    <Content Include="Content\js\jquery.cookie.js" />
+    <Content Include="Content\js\jquery.easing.1.3.js" />
+    <Content Include="Content\js\jquery.watermark.min.js" />
+    <Content Include="Content\js\jqueryTools.js" />
+    <Content Include="Content\js\json2.js" />
+    <Content Include="Content\js\jsRenderExtPagination-1.0.4.min.js" />
+    <Content Include="Content\js\sso.js" />
+    <Content Include="Content\js\ssoExit.js" />
+    <Content Include="Content\js\jquery.query.js" />
+    <Content Include="Content\js\jsrender.min.js" />
+    <Content Include="Content\js\layer\layer-min.js" />
+    <Content Include="Content\js\layer\layer.js" />
+    <Content Include="Content\js\layer\skin\default\Info_ico.png" />
+    <Content Include="Content\js\layer\skin\default\xubox_ico0.png" />
+    <Content Include="Content\js\layer\skin\default\xubox_loading0.gif" />
+    <Content Include="Content\js\layer\skin\default\xubox_loading1.gif" />
+    <Content Include="Content\js\layer\skin\default\xubox_loading2.gif" />
+    <Content Include="Content\js\layer\skin\default\xubox_loading3.gif" />
+    <Content Include="Content\js\layer\skin\default\xubox_title0.png" />
+    <Content Include="Content\js\layer\skin\layer.css" />
+    <Content Include="Content\js\login\login.js" />
+    <Content Include="Content\js\login\menu.js" />
+    <Content Include="Content\js\login\outLogin.js" />
+    <Content Include="Content\js\moment.min.js" />
+    <Content Include="Content\js\My97DatePicker\calendar.js" />
+    <Content Include="Content\js\My97DatePicker\lang\en.js" />
+    <Content Include="Content\js\My97DatePicker\lang\zh-cn.js" />
+    <Content Include="Content\js\My97DatePicker\lang\zh-tw.js" />
+    <Content Include="Content\js\My97DatePicker\skin\datePicker.gif" />
+    <Content Include="Content\js\My97DatePicker\skin\default\datepicker.css" />
+    <Content Include="Content\js\My97DatePicker\skin\default\img.gif" />
+    <Content Include="Content\js\My97DatePicker\skin\WdatePicker.css" />
+    <Content Include="Content\js\My97DatePicker\skin\whyGreen\bg.jpg" />
+    <Content Include="Content\js\My97DatePicker\skin\whyGreen\datepicker.css" />
+    <Content Include="Content\js\My97DatePicker\skin\whyGreen\img.gif" />
+    <Content Include="Content\js\My97DatePicker\WdatePicker.js" />
+    <Content Include="Content\js\sea.js" />
+    <Content Include="Content\js\tools-detail.js" />
+    <Content Include="Global.asax" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+    <ItemGroup>
+    <Content Include="ashx\SSOHandler.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="handler\SSOExitHandler.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SSOConfig\SSOClient.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WCFConfig\RouteControl.config" />
+    <Content Include="WCFConfig\UserLoginWcf.config" />
+    <Content Include="WCFConfig\WcfCallHelper.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\css\bootstrap-theme.css.map" />
+    <Content Include="Content\css\bootstrap.css.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\Menu.cshtml" />
+    <Content Include="Views\Shared\Top.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BetterLogParams20130607.config" />
+    <Content Include="KeyIDGenerator.config" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:23776/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

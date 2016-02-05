@@ -1,0 +1,1638 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Better517Na.UserDataManager.Contract</name>
+    </assembly>
+    <members>
+        <member name="T:Better517Na.UserDataManager.Contract.IPlatAccount">
+            <summary>
+            IPlatAccount类 
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IPlatAccount.RegPlatAccount(Better517Na.UserDataManager.Model.MAccountBase,System.String)">
+            <summary>
+            向大平台添加用户
+            </summary>
+            <param name="accountInfo">用户信息</param>
+            <param name="ip">客户端ip</param>
+            <returns>部门id</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IPlatAccount.ChangeBigNO(System.String,System.String)">
+            <summary>
+            修改平台账号
+            </summary>
+            <param name="newBigNO">新账号</param>
+            <param name="oldBigNO">旧账号</param>
+            <returns>结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IPlatAccount.JudgeIsExitStaffID(System.String)">
+            <summary>
+            判断staffID是否存在
+            </summary>
+            <param name="staffId">staffID</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IPlatAccount.UpdateResident(System.Collections.Generic.List{Better517Na.UserDataManager.Model.MUnitParametInfo})">
+            <summary>
+            跟新驻留状态
+            </summary>
+            <param name="list">ID list</param>
+            <returns>结果</returns>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Contract.IUnitParametInfos">
+            <summary>
+            UnitParametInfos类 
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUnitParametInfos.GetDeptIDByIDAndValue(System.Int32,System.String,System.Int32)">
+            <summary>
+            获取部门ID)
+            </summary>
+            <param name="id">ParameterID</param>
+            <param name="value">ParameterValue</param>
+            <param name="deptID">deptID</param>
+            <returns>添加是否成功</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUnitParametInfos.GetUnitParametValue(System.String,System.String)">
+            <summary>
+            获取固定参数信息
+            </summary>
+            <param name="deptId">部门ID</param>
+            <param name="paraId">参数ID</param>
+            <returns>MODEL</returns>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Contract.IInvitationContract">
+            <summary>
+            IInvitationContract类
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IInvitationContract.GetInvitation(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            生成邀请码
+            </summary>
+            <param name="invitationOwner">邀请人</param>
+            <param name="customerMail">客户邮箱</param>
+            <param name="invitationCustomer">被邀请客户名称</param>
+            <param name="invitationCustomertype">被邀请客户类型</param>
+            <returns>邀请码</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IInvitationContract.CheckInvitation(System.String,System.String)">
+            <summary>
+            根据邮件和邀请码返回邀请码状态
+            </summary>
+            <param name="invitationNum">邀请码</param>
+            <param name="mailstr">邮箱</param>
+            <returns>状态</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IInvitationContract.SetInvitationStatusAndGetCustomereType(System.String,System.String)">
+            <summary>
+            设置邀请码注册状态并获取客户类型
+            </summary>
+            <param name="invitationNum">邀请码</param>
+            <param name="mailstr">邮箱</param>
+            <returns>客户类型</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IInvitationContract.GetInvitationOwner(System.String,System.String)">
+            <summary>
+            获取邀请人
+            </summary>
+            <param name="invitationNum">邀请码</param>
+            <param name="mailstr">邮箱</param>
+            <returns>邀请人</returns>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Contract.IInterfaceUsers">
+            <summary>
+            部门信息契约 
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IInterfaceUsers.GetInterfaceUsers">
+            <summary>
+            获取接口用户
+            </summary>
+            <returns>接口用户信息</returns>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Contract.IUserForWirelessAppContract">
+            <summary>
+            无线客户端用户中心相关
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserForWirelessAppContract.AddStaffInfo(Better517Na.UserDataManager.Model.MJoinUser)">
+            <summary>
+            新用户注册申请(支持需要激活、默认激活)
+            </summary>
+            <param name="joinUser">注册信息</param>
+            <returns>添加是否成功</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserForWirelessAppContract.ActiveUserByMobile(System.String,System.Int32)">
+            <summary>
+            激活用户注册(废弃)
+            </summary>
+            <param name="mobileMd5">用户手机号Md5</param>
+            <param name="superDeptId">用户注册挂靠的最上级部门ID</param>
+            <returns>激活是否成功</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserForWirelessAppContract.ActivedUserByMobile(System.String,System.Int32)">
+            <summary>
+            激活用户注册
+            </summary>
+            <param name="mobileMd5">用户手机号Md5</param>
+            <param name="superDeptId">用户注册挂靠的最上级部门ID</param>
+            <returns>激活是否成功</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserForWirelessAppContract.UpdatePwdByMobile(System.String,System.String,System.String,System.String)">
+            <summary>
+            通过手机号码修改密码
+            </summary>
+            <param name="mobileMd5">手机号码</param>
+            <param name="oldPwdMd5">原密码Md5</param>
+            <param name="newPwdMd5">新密码md5</param>
+            <param name="reversiblePwd">新密码（可逆加密）</param>
+            <returns>返回是否修改成功</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserForWirelessAppContract.UpdatePwdByStaffId(System.String,System.String,System.String,System.String)">
+            <summary>
+            通过StaffId修改密码
+            </summary>
+            <param name="staffId">staffId</param>
+            <param name="oldPwdMd5">原密码Md5</param>
+            <param name="newPwdMd5">新密码md5</param>
+            <param name="reversiblePwd">新密码（可逆加密）</param>
+            <returns>返回是否修改成功</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserForWirelessAppContract.FindUpdatePwd(System.String,System.String,System.String)">
+            <summary>
+            修改密码（找回密码）
+            </summary>
+            <param name="mobileMd5">手机号码</param>
+            <param name="newPwdMd5">新密码md5</param>
+            <param name="reversiblePwd">新密码（可逆加密）</param>
+            <returns>返回是否修改成功</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserForWirelessAppContract.GetStaffIdByLoginMobile(System.String)">
+            <summary>
+            根据手机号获取可以手机登录的用户ID
+            </summary>
+            <param name="mobileMd5">手机号码</param>
+            <returns>返回StaffID</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserForWirelessAppContract.AddShareStaffInfo(Better517Na.UserDataManager.Model.MJoinUser)">
+            <summary>
+            第三方共享新用户注册申请(支持需要激活、默认激活)
+            </summary>
+            <param name="joinUser">注册信息</param>
+            <returns>添加是否成功</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserForWirelessAppContract.UpdateShareUserPasswd(Better517Na.UserDataManager.Model.MJoinUser)">
+            <summary>
+            更新共享登陆用户账号密码及绑定手机号
+            </summary>
+            <param name="joinUser">共享登陆用户账号</param>
+            <returns>是否成功</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserForWirelessAppContract.ShareUserRegCheckMobile(Better517Na.UserDataManager.Model.MJoinUser)">
+            <summary>
+            共享登陆用户账号注册手机号验证（是否已注册）
+            </summary>
+            <param name="joinUser">共享登陆用户账号</param>
+            <returns>是否成功</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserForWirelessAppContract.AddOpenPlatStaffInfo(Better517Na.UserDataManager.Model.MJoinUser)">
+            <summary>
+            开放平台注册用户
+            </summary>
+            <param name="joinUser">注册信息</param>
+            <returns>添加是否成功</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserForWirelessAppContract.UpdateOpenPlatMobileByStaffId(System.String,System.String,System.Int32)">
+            <summary>
+            更新开放平台在大平台注册用户的手机号
+            </summary>
+            <param name="mobile">手机号</param>
+            <param name="staffId">账号</param>
+            <param name="deptId">部门ID</param>
+            <returns>结果</returns>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Contract.IParameterInfoContract">
+            <summary>
+            参数信息契约
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IParameterInfoContract.GetSystemParameter(System.Int32,System.Int32[])">
+            <summary>
+             获取系统参数
+            </summary>
+            <param name="deptid">部门ID</param>
+            <param name="parameterID">参数id（可以任意多个）</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IParameterInfoContract.GetSystemSetInfo(System.String)">
+            <summary>
+            获取系统参数信息
+            </summary>
+            <param name="strWhere">查询条件</param>
+            <returns>系统参数</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IParameterInfoContract.GetMessageTemplete(System.String,System.String)">
+            <summary>
+             获取短信模板
+            </summary>
+            <param name="validateCode">验证码</param>
+            <param name="tempName">模板名称</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IParameterInfoContract.AddParameterInfo(Better517Na.UserDataManager.Model.MUnitParametInfo)">
+            <summary>
+            添加部门参数相关信息
+            </summary>
+            <param name="unitParametInfo">部门参数相关信息</param>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IParameterInfoContract.AddParameterInfoList(System.Collections.Generic.List{Better517Na.UserDataManager.Model.MUnitParametInfo})">
+            <summary>
+            添加多条部门参数相关信息
+            </summary>
+            <param name="unitParametInfoList">部门参数相关信息</param>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IParameterInfoContract.FindUnitParameterInfo(System.Int32,System.String)">
+            <summary>
+            查找部门参数信息
+            </summary>
+            <param name="departmentId">部门id</param>
+            <param name="parameterIds">部门参数</param>
+            <returns>部门参数信息结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IParameterInfoContract.GetUnitParameterValue(System.Int32,System.Int32)">
+            <summary>
+            获取部门参数值
+            </summary>
+            <param name="departmentId">部门id</param>
+            <param name="parameterId">参数id</param>
+            <returns>参数值</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IParameterInfoContract.UpdateParameterInfo(System.String,System.String,System.String)">
+            <summary>
+            更新部门参数信息
+            </summary>
+            <param name="departmentId">部门id</param>
+            <param name="parameterId">参数id</param>
+            <param name="parameterValue">参数值</param>
+            <returns>更新结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IParameterInfoContract.UpdateParameterInfoList(System.Collections.Generic.List{Better517Na.UserDataManager.Model.MUnitParametInfo})">
+            <summary>
+            更新多条部门参数信息
+            </summary>
+            <param name="unitParapetInfoList">多条部门信息</param>
+            <returns>更新结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IParameterInfoContract.AddOperateLogInfo(Better517Na.UserDataManager.Model.MOperateLogInfo)">
+            <summary>
+            添加操作日志
+            </summary>
+            <param name="operateLogInfo">操作日志信息</param>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IParameterInfoContract.GetPayInterFaceBankInfo(System.String)">
+            <summary>
+            获取签约参数信息
+            </summary>
+            <param name="coperationId">合作id</param>
+            <returns>签约参数信息</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IParameterInfoContract.GetParameterValue(System.Int32,System.Int32,Better.Infrastructures.Log.TrackID)">
+            <summary>
+            根据部门ID和参数ID获取参数值
+            </summary>
+            <param name="departmentID">部门ID</param>
+            <param name="parameterID">参数ID</param>
+            <param name="trackId">日志跟踪ID</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IParameterInfoContract.ExistDepartmentInfo(System.Int32,System.Int32)">
+            <summary>
+            是否存在部门参数信息
+            </summary>
+            <param name="departmentId">部门id</param>
+            <param name="parameterId">参数id</param>
+            <returns>结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IParameterInfoContract.AddCompanyLogo(Better517Na.UserDataManager.Model.MCompanyLogoImage)">
+            <summary>
+             保存公司logo
+            </summary>
+            <param name="model">logo model</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IParameterInfoContract.UpdateCompanyLogo(Better517Na.UserDataManager.Model.MCompanyLogoImage)">
+            <summary>
+             修改公司logo
+            </summary>
+            <param name="model">logo model</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IParameterInfoContract.GetCompanyLogo(System.Int32)">
+            <summary>
+             获取公司logo对象
+            </summary>
+            <param name="id">logoID</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IParameterInfoContract.GetMaxCompanyLogoID">
+            <summary>
+             获取最大公司logoID
+            </summary>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IParameterInfoContract.GetSystemParamBySetName(System.String)">
+            <summary>
+            获取系统参数业务
+            </summary>
+            <param name="setName">参数名称</param>
+            <returns>业务参数</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IParameterInfoContract.GetSystemParamBySetNames(System.String[])">
+            <summary>
+            根据参数名获取多个系统参数
+            </summary>
+            <param name="setNames">参数名称</param>
+            <returns>业务参数</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IParameterInfoContract.GetParamtInfoByParameterID(System.Int32)">
+            <summary>
+            根据部门parameterID获取供应商unitparamtInfo
+            </summary>
+            <param name="parameterID">parameterID</param>
+            <returns>参数信息(Jsonn)</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IParameterInfoContract.GetParamtByParameterIDs(System.String,System.Int32)">
+            <summary>
+            根据部门parameterID获取供应商unitparamtInfo
+            </summary>
+            <param name="parameterIDs">parameterIDs</param>
+            <param name="typeCode">typeCode</param>
+            <returns>参数信息(Jsonn)</returns>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract">
+            <summary>
+            部门及参数契约
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.GetMailAddressByKeyId(System.String)">
+            <summary>
+            获得邮寄的值
+            </summary>
+            <param name="keyId">keyId</param>
+            <returns>邮寄地址</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.GetMailAddressByDeptId(System.Int32)">
+            <summary>
+            获取邮寄地址
+            </summary>
+            <param name="deptId">部门id</param>
+            <returns>邮寄地址</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.UpdateMailAddress(Better517Na.UserDataManager.Model.MMailAddress)">
+            <summary>
+            更新邮寄地址
+            </summary>
+            <param name="mailAddress">邮寄地址</param>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.AddMailAddress(Better517Na.UserDataManager.Model.MMailAddress)">
+            <summary>
+            添加邮寄地址
+            </summary>
+            <param name="mailAddress">邮寄地址</param>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.AddMailAddressApp(Better517Na.UserDataManager.Model.MMailAddress)">
+            <summary>
+            添加邮寄地址app新增返回值
+            </summary>
+            <param name="mailAddress">邮寄地址</param>
+            <returns>添加结果，0：失败，1：成功，2：超过15个</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.SetDelOrDfault(System.String,System.String)">
+            <summary>
+            删除和默认设置
+            </summary>
+            <param name="keyId">主键</param>
+            <param name="type">删除或默认(del|default)</param>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.FindDepartmentInfo(System.Int32)">
+            <summary>
+            查找部门信息
+            </summary>
+            <param name="departmentId">部门id</param>
+            <returns>部门信息</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.FindDeptContractInfo(System.Int32)">
+            <summary>
+            查找部门签约信息
+            </summary>
+            <param name="departmentId">部门Id</param>
+            <returns>部门签约信息</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.HasSameTencentFXTCAccount(System.String,System.String,System.Int32)">
+            <summary>
+            分销提成账号唯一性验证
+            </summary>
+            <param name="account">账号</param>
+            <param name="departmentNo">部门编号</param>
+            <param name="departmentId">部门id</param>
+            <returns>是否唯一</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.HasSameTencentGYPKAccount(System.String,System.String,System.Int32)">
+            <summary>
+            供应票款唯一性验证
+            </summary>
+            <param name="account">账号</param>
+            <param name="departmentNo">部门编号</param>
+            <param name="departmentId">部门id</param>
+            <returns>是否唯一</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.HasSameTencentGYTCAccount(System.String,System.String,System.Int32)">
+            <summary>
+            供应提成账号唯一性验证
+            </summary>
+            <param name="account">账号</param>
+            <param name="departmentNo">部门编号</param>
+            <param name="departmentId">部门Id</param>
+            <returns>是否唯一</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.IsOrNotSameAccount(System.String,System.String,System.Int32,System.String)">
+            <summary>
+            是否存在相同账号
+            </summary>
+            <param name="accountType">账号类型（数据字段）</param>
+            <param name="accountValue">账号</param>
+            <param name="deptmentId">部门Id</param>
+            <param name="deptmentNo">部门编号</param>
+            <returns>是否相同</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.IsExistSameAccount(System.String,System.String,System.Int32,System.String)">
+            <summary>
+            是否存在相同账号
+            </summary>
+            <param name="parameterId">参数Id</param>
+            <param name="parameterValue">参数值</param>
+            <param name="deptmentId">部门id</param>
+            <param name="deptmentNo">部门编号</param>
+            <returns>是否存在</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.UpdateDepartmentInfo(System.String,System.String,Better517Na.UserDataManager.Model.MDepartmentInfo)">
+            <summary>
+            更新部门信息
+            </summary>
+            <param name="staffId">员工id</param>
+            <param name="staffName">员工姓名</param>
+            <param name="departmentInfo">部门信息</param>
+            <returns>更新结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.UpdateDeptExtInfo(Better517Na.UserDataManager.Model.MDepartmentExtInfo)">
+            <summary>
+            更新部门扩展信息
+            </summary>
+            <param name="departExtInfo">部门扩展信息</param>
+            <returns>更新结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.AddParameterInfo(Better517Na.UserDataManager.Model.MUnitParametInfo)">
+            <summary>
+            添加部门参数相关信息
+            </summary>
+            <param name="unitParametInfo">部门参数相关信息</param>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.AddParameterInfoList(System.Collections.Generic.List{Better517Na.UserDataManager.Model.MUnitParametInfo})">
+            <summary>
+            添加多条部门参数相关信息
+            </summary>
+            <param name="unitParametInfoList">部门参数相关信息</param>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.FindUnitParameterInfo(System.Int32,System.String)">
+            <summary>
+            查找部门参数信息
+            </summary>
+            <param name="departmentId">部门id</param>
+            <param name="parameterIds">部门参数</param>
+            <returns>部门参数信息结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.GetUnitParameterValue(System.Int32,System.Int32)">
+            <summary>
+            获取部门参数值
+            </summary>
+            <param name="departmentId">部门id</param>
+            <param name="parameterId">参数id</param>
+            <returns>参数值</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.UpdateParameterInfo(System.String,System.String,System.String)">
+            <summary>
+            更新部门参数信息
+            </summary>
+            <param name="departmentId">部门id</param>
+            <param name="parameterId">参数id</param>
+            <param name="parameterValue">参数值</param>
+            <returns>更新结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.UpdateParameterInfoList(System.Collections.Generic.List{Better517Na.UserDataManager.Model.MUnitParametInfo})">
+            <summary>
+            更新多条部门参数信息
+            </summary>
+            <param name="unitParapetInfoList">多条部门信息</param>
+            <returns>更新结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.AddAccountPayInfo(Better517Na.UserDataManager.Model.MAccountPayInfo)">
+            <summary>
+            添加部门支付账号相关信息
+            </summary>
+            <param name="accountPayInfo">支付账号信息</param>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.ExistsAccountPayRecord(System.Int32)">
+            <summary>
+            判断部门账号支付记录是否存在
+            </summary>
+            <param name="deptId">部门Id</param>
+            <returns>是否存在</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.UpdateAccountPayInfo(Better517Na.UserDataManager.Model.MAccountPayInfo)">
+            <summary>
+            更新部门账号支付信息
+            </summary>
+            <param name="accountPayInfo">账号支付信息</param>
+            <returns>更新结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.FindAccountPayInfo(System.Int32)">
+            <summary>
+            获取账号支付信息
+            </summary>
+            <param name="departmentId">部门id</param>
+            <returns>支付账号信息</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.GetSonDepartmentIdInfo(System.String)">
+            <summary>
+            获取所有子部门id用","隔开
+            </summary>
+            <param name="departmentNo">部门编码</param>
+            <returns>子部门id</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.GetDeptExtInfo(System.Int32)">
+            <summary>
+            获取部门扩展表信息
+            </summary>
+            <param name="departmentId">部门Id</param>
+            <returns>部门扩展表信息</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.ExistDepartmentInfo(System.Int32,System.Int32)">
+            <summary>
+            是否存在部门参数信息
+            </summary>
+            <param name="departmentId">部门id</param>
+            <param name="parameterId">参数id</param>
+            <returns>结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.AddOperateLogInfo(Better517Na.UserDataManager.Model.MOperateLogInfo)">
+            <summary>
+            添加操作日志
+            </summary>
+            <param name="operateLogInfo">操作日志信息</param>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.GetPayInterFaceBankInfo(System.String)">
+            <summary>
+            获取签约参数信息
+            </summary>
+            <param name="coperationId">合作id</param>
+            <returns>签约参数信息</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.GetSystemSetInfo(System.String)">
+            <summary>
+            获取系统参数信息
+            </summary>
+            <param name="strWhere">查询条件</param>
+            <returns>系统参数</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.GetAccountBaseInfo(System.String,Better.Infrastructures.Log.TrackID)">
+            <summary>
+            根据账号获取账号基本信息
+            </summary>
+            <param name="staffId">账号ID</param>
+            <param name="trackId">日志跟踪ID</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.GetExistSubDeptCount(System.Int32,Better.Infrastructures.Log.TrackID)">
+            <summary>
+            获取下级账号个数
+            </summary>
+            <param name="departmentID">部门ID</param>
+            <param name="trackId">日志跟踪ID</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.GetDeptAndEmploreeNum(System.Int32,System.String)">
+            <summary>
+            获取已发展下级数、 已开员工账号数
+            </summary>
+            <param name="deptId">deptId</param>
+            <param name="staffId">staffId</param>
+            <returns>key:DeptCount,已发展下级数  key:UserCount,已开员工账号数</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.GetParameterValue(System.Int32,System.Int32,Better.Infrastructures.Log.TrackID)">
+            <summary>
+            根据部门ID和参数ID获取参数值
+            </summary>
+            <param name="departmentID">部门ID</param>
+            <param name="parameterID">参数ID</param>
+            <param name="trackId">日志跟踪ID</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.UpdateBasicInfo(System.String,System.String,System.String,Better.Infrastructures.Log.TrackID)">
+            <summary>
+            更新基本信息
+            </summary>
+            <param name="staffId">员工ID</param>
+            <param name="staffName">员工姓名</param>
+            <param name="phone">部门电话</param>
+            <param name="trackId">日志跟踪ID</param>
+            <returns>更新行数</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.UpdateBasicInfoAdmin(System.String,System.String,System.String,Better.Infrastructures.Log.TrackID)">
+            <summary>
+            更新基本信息(部门总账号)
+            </summary>
+            <param name="staffId">员工ID</param>
+            <param name="staffName">员工姓名</param>
+            <param name="phone">部门电话</param>
+            <param name="trackId">跟踪id</param>
+            <returns>更新行数</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.AddUserMailToTempTable(Better517Na.UserDataManager.Model.MJoinUser,System.Int32,Better.Infrastructures.Log.TrackID)">
+            <summary>
+            用户信息邮箱添加到临时表
+            </summary>
+            <param name="joinUser">新增用户对象</param>
+            <param name="usertalbeTime">邮箱验证有效期</param>
+            <param name="trackId">跟踪id</param>
+            <returns>是否成功</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.BindMailByKeyID(System.String,System.Int32,Better.Infrastructures.Log.TrackID)">
+            <summary>
+            绑定邮箱
+            </summary>
+            <param name="keyId">参数KeyId</param>
+            <param name="userableTime">时间</param>
+            <param name="trackId">日志跟踪ID</param>
+            <returns>是否成功</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.BindPhone(Better517Na.UserDataManager.Model.MUserExtendInfo)">
+            <summary>
+            绑定手机
+            </summary>
+            <param name="model">扩展信息</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.IsPhoneAlreadyBind(System.String)">
+            <summary>
+            验证手机是否已经绑定
+            </summary>
+            <param name="tel">手机</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.IsEmailAlreadyBind(System.String)">
+            <summary>
+            验证邮箱是否已经绑定
+            </summary>
+            <param name="email">邮箱</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.AddNewContact(Better517Na.UserDataManager.Model.MContact)">
+            <summary>
+             添加新联系人
+            </summary>
+            <param name="model">联系人model</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.UpdateContactInfo(Better517Na.UserDataManager.Model.MContact)">
+            <summary>
+             修改联系人信息
+            </summary>
+            <param name="model">联系人model</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.DeleteContactInfo(System.String)">
+            <summary>
+             删除联系人信息
+            </summary>
+            <param name="keyID">主键ID</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.GetBusinessType(System.String)">
+            <summary>
+             获取业务类型
+            </summary>
+            <param name="businessName">类型名称</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.GetBusinessTypeById(System.Int32)">
+            <summary>
+            根据类型id获取业务参数
+            </summary>
+            <param name="typeId">类型id</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.GetDictionaryInfoByTypeId(System.Int32)">
+            <summary>
+            根据类型id获取业务参数
+            </summary>
+            <param name="typeId">类型id</param>
+            <returns>参数列表</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.GetContactInfoByDeptID(System.Int32)">
+            <summary>
+            获取部门联系人列表类
+            </summary>
+            <param name="detpID">部门id</param>
+            <returns>部门联系人</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.GetDepartmentInfoByDepartmentName(System.String)">
+            <summary>
+            获取供应商ID（JSON）
+            </summary>
+            <param name="deptName">deptName</param>
+            <returns>json</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataDepartmentContract.GetSupplyWorkTime(System.Int32)">
+            <summary>
+            获取供应上下班时间（上班$下班）
+            </summary>
+            <param name="deptID">deptID</param>
+            <returns>上下班时间</returns>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Contract.IStaffInfoContract">
+            <summary>
+            账号信息契约
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.CheckEmailExist(System.String,System.Int32)">
+            <summary>
+            判断邮箱是否存在（待陈磊完成，原底层方法不合理）
+            </summary>
+            <param name="email">邮箱</param>
+            <param name="invalidDay">有效期</param>
+            <returns>是否存在</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.CheckEmailExistOver(System.String,System.String)">
+            <summary>
+            判断邮箱是否存在（待陈磊完成，原底层方法不合理）
+            </summary>
+            <param name="email">邮箱</param>
+            <param name="emailMD5">邮箱MD5</param>
+            <returns>是否存在</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.CheckStaffIdExist(System.String,System.Int32)">
+            <summary>
+            判断staffId是否重复（待陈磊完成，原底层方法不合理）
+            </summary>
+            <param name="staffId">账号ID</param>
+            <param name="invalidDay">有效期</param>
+            <returns>是否重复</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.CheckStaffIdExistOver(System.String)">
+            <summary>
+            判断staffId是否重复（待陈磊完成，原底层方法不合理）
+            </summary>
+            <param name="staffId">账号ID</param>
+            <returns>是否重复</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.CheckMobileNumExist(System.String,System.Int32)">
+            <summary>
+            判断手机号是否存在
+            </summary>
+            <param name="mobileNum">手机号</param>
+            <param name="invalidDay">邮箱激活有效期</param>
+            <returns>返回是否重复</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.CheckMobileNumExistOver(System.String,System.String)">
+            <summary>
+            判断手机号是否存在
+            </summary>
+            <param name="mobileNum">手机号</param>
+            <param name="mobileNumMD5">手机号MD5</param>
+            <returns>返回是否重复</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.ChargeAccountCanFindPsd(System.String)">
+            <summary>
+            判断用户是否有找回密码权限
+            </summary>
+            <param name="staffId">账号ID</param>
+            <returns>通过返回用户信息，不通过返回null</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.ChargeStaffHasActivate(System.String)">
+            <summary>
+             判断账号已被激活
+            </summary>
+            <param name="staffid">账号id</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.AddUserToJoinUser(Better517Na.UserDataManager.Model.MJoinUser,System.Int32)">
+            <summary>
+            添加用户信息
+            </summary>
+            <param name="joinUser">用户注册信息</param>
+            <param name="invalidDay">邮箱注册邮箱期</param>
+            <returns>返回添加是否成功</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.AddStaffInfo(Better517Na.UserDataManager.Model.MJoinUser)">
+            <summary>
+            注册成功，添加信息
+            </summary>
+            <param name="joinUser">注册信息</param>
+            <returns>添加是否成功</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.UpdatePassword(Better517Na.UserDataManager.Model.MStaffInfoForFP)">
+            <summary>
+            修改密码
+            </summary>
+            <param name="model">密码信息对象</param>
+            <returns>返回是否修改成功</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.AddToForgetPwd(Better517Na.UserDataManager.Model.MRetrievePassWord)">
+            <summary>
+            添加密码修改信息
+            </summary>
+            <param name="model">密码信息对象</param>
+            <returns>修改返回信息</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.UpdateForgetPwd(System.String,System.DateTime)">
+            <summary>
+            更新找回密码信息修改时间
+            </summary>
+            <param name="keyid">keyID</param>
+            <param name="addTime">修改时间</param>
+            <returns>返回修改是否成功</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.UpdateStaffInfo(Better.Model.MStaffInfo)">
+            <summary>
+             修改大平台staffInfo表
+            </summary>
+            <param name="model">账号对象</param>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.GetForgetPwdModel(System.String,System.Int32,System.Int32,System.String)">
+            <summary>
+             获取
+            </summary>
+            <param name="staffId">用户ID</param>
+            <param name="verifyType">验证类型</param>
+            <param name="year">年</param>
+            <param name="checkCode">验证码</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.GetStaffInfo(System.String)">
+            <summary>
+            获取用户信息（包含用户扩展信息）
+            </summary>
+            <param name="staffId">账号ID</param>
+            <returns>返回账户信息对象</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.GetAccountBaseInfo(System.String)">
+            <summary>
+            获取用户基础信息
+            </summary>
+            <param name="staffId">账号ID</param>
+            <returns>返回用户基础信息</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.GetUserExendInfo(System.String)">
+            <summary>
+            获取用户扩展信息
+            </summary>
+            <param name="staffId">账号ID</param>
+            <returns>返回用户扩展信息</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.IsAdminAccount(System.String,System.Int32)">
+            <summary>
+            判断用户是否拥有系统管理员权限
+            </summary>
+            <param name="staffId">账号ID</param>
+            <param name="typeCode">部门类型</param>
+            <returns>true，是。false，否</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.AddOAuthStaffInfo(Better517Na.UserDataManager.Model.MJoinUser)">
+            <summary>
+            网站第三方登录新用户注册申请(未绑定联系人)
+            </summary>
+            <param name="joinUser">注册信息</param>
+            <returns>添加是否成功</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.AddOAuthContract(Better517Na.UserDataManager.Model.MJoinUser)">
+            <summary>
+            网站第三方登录新用户绑定联系人
+            </summary>
+            <param name="joinUser">待添加用户数据</param>
+            <returns>返回操作结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.IsExistsContactByOAuth(System.Int32)">
+            <summary>
+            判断是否存在绑定联系人(第三方授权注册)
+            </summary>
+            <param name="deptId">用户部门ID</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.GetForgetPwdModelByStaffId(System.String,System.Int32,System.Int32)">
+            <summary>
+            获取用户找回密码验证码
+            </summary>
+            <param name="staffId">用户ID</param>
+            <param name="verifyType">验证类型</param>
+            <param name="year">年</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.GetDeptListByStattId(System.String)">
+            <summary>
+            获取部门id
+            </summary>
+            <param name="staffId">staffId</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.GetManagerByDeptId(System.String)">
+            <summary>
+            获取部门的管理员账号
+            </summary>
+            <param name="staffId">员工账号</param>
+            <returns>管理员账号</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.GetStaffInfoByAdmin(Better517Na.UserDataManager.Model.MInBusiManageStaffInfo)">
+            <summary>
+            获取部门的所有员工
+            </summary>
+            <param name="model">model</param>
+            <returns>所有员工</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.AddSupplierInfo(System.String)">
+            <summary>
+            添加供应商
+            </summary>
+            <param name="supplierJosnData">json数据</param>
+            <returns>添加是否成功</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.GetMRStaffInfo(System.String,System.Int32,System.String)">
+            <summary>
+            取得退款操作员对象 先缓存 然后DB
+            </summary>
+            <param name="userID">操作员ID(出票员)</param>
+            <param name="deptID">出票部门ID</param>
+            <param name="parameterList">参数列表 例如：19,8,57,2  参考大平台底层是这样写的:"where DepartmentId=1327 and ParameterID in (" + parameterIdlist + ") "</param>
+            <returns>退款操作员对象</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.GetMStaffInfo(System.String)">
+            <summary>
+            获取用户信息（【不包含】用户扩展信息） 先缓存 然后DB
+            </summary>
+            <param name="userId">账号ID</param>
+            <returns>返回账户信息对象</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.GetMatchUser(System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            获取匹配用户信息
+            </summary>
+            <param name="input">input</param>
+            <returns>匹配用户信息对象</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.Logout(System.String)">
+            <summary>
+            删除token
+            </summary>
+            <param name="accountId">accountId</param>
+            <returns>是否成功</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.GetManagerStaffIdById(System.Int32)">
+            <summary>
+            通过部门id获取管理员员工id
+            </summary>
+            <param name="deptId">部门id</param>
+            <returns>管理员员工id</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.GetStaffIdByDeptID(System.String)">
+            <summary>
+            根据部门ID获取登陆账号和密码
+            </summary>
+            <param name="departmentId">departmentId</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.GetRefundStaffIdByDeptId(System.Int32)">
+            <summary>
+            通过部门id获取退款专员id
+            </summary>
+            <param name="deptId">部门id</param>
+            <returns>退款专员id</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.GetRefundStaffIdLstByDeptId">
+            <summary>
+            获取所有的退款专员id
+            </summary>
+            <returns>退款专员id集合</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IStaffInfoContract.GetUserParamentValue(System.String,System.Int32,System.String)">
+            <summary>
+            查询是否有staffId、userParamenterId、value为传递值的记录（即判断订单是否有对应操作权限）
+            </summary>
+            <returns>有记录返回true,无返回false</returns>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Contract.IRealmNameContract">
+            <summary>
+            域名续费 
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IRealmNameContract.GetPartialMsg(System.String)">
+            <summary>
+            获取部分信息
+            </summary>
+            <param name="account">账号</param>
+            <returns>结果</returns>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Contract.IUserDataManagerServices">
+            <summary>
+            用户数据管理服务
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataManagerServices.SetDepartmentUser(Better517Na.UserDataManager.Model.MClientDistribute,System.Collections.Generic.List{Better517Na.UserDataManager.Model.MStaffInfoCRM})">
+            <summary>
+            分配销售代表、共享业务员等信息
+            </summary>
+            <param name="clientDistributeModel">MClientDistribute</param>
+            <param name="staffInfoCRMList">分配员工信息</param>
+            <returns>true 成功，false 失败</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataManagerServices.SetDepartmentUserBatch(Better517Na.UserDataManager.Model.MClientDistribute,System.Collections.Generic.List{Better517Na.UserDataManager.Model.MStaffInfoCRM},System.Collections.Generic.List{System.Int32})">
+            <summary>
+            批量分配销售代表、共享业务员等信息
+            </summary>
+            <param name="clientDistributeModel">MClientDistribute</param>
+            <param name="staffInfoCRMList">分配员工信息</param>
+            <param name="deptIdList">部门ID集合</param>
+            <returns>true 成功，false 失败</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataManagerServices.GetDepartmentExtendInfo(System.Collections.Generic.List{System.Int32})">
+            <summary>
+            根据部门ID，获得部门大客户表示、客户子类型、平台加密开关等信息
+            </summary>
+            <param name="deptIdList">部门ID集合</param>
+            <returns>部门扩展信息</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataManagerServices.GetDepartmentId(System.Int32,System.String)">
+            <summary>
+            根据大客户类型和部门二级分类查询部门id集合
+            </summary>
+            <param name="isMajor">是否是大客户 0:不是大客户  1:是大客户</param>
+            <param name="departmentTypeCode">部门二级分类编码</param>
+            <returns>部门id集合</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataManagerServices.AddDepartmentDefaultType(System.Collections.Generic.List{Better517Na.UserDataManager.Model.MDepartMentTypeRelation})">
+            <summary>
+            批量新增默认类型
+            </summary>
+            <param name="list">部门信息List</param>
+            <returns>true 更新成功  false 更新失败</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataManagerServices.UpdateDepartmentExtendInfo(Better517Na.UserDataManager.Model.MDepartmentInfoExtend)">
+            <summary>
+            修改部门客户类型，开关状态等信息
+            </summary>
+            <param name="depatParamInfo">部门信息model</param>
+            <returns>true 更新成功  false 更新失败</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataManagerServices.UpdateDepartmentExtendInfoNew(Better517Na.UserDataManager.Model.MDepartmentInfoExtend)">
+            <summary>
+            修改部门客户类型，开关状态等信息
+            </summary>
+            <param name="depatParamInfo">部门信息model</param>
+            <returns>true 更新成功  false 更新失败</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataManagerServices.UpdateDepartmentExtendInfoBatch(System.Collections.Generic.List{Better517Na.UserDataManager.Model.MDepartmentInfoExtend})">
+            <summary>
+            批量修改部门客户类型，开关状态等信息
+            </summary>
+            <param name="depatParamInfoList">部门信息model</param>
+            <returns>更新成功条数</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataManagerServices.UpdateDepartmentExtendInfoBatchNew(System.Collections.Generic.List{Better517Na.UserDataManager.Model.MDepartmentInfoExtend})">
+            <summary>
+            批量修改部门客户类型，开关状态等信息
+            </summary>
+            <param name="depatParamInfoList">部门信息model</param>
+            <returns>更新成功条数</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataManagerServices.AddDepartMentType(Better517Na.UserDataManager.Model.MDepartMentType)">
+            <summary>
+            添加部门类型
+            </summary>
+            <param name="departmentType">部门类型model</param>
+            <returns>true 添加成功  false 添加失败</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataManagerServices.UpdateDepartMentType(Better517Na.UserDataManager.Model.MDepartMentType)">
+            <summary>
+            修改部门类型
+            </summary>
+            <param name="departmentType">部门类型model</param>
+            <returns>true 成功  false 失败</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataManagerServices.GetDepartMentTypeRepeat(System.String,System.String)">
+            <summary>
+             得到部门分类是否重复
+            </summary>
+            <param name="deptNodeName">当前节点名称</param>
+            <param name="foreNodeName">父节点名称</param>
+            <returns>true 不重复  false重复节点 </returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataManagerServices.GetPlatformStaffInfo(System.String)">
+            <summary>
+            根据平台账号获得平台员工信息
+            </summary>
+            <param name="platAccount">平台账号</param>
+            <returns>平台账号信息</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataManagerServices.GetDepartMentTypeModelList(System.String)">
+            <summary>
+            根据父节点code获取子类列表
+            </summary>
+            <param name="foreNodeCode">父节点code</param>
+            <returns>列表</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataManagerServices.GetDepartMentTypeListByParentCode(System.Collections.Generic.List{System.String})">
+            <summary>
+            根据父节点列表获取子类列表
+            </summary>
+            <param name="nodeCodeList">父节点codes</param>
+            <returns>列表</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataManagerServices.GetPlatAccount(System.String)">
+            <summary>
+            根据域账号取平台账号
+            </summary>
+            <param name="domainAccount">域账号</param>
+            <returns>平台账号</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataManagerServices.GetB2BDeptNodeCode(System.String,System.String)">
+            <summary>
+            获取区域B2B下供应商表名后缀
+            </summary>
+            <param name="deptNodeName">节点名称</param>
+            <param name="foreNodeCode">上级节点编号</param>
+            <returns>后缀名</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataManagerServices.GetValidateTimes(System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            获取验证次数信息
+            </summary>
+            <param name="validateKey">验证次数key</param>
+            <param name="phoneType">电话类型 0:固话 1:手机</param>
+            <param name="timesType">次数类型 0:电话 1:用户</param>
+            <param name="validateType">验证类型 0:电话 1:短信</param>
+            <returns>验证次数信息</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataManagerServices.SaveValidateTimes(Better517Na.UserDataManager.Model.MUserValidateTimes,System.Int32,System.Int32)">
+            <summary>
+            保存验证次数限制信息
+            </summary>
+            <param name="model">model</param>
+            <param name="phoneType">电话类型 0:固话 1:手机</param>
+            <param name="timesType">验证次数类型 0:电话 1:用户</param>
+            <returns>保存结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataManagerServices.GetUserCenterParam">
+            <summary>
+            获取用户中心系统参数
+            </summary>
+            <returns>返回系统参数</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataManagerServices.SaveValidateCode(Better517Na.UserDataManager.Model.MUserValidateCode)">
+            <summary>
+            保存验证码信息
+            </summary>
+            <param name="validateCodeInfo">验证码信息</param>
+            <returns>保存结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataManagerServices.GetValidateCodeInfo(System.String,System.Int32)">
+            <summary>
+            根据用户名获取用户验证码
+            </summary>
+            <param name="staffId">用户ID</param>
+            <param name="phoneType">电话类型 0:电话 1:手机</param>
+            <returns>用户验证信息</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataManagerServices.SaveEmailValidateCode(Better517Na.UserDataManager.Model.MEmailCode)">
+            <summary>
+            保存联系人电子邮箱验证码信息
+            </summary>
+            <param name="emailCode">验证码信息</param>
+            <returns>保存结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataManagerServices.GetMEmailCode(System.String,System.String)">
+            <summary>
+            根据用户名获取联系人电子邮箱验证码
+            </summary>
+            <param name="staffId">用户ID</param>
+            <param name="emailMd5">邮箱md5值</param>
+            <returns>用户验证信息</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataManagerServices.IsExistsLinkEmail(System.Int32,System.String)">
+            <summary>
+            判断该联系人邮箱是否被其他人注册
+            </summary>
+            <param name="deptId">部门Id</param>
+            <param name="linkEmailMd5">联系人邮箱MD5值</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IUserDataManagerServices.DeleteEmailValidateCode(System.String)">
+            <summary>
+            删除联系人电子邮件验证码
+            </summary>
+            <param name="keyId">主键</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Contract.IInterfaceUsersContract">
+            <summary>
+            接口用户相关契约 
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IInterfaceUsersContract.ExistCreateParam(System.String)">
+            <summary>
+            判断用户创单参数是否存在
+            </summary>
+            <param name="staffID">用户ID</param>
+            <returns>T：存在 F：不存在</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IInterfaceUsersContract.InsertUserCreateParas(Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas)">
+            <summary>
+            用户创单参数新增
+            </summary>
+            <param name="createPara">MInterfaceUsersCreateParas对象</param>
+            <returns>T：成功 F：失败</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IInterfaceUsersContract.UpdateUserCreateParas(Better517Na.UserDataManager.Model.MInterfaceUsersCreateParas)">
+            <summary>
+            用户创单参数修改
+            </summary>
+            <param name="createPara">MInterfaceUsersCreateParas对象</param>
+            <returns>T：成功 F：失败</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IInterfaceUsersContract.GetAllCreateParam">
+            <summary>
+            获取所有用户创单参数
+            </summary>
+            <returns>用户ID：参数信息</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IInterfaceUsersContract.GetSysParaByKey(System.String)">
+            <summary>
+            获取系统参数
+            </summary>
+            <param name="sysSetKey">接口系统参数key</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IInterfaceUsersContract.GetSysPara(System.String,System.String)">
+            <summary>
+            获取系统参数
+            </summary>
+            <param name="sysSetKey">key</param>
+            <param name="staffId">Id</param>
+            <returns>string</returns>
+        </member>
+        <member name="T:Better517Na.UserDataManager.Contract.IDepartmentInfoContract">
+            <summary>
+            部门信息契约 
+            </summary>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.AddMailAddress(Better517Na.UserDataManager.Model.MMailAddress)">
+            <summary>
+            添加邮寄地址
+            </summary>
+            <param name="mailAddress">邮寄地址</param>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.UpdateMailAddress(Better517Na.UserDataManager.Model.MMailAddress)">
+            <summary>
+            更新邮寄地址
+            </summary>
+            <param name="mailAddress">邮寄地址</param>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.GetMailAddressByKeyId(System.String)">
+            <summary>
+            获得邮寄的值
+            </summary>
+            <param name="keyId">keyId</param>
+            <returns>邮寄地址</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.GetMailAddressByDeptId(System.Int32)">
+            <summary>
+            获取邮寄地址
+            </summary>
+            <param name="deptId">部门id</param>
+            <returns>邮寄地址</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.GetDepartMentInfo(System.Int32)">
+            <summary>
+            获得部门信息
+            </summary>
+            <param name="deptId">部门id</param>
+            <returns>部门信息</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.UpdateDepartInfo(Better.Model.MDepartmentInfo)">
+            <summary>
+            更新部门信息
+            </summary>
+            <param name="deptInfo">部门对象</param>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.UpdateDepartmentInfo(System.String,System.String,Better517Na.UserDataManager.Model.MDepartmentInfo)">
+            <summary>
+            更新部门信息
+            </summary>
+            <param name="staffId">员工id</param>
+            <param name="staffName">员工姓名</param>
+            <param name="departmentInfo">部门信息</param>
+            <returns>更新结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.UpdateDeptExtInfo(Better517Na.UserDataManager.Model.MDepartmentExtInfo)">
+            <summary>
+            更新部门扩展信息
+            </summary>
+            <param name="departExtInfo">部门扩展信息</param>
+            <returns>更新结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.FindDeptContractInfo(System.Int32)">
+            <summary>
+            查找部门签约信息
+            </summary>
+            <param name="departmentId">部门Id</param>
+            <returns>部门签约信息</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.FindDeptContractInfoNew(System.Int32)">
+            <summary>
+            查找部门签约信息新方法
+            </summary>
+            <param name="departmentId">部门Id</param>
+            <returns>部门签约信息</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.HasSameTencentFXTCAccount(System.String,System.String,System.Int32)">
+            <summary>
+            分销提成账号唯一性验证
+            </summary>
+            <param name="account">账号</param>
+            <param name="departmentNo">部门编号</param>
+            <param name="departmentId">部门id</param>
+            <returns>是否唯一</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.HasSameTencentGYPKAccount(System.String,System.String,System.Int32)">
+            <summary>
+            供应票款唯一性验证
+            </summary>
+            <param name="account">账号</param>
+            <param name="departmentNo">部门编号</param>
+            <param name="departmentId">部门id</param>
+            <returns>是否唯一</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.HasSameTencentGYTCAccount(System.String,System.String,System.Int32)">
+            <summary>
+            供应提成账号唯一性验证
+            </summary>
+            <param name="account">账号</param>
+            <param name="departmentNo">部门编号</param>
+            <param name="departmentId">部门Id</param>
+            <returns>是否唯一</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.AddAccountPayInfo(Better517Na.UserDataManager.Model.MAccountPayInfo)">
+            <summary>
+            添加部门支付账号相关信息
+            </summary>
+            <param name="accountPayInfo">支付账号信息</param>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.ExistsAccountPayRecord(System.Int32)">
+            <summary>
+            判断部门账号支付记录是否存在
+            </summary>
+            <param name="deptId">部门Id</param>
+            <returns>是否存在</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.UpdateAccountPayInfo(Better517Na.UserDataManager.Model.MAccountPayInfo)">
+            <summary>
+            更新部门账号支付信息
+            </summary>
+            <param name="accountPayInfo">账号支付信息</param>
+            <returns>更新结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.FindAccountPayInfo(System.Int32)">
+            <summary>
+            获取账号支付信息
+            </summary>
+            <param name="departmentId">部门id</param>
+            <returns>支付账号信息</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.GetSonDepartmentIdInfo(System.String)">
+            <summary>
+            获取所有子部门id用","隔开
+            </summary>
+            <param name="departmentNo">部门编码</param>
+            <returns>子部门id</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.GetExistSubDeptCount(System.Int32)">
+            <summary>
+            获取下级账号个数
+            </summary>
+            <param name="departmentID">部门ID</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.GetSubDeptCountADD(System.Int32)">
+            <summary>
+            获得剩下的下级部门个数(ADD)
+            </summary>
+            <param name="departmentID">部门ID</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.GetSubDeptCountEdit(System.Int32,System.Int32)">
+            <summary>
+            获得剩下的下级部门个数(edit)
+            </summary>
+            <param name="departmentID">部门ID</param>
+            <param name="editDepartmentID">所修改的部门id</param>
+            <returns>返回结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.GetDeptExtInfo(System.Int32)">
+            <summary>
+            获取部门扩展表信息
+            </summary>
+            <param name="departmentId">部门Id</param>
+            <returns>部门扩展表信息</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.GetSignInfo(System.Int32)">
+            <summary>
+            部门电子签约状态提醒
+            </summary>
+            <param name="departmentId">部门Id</param>
+            <returns>是否已签约及签约时间</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.GetInvalidTicketTimeModel(System.Int32,System.Int32)">
+            <summary>
+            获取部门原始实际废票时间
+            </summary>
+            <param name="deptId">部门id</param>
+            <param name="dayOfWeek">星期几</param>
+            <returns>废票时间对象</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.UpdateInvalidTime(System.Int32,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            更新实际废票时间
+            </summary>
+            <param name="deparmentId">部门id</param>
+            <param name="inValidTime">最晚废票时间</param>
+            <param name="workdayTime">工作日下班时间</param>
+            <param name="weekndTime">周末下班时间</param>
+            <param name="takeEffect">是否生效</param>
+            <returns>是否成功</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.GetDepartmentTodayOrder(System.Int32,System.Collections.Generic.List{System.String})">
+            <summary>
+            获取当天部门订单数量
+            </summary>
+            <param name="deptId">部门ID</param>
+            <param name="orderDisplayIds">订单状态数组</param>
+            <returns>订单数</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.GetDepartmentInfo">
+            <summary>
+            获取供应上下班时间、手续费
+            </summary>
+            <returns>供应信息（Json）</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.GetAllDepartmentInfo">
+            <summary>
+            获取所有部门
+            </summary>
+            <returns>信息集合</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.GetDepartmentInfoByid(System.String)">
+            <summary>
+            获取部门名称
+            </summary>
+            <param name="departId">部门ID</param>
+            <returns>部门名称</returns> 
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.GetDeptOrderSpeed">
+            <summary>
+            获取部门出票效率
+            </summary>
+            <returns>部门出票效率（Json）</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.GetInvaildTime(System.Int32,System.DateTime)">
+            <summary>
+            获取废票时间
+            </summary>
+            <param name="dayOfWeek">星期几的生效</param>
+            <param name="time">生效日期</param>
+            <returns>JSON</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.GetSupplyInfo">
+            <summary>
+            获取供应信息
+            </summary>
+            <returns>返回供应信息</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.GetOwnAPP(System.Int32,System.Int32)">
+            <summary>
+            获取所有可能是自有App买家的用户信息,“sj”+手机号码+日期
+            </summary>
+            <param name="departmentId">部门ID</param>
+            <param name="count">读取数据条数</param>
+            <returns>用户信息(Json)</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.GetAPPPlatform(System.String)">
+            <summary>
+            获取所有可能是App平台买家的用户信息，“PID”+“合作方APP账户名”，PID手机端提供
+            </summary>
+            <param name="pid">PID，PID手机端提供</param>
+            <returns>用户信息(Json)</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.GetShareLogin(System.Int32,System.Int32)">
+            <summary>
+            获取517共享登录买家信息，'tencent'或'wechat'开头+部门信息
+            </summary>
+            <param name="departmentId">部门ID</param>
+            <param name="count">读取数据条数</param>
+            <returns>用户信息(Json)</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.GetSimpleInfo(System.Collections.Generic.List{System.String})">
+            <summary>
+            通过账号获取部门简洁信息
+            </summary>
+            <param name="accountList">账号</param>
+            <returns>用户信息(Json)</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.GetDepartInfo(System.Collections.Generic.List{System.String})">
+            <summary>
+            查询所有客户代表为VIP组的部门信息
+            </summary>
+            <param name="salesmanStaffidList">客户代表</param>
+            <returns>用户信息(Json)</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.GetDepartInfoByDepartID(System.Collections.Generic.List{System.Int32})">
+            <summary>
+            通过部门ID获取部门简洁信息
+            </summary>
+            <param name="departmentIDList">客户代表</param>
+            <returns>用户信息(Json)</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.GetAllDepartIDInfo(System.Int32,System.Int32)">
+            <summary>
+            获取所有的部门ID集合
+            </summary>
+            <param name="departmentId">部门ID</param>
+            <param name="count">查询数据条数</param>
+            <returns>部门ID集合</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.AddSupplyPolicySwitchManageInfo(System.String)">
+            <summary>
+            添加供应政策切换管理信息
+            </summary>
+            <param name="jsonpara">json参数</param>
+            <returns>影响行数</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.UpdateSupplyPolicySwitchManageInfo(System.String)">
+            <summary>
+            修改供应政策切换管理信息
+            </summary>
+            <param name="jsonpara">json参数</param>
+            <returns>影响行数</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.GetDepartmentInfoNew(System.Int32)">
+            <summary>
+            获取部门对象 先缓存 然后DB
+            </summary>
+            <param name="deptID">部门ID</param>
+            <returns>部门对象</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.LogicDeleteSupplyPolicySwitchManageInfo(System.String)">
+            <summary>
+            （逻辑）删除供应政策切换管理信息
+            </summary>
+            <param name="keyID">主键</param>
+            <returns>影响行数</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.QueryPolicySwitchInfoByUserID(System.Int32)">
+            <summary>
+            根据供应ID获取供应政策切换管理信息
+            </summary>
+            <param name="userID">供应ID</param>
+            <returns>json结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.QueryPolicySwitchInfoByKeyID(System.String)">
+            <summary>
+            根据keyID获取供应政策切换管理信息
+            </summary>
+            <param name="keyID">供应ID</param>
+            <returns>json结果</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.UpdateUserOperateNum(System.String,System.Int32)">
+            <summary>
+            修改操作次数和最后修改时间
+            </summary>
+            <param name="keyID">keyID</param>
+            <param name="updateNumber">修改次数</param>
+            <returns>result</returns>
+        </member>
+        <member name="M:Better517Na.UserDataManager.Contract.IDepartmentInfoContract.GetLoginDepartInfo(System.Int32)">
+            <summary>
+            获取登录部门信息
+            </summary>
+            <param name="deptId">部门Id</param>
+            <returns>部门信息</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* 定位  开始 */
+.marauto-50 {
+	margin: 50px auto
+}
+
+.mar10 {
+	margin: 10px;
+}
+
+.mar-left10 {
+	margin-left: 10px;
+}
+
+.mar-right10 {
+	margin-right: 10px;
+}
+
+.mar-right100 {
+	margin-right: 100px;
+}
+
+.pad-bottom10 {
+	padding-bottom: 10px;
+}
+
+.pad-bottom20 {
+	padding-bottom: 20px;
+}
+
+.pad-left20 {
+	padding-left: 20px;
+}
+
+.pad-left50 {
+	padding-left: 50px;
+}
+
+.mar-bottom10 {
+	margin-bottom: 10px;
+}
+
+.mar-top30 {
+	margin-top: 30px;
+}
+
+.padding20 {
+	padding: 20px;
+}
+
+.padding10 {
+	padding: 10px;
+}
+
+.padding5 {
+	padding: 5px;
+}
+
+.padd-top10 {
+	padding-top: 10px;
+}
+/* 定位 结束 */
+
+/* 长宽高  开始 */
+.w30 {
+	width: 30px
+}
+
+.w50 {
+	width: 50px
+}
+
+.w70 {
+	width: 70px
+}
+
+.w100 {
+	width: 100px
+}
+
+.w120 {
+	width: 120px
+}
+
+.w150 {
+	width: 150px
+}
+
+.w200 {
+	width: 200px
+}
+
+.w300 {
+	width: 300px
+}
+
+.w400 {
+	width: 400px
+}
+
+.w500 {
+	width: 500px
+}
+
+.w600 {
+	width: 600px
+}
+
+.w700 {
+	width: 700px
+}
+
+.w800 {
+	width: 800px
+}
+
+.w1000 {
+	width: 1000px;
+}
+
+.h400 {
+	height: 400px;
+}
+
+.h100 {
+	height: 100px;
+}
+
+.h200 {
+	height: 200px;
+}
+/* 长宽高 结束 */
+
+/* 字体  开始 */
+.font14 {
+	font-size: 14px
+}
+
+.font20 {
+	font-size: 20px
+}
+
+.font24 {
+	font-size: 24px
+}
+/* 字体 结束 */
+
+/* 颜色  开始 */
+.gray {
+	color: #999
+}
+
+.orange {
+	color: #F90
+}
+
+.red {
+	color: #F30
+}
+
+.blue {
+	color: #06C
+}
+
+.green {
+	color: green;
+}
+/* 颜色 结束 */
+
+/* 背景颜色  开始 */
+.bg-skyblue {
+	background-color: #ACE4FF;
+	width: 100%;
+	height: 100%
+}
+
+.bg-efefef {
+	background-color: #EFEFEF;
+}
+
+.bg-yellow {
+	background-color: #FC3
+}
+
+.bg-red {
+	background-color: #F60
+}
+
+.bg-green {
+	background-color: #9C0
+}
+/* 背景颜色 结束 */
+
+/* 修饰  开始 */
+.border-top {
+	border-top: solid 1px #CCCCCC
+}
+
+.border-solid1 {
+	border: solid 1px #CCCCCC
+}
+/* 虚线 */

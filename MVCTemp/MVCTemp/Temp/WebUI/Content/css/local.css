@@ -1,0 +1,105 @@
+body
+{
+    font-family: "Î¢ÈíÑÅºÚ" , "ËÎÌå" , Tahoma, Geneva, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+#notification
+{
+    font-family: "Î¢ÈíÑÅºÚ" , "ËÎÌå" , Verdana, Geneva, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+input
+{
+    font-family: "Î¢ÈíÑÅºÚ" , "ËÎÌå" , Tahoma;
+    font-style: normal;
+    font-weight: normal;  
+}
+#login
+{
+    width: 210px;
+}
+textarea
+{
+    font-family: "Î¢ÈíÑÅºÚ" , "ËÎÌå" , Tahoma;
+    font-style: normal;
+    font-weight: normal;
+}
+select
+{
+    font-family: "Î¢ÈíÑÅºÚ" , "ËÎÌå" , Tahoma, Geneva;
+    font-style: normal;
+    font-weight: normal;
+}
+.ipt
+{
+    font-family: "Î¢ÈíÑÅºÚ" , "ËÎÌå" , Tahoma, Geneva;
+    font-style: normal;
+    font-weight: normal;
+}
+.btn
+{
+    font-family: "Î¢ÈíÑÅºÚ" , "ËÎÌå" , Tahoma, Geneva;
+    font-style: normal;
+    font-weight: normal;
+}
+#sitemap ul li span
+{
+    font-family: "Î¢ÈíÑÅºÚ" , "ËÎÌå" , Tahoma, Geneva;
+}
+#sitemap ul li ul li a
+{
+    font-family: "Î¢ÈíÑÅºÚ" , "ËÎÌå" , Tahoma, Geneva;
+}
+#quick-links .list-title
+{
+    font-family: "Î¢ÈíÑÅºÚ" , "ËÎÌå" , Tahoma, Geneva;
+}
+.form-input
+{
+    font-family: "Î¢ÈíÑÅºÚ" , "ËÎÌå" , Tahoma, Geneva;
+}
+#content .message
+{
+    font-family: "Î¢ÈíÑÅºÚ" , "ËÎÌå" , Tahoma, Geneva;
+}
+
+.listtr
+{    
+        height:35px;height:30px\9;
+}
+
+.listtr td{
+         font-size:13px;
+         padding:0;
+}
+
+ .listtr td a{
+         font-size:13px;
+          font-family: 'Microsoft Yahei',verdana;
+          color:#222222;
+}
+
+##listLab
+{
+    width:100%;  height:45px;overflow:hidden;
+}
+.pageButton{
+     height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    padding:2px 5px 2px 5px;
+    width: 50px;
+    border: 1px solid #E1E1E1;
+    border-radius: 5px 5px 5px 5px;
+    background-color:#F3F3F3;
+    text-align:center;
+    cursor:pointer;
+    color:#666666;
+    display:inline-block;
+}
+.nopage
+{
+     color:#CCCCCC;
+}

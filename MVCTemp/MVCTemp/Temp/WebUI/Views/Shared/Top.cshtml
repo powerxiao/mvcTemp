@@ -1,0 +1,59 @@
+﻿@{
+    Better517Na.UserLogin.Model.MStaffInfo userInfo = UserManager.GetUser();
+}
+<div style="position: fixed; width: 100%;z-index: 99999;">
+    <div class="header-top clearfix">
+        <div class="pull-left">
+            <b class="orange mar-right10">@userInfo.Staff_name</b>欢迎您！
+        </div>
+        <div class="text-right">
+            <span class="mar-right10"><a href="/Login/Home">系统首页</a></span> <span
+                class="mar-right10 gray">|</span><a onclick="return outLogin();" href="javascript:;">退出系统</a>
+        </div>
+    </div>
+
+    <div class="newtop_top header-main">
+        <div style="width: 40%; float: left;">
+            <div class="comname">您的网站名称</div>
+            <div style="line-height: 20px; padding-left: 10px"></div>
+        </div>
+        <div style="width: 60%; float: left">
+            <div style="height: 20px"></div>
+            <div style="height: 40px;">
+                <ul class="pro_ul">
+                    <li><a href="@SSOURL.GetGJUrl("SJ")" target="_blank">手机APP</a></li>
+                    <li><a href="@SSOURL.GetGJUrl("BX")" target="_blank">保险</a></li>
+                    <li><a href="@SSOURL.GetGJUrl("JD")" target="_blank">酒店</a></li>
+                    <li><a href="@SSOURL.GetGJUrl("GJ")" target="_blank">国际机票</a></li>
+                    <li id="liAPP" style="display: none;">
+                        <a href="javascript:;" id="APP">手机客户端</a>
+                        <div id="showImg" style="display: none;">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="text-align: center;">
+                                <tbody>
+                                    <tr>
+                                        <td class="orange">扫描二维码下载<br>
+                                            517旅行手机版
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td height="90">
+                                            <img src="" width="115" height="114">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="red">没有电脑也能随时订机票！
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="top_bottom"></div>
+
+

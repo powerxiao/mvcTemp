@@ -1,0 +1,4 @@
+E:\有意义的东东\项目模板\MVCTemp\MVCTempWizard\bin\Debug\MVCTempWizard.dll
+E:\有意义的东东\项目模板\MVCTemp\MVCTempWizard\bin\Debug\MVCTempWizard.pdb
+E:\有意义的东东\项目模板\MVCTemp\MVCTempWizard\obj\Debug\MVCTempWizard.dll
+E:\有意义的东东\项目模板\MVCTemp\MVCTempWizard\obj\Debug\MVCTempWizard.pdb

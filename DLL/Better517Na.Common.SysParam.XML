@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Better517Na.Common.SysParam</name>
+    </assembly>
+    <members>
+        <member name="T:Better517Na.Common.SysParam.MSysParamInfo">
+            <summary>
+            系统参数信息
+            </summary>
+        </member>
+        <member name="M:Better517Na.Common.SysParam.MSysParamInfo.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:Better517Na.Common.SysParam.MSysParamInfo.AddTime">
+            <summary>
+            添加时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.Common.SysParam.MSysParamInfo.BeginEffectTime">
+            <summary>
+            开始有效期
+            </summary>
+        </member>
+        <member name="P:Better517Na.Common.SysParam.MSysParamInfo.EndEffectTime">
+            <summary>
+            有效截止时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.Common.SysParam.MSysParamInfo.IsDelete">
+            <summary>
+            是否删除
+            </summary>
+        </member>
+        <member name="P:Better517Na.Common.SysParam.MSysParamInfo.IsValid">
+            <summary>
+            是否有效
+            </summary>
+        </member>
+        <member name="P:Better517Na.Common.SysParam.MSysParamInfo.KeyID">
+            <summary>
+            KEYID
+            </summary>
+        </member>
+        <member name="P:Better517Na.Common.SysParam.MSysParamInfo.LimitLevel">
+            <summary>
+            重要级别
+            </summary>
+        </member>
+        <member name="P:Better517Na.Common.SysParam.MSysParamInfo.ModifyTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.Common.SysParam.MSysParamInfo.ParaBusiName">
+            <summary>
+            参数业务名称
+            </summary>
+        </member>
+        <member name="P:Better517Na.Common.SysParam.MSysParamInfo.ParaId">
+            <summary>
+            参数Id
+            </summary>
+        </member>
+        <member name="P:Better517Na.Common.SysParam.MSysParamInfo.ParaName">
+            <summary>
+            参数名称
+            </summary>
+        </member>
+        <member name="P:Better517Na.Common.SysParam.MSysParamInfo.ParaProduct">
+            <summary>
+            参数产品线
+            </summary>
+        </member>
+        <member name="P:Better517Na.Common.SysParam.MSysParamInfo.ParaRemark">
+            <summary>
+            参数备注
+            </summary>
+        </member>
+        <member name="P:Better517Na.Common.SysParam.MSysParamInfo.ParaValue">
+            <summary>
+            参数值
+            </summary>
+        </member>
+        <member name="P:Better517Na.Common.SysParam.MSysParamInfo.UpdateUser">
+            <summary>
+            更新人
+            </summary>
+        </member>
+        <member name="T:Better517Na.Common.SysParam.ObtainParamsBatch">
+            <summary>
+            ObtainParamsBatch类 
+            </summary>
+        </member>
+        <member name="F:Better517Na.Common.SysParam.ObtainParamsBatch.paramPrefix">
+            <summary>
+            参数前缀
+            </summary>
+        </member>
+        <member name="F:Better517Na.Common.SysParam.ObtainParamsBatch.result">
+            <summary>
+            参数列表
+            </summary>
+        </member>
+        <member name="M:Better517Na.Common.SysParam.ObtainParamsBatch.#ctor(System.String)">
+            <summary>
+            批量获取政策
+            </summary>
+            <param name="paramMainIdPrefix">前缀</param>
+        </member>
+        <member name="M:Better517Na.Common.SysParam.ObtainParamsBatch.Execute">
+            <summary>
+            执行
+            </summary>
+        </member>
+        <member name="P:Better517Na.Common.SysParam.ObtainParamsBatch.Result">
+            <summary>
+            参数结果
+            </summary>
+        </member>
+        <member name="T:Better517Na.Common.SysParam.MPrefixInfo">
+            <summary>
+            MPrefixInfo类 
+            </summary>
+        </member>
+        <member name="P:Better517Na.Common.SysParam.MPrefixInfo.ParamPrefix">
+            <summary>
+            参数前缀
+            </summary>
+        </member>
+        <member name="P:Better517Na.Common.SysParam.MPrefixInfo.FlushRate">
+            <summary>
+            更新频率
+            </summary>
+        </member>
+        <member name="P:Better517Na.Common.SysParam.MPrefixInfo.LastUpdateTime">
+            <summary>
+            上次更新时间
+            </summary>
+        </member>
+        <member name="P:Better517Na.Common.SysParam.MPrefixInfo.NextUpdateTime">
+            <summary>
+            下次更新时间
+            </summary>
+        </member>
+        <member name="T:Better517Na.Common.SysParam.ObtainParam">
+            <summary>
+            ObtainParamsBatch类 
+            </summary>
+        </member>
+        <member name="F:Better517Na.Common.SysParam.ObtainParam.paramId">
+            <summary>
+            参数前缀
+            </summary>
+        </member>
+        <member name="F:Better517Na.Common.SysParam.ObtainParam.result">
+            <summary>
+            参数列表
+            </summary>
+        </member>
+        <member name="M:Better517Na.Common.SysParam.ObtainParam.#ctor(System.String)">
+            <summary>
+            批量获取政策
+            </summary>
+            <param name="paramId">前缀</param>
+        </member>
+        <member name="M:Better517Na.Common.SysParam.ObtainParam.Execute">
+            <summary>
+            执行
+            </summary>
+        </member>
+        <member name="P:Better517Na.Common.SysParam.ObtainParam.Result">
+            <summary>
+            参数结果
+            </summary>
+        </member>
+        <member name="T:Better517Na.Common.SysParam.SysParamHelper">
+            <summary>
+            SysParamHelper类 
+            </summary>
+        </member>
+        <member name="F:Better517Na.Common.SysParam.SysParamHelper.instance">
+            <summary>
+            单例
+            </summary>
+        </member>
+        <member name="F:Better517Na.Common.SysParam.SysParamHelper.instanceLock">
+            <summary>
+            静态锁
+            </summary>
+        </member>
+        <member name="F:Better517Na.Common.SysParam.SysParamHelper.localCacheSysParam">
+            <summary>
+            localCacheSysParam
+            </summary>
+        </member>
+        <member name="F:Better517Na.Common.SysParam.SysParamHelper.paramPrefixDic">
+            <summary>
+            参数前缀列表
+            </summary>
+        </member>
+        <member name="M:Better517Na.Common.SysParam.SysParamHelper.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:Better517Na.Common.SysParam.SysParamHelper.CacheInit(System.String,System.Int32)">
+            <summary>
+            初使化参数信息
+            </summary>
+            <param name="paramMainIdPrefix">参数前缀</param>
+            <param name="updateRate">更新频率[为0为默认更新时间1分钟， 单位,分钟]</param>
+        </member>
+        <member name="M:Better517Na.Common.SysParam.SysParamHelper.GetParamById``1(System.String,System.String)">
+            <summary>
+            获取参数信息
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="sysParaId">系统参数</param>
+            <param name="defaultParaValue">defaultParaValue</param>
+            <returns>返回参数值</returns>
+        </member>
+        <member name="M:Better517Na.Common.SysParam.SysParamHelper.BuildInstance">
+            <summary>
+            创建单例实例
+            </summary>
+        </member>
+        <member name="M:Better517Na.Common.SysParam.SysParamHelper.ProcessObtainParas">
+            <summary>
+            处理获取参数
+            </summary>
+        </member>
+        <member name="M:Better517Na.Common.SysParam.SysParamHelper.InitCachePrefix(System.String,System.Int32)">
+            <summary>
+            初使化Cache前缀
+            </summary>
+            <param name="paramMainIdPrefix">系统参数</param>
+            <param name="updateRate">更新时间</param>
+        </member>
+        <member name="T:Better517Na.Common.SysParam.ObtainParamFromRedis">
+            <summary>
+            ObtainParamsBatch类 
+            </summary>
+        </member>
+        <member name="F:Better517Na.Common.SysParam.ObtainParamFromRedis.paramId">
+            <summary>
+            参数前缀
+            </summary>
+        </member>
+        <member name="F:Better517Na.Common.SysParam.ObtainParamFromRedis.result">
+            <summary>
+            参数列表
+            </summary>
+        </member>
+        <member name="M:Better517Na.Common.SysParam.ObtainParamFromRedis.#ctor(System.String)">
+            <summary>
+            批量获取政策
+            </summary>
+            <param name="paramId">前缀</param>
+        </member>
+        <member name="M:Better517Na.Common.SysParam.ObtainParamFromRedis.Execute">
+            <summary>
+            执行
+            </summary>
+        </member>
+        <member name="P:Better517Na.Common.SysParam.ObtainParamFromRedis.Result">
+            <summary>
+            参数结果
+            </summary>
+        </member>
+    </members>
+</doc>

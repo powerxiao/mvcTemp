@@ -1,0 +1,34 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>LoginCtrl</Name>
+    <Description>&lt;没有可用的说明&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1003</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>LoginCtrl</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Better517Na.$safeprojectname$.LoginCtrl.csproj" File="LoginCtrl.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="LoginController.cs">LoginController.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="IpLocator.cs">IpLocator.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="HomeController.cs">HomeController.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+    </Project>
+    <CustomParameters>
+      <CustomParameter Name="$sessionName$" Value="$safeprojectname$"/>
+      <CustomParameter Name="$namespaceName$" Value="Better517Na.$safeprojectname$.LoginCtrl"/>
+    </CustomParameters>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>MVCTempWizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2e37693b1059b247</Assembly>
+    <FullClassName>MVCTempWizard.ChildWizardImpl</FullClassName>
+  </WizardExtension>
+</VSTemplate>

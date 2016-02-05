@@ -1,0 +1,6 @@
+E:\有意义的东东\项目模板\MVCTemp\MVCTempVSIX\bin\Debug\MVCTempVSIX.vsix
+E:\有意义的东东\项目模板\MVCTemp\MVCTempVSIX\bin\Debug\extension.vsixmanifest
+E:\有意义的东东\项目模板\MVCTemp\MVCTempVSIX\obj\Debug\MVCTempVSIX.csprojResolveAssemblyReference.cache
+E:\有意义的东东\项目模板\MVCTemp\MVCTempVSIX\obj\Debug\MVCTempVSIX.dll
+E:\有意义的东东\项目模板\MVCTemp\MVCTempVSIX\obj\Debug\MVCTempVSIX.pdb
+E:\有意义的东东\项目模板\MVCTemp\MVCTempVSIX\obj\Debug\extension.vsixmanifest

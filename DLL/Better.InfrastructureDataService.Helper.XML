@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Better.InfrastructureDataService.Helper</name>
+    </assembly>
+    <members>
+        <member name="T:Better.InfrastructureDataService.Helper.ATOParamSettingHelper">
+            <summary>
+            ATOParamSettingHelper类 
+            </summary>
+        </member>
+        <member name="F:Better.InfrastructureDataService.Helper.ATOParamSettingHelper.serviceATOParamSetting">
+            <summary>
+            服务接口
+            </summary>
+        </member>
+        <member name="M:Better.InfrastructureDataService.Helper.ATOParamSettingHelper.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:Better.InfrastructureDataService.Helper.ATOParamSettingHelper.AddATOParamSetting(Better.InfrastructureDataService.Contract.MATOParamSetting)">
+            <summary>
+            插入数据
+            </summary>
+            <param name="model">Model类</param>
+            <returns>是否插入成功</returns>
+        </member>
+        <member name="M:Better.InfrastructureDataService.Helper.ATOParamSettingHelper.UpDateATOParamSetting(Better.InfrastructureDataService.Contract.MATOParamSetting)">
+            <summary>
+            根据keyID更新AutoTicketParamSetting
+            </summary>
+            <param name="model">传入model</param>
+            <returns>返回是否成功</returns>
+        </member>
+        <member name="M:Better.InfrastructureDataService.Helper.ATOParamSettingHelper.DeleteATOParamSetting(System.Collections.Generic.List{System.String})">
+            <summary>
+            删除规则操作
+            </summary>
+            <param name="idList">传入List（规则ID）和string IsDeleteFlag</param>
+            <returns>操作失败或成功</returns>
+        </member>
+        <member name="T:Better.InfrastructureDataService.Helper.AreaHelper">
+            <summary>
+            基础服务客户端调用帮助类
+            </summary>
+        </member>
+        <member name="F:Better.InfrastructureDataService.Helper.AreaHelper.logBus">
+            <summary>
+            日志组件业务对象
+            </summary>
+        </member>
+        <member name="F:Better.InfrastructureDataService.Helper.AreaHelper.client">
+            <summary>
+            验证投放政策与出票政策一致性客户端
+            </summary>
+        </member>
+        <member name="F:Better.InfrastructureDataService.Helper.AreaHelper.endPointAddress">
+            <summary>
+            服务端地址
+            </summary>
+        </member>
+        <member name="M:Better.InfrastructureDataService.Helper.AreaHelper.#cctor">
+            <summary>
+            静态构造
+            </summary>
+        </member>
+        <member name="M:Better.InfrastructureDataService.Helper.AreaHelper.GetContinentData(Better.Infrastructures.Log.TrackID)">
+            <summary>
+            获取洲
+            </summary>
+            <param name="trackId">跟踪ID</param>
+            <returns>洲信息列表</returns>
+        </member>
+        <member name="M:Better.InfrastructureDataService.Helper.AreaHelper.GetCountryData(System.String,Better.Infrastructures.Log.TrackID)">
+            <summary>
+            获取国家信息
+            </summary>
+            <param name="continentID">所属洲ID</param>
+            <param name="trackId">跟踪ID</param>
+            <returns>国家信息列表</returns>
+        </member>
+        <member name="M:Better.InfrastructureDataService.Helper.AreaHelper.GetProvinceData(System.String,Better.Infrastructures.Log.TrackID)">
+            <summary>
+            获取省、直辖市信息
+            </summary>
+            <param name="countryID">所属国家ID</param>
+            <param name="trackId">跟踪ID</param>
+            <returns>省、直辖市信息列表</returns>
+        </member>
+        <member name="M:Better.InfrastructureDataService.Helper.AreaHelper.GetCityData(System.String,Better.Infrastructures.Log.TrackID)">
+            <summary>
+            获取市县信息
+            </summary>
+            <param name="provinceID">所属省、直辖市ID</param>
+            <param name="trackId">跟踪ID</param>
+            <returns>市县信息列表</returns>
+        </member>
+        <member name="M:Better.InfrastructureDataService.Helper.AreaHelper.GetFromCity(Better.Infrastructures.Log.TrackID)">
+            <summary>
+            获取出发到达城市信息
+            </summary>
+            <param name="trackId">跟踪ID</param>
+            <returns>列表</returns>
+        </member>
+        <member name="M:Better.InfrastructureDataService.Helper.AreaHelper.GetCityFromSZM(System.String,Better.Infrastructures.Log.TrackID)">
+            <summary>
+            通过 '城市三字码(a)' 获得 (
+            城市三字码a\城市拼音首字母b\所属区域c\
+            所属国家名称d\机场名称e\城市名称f\ 
+            默认航线g\是否国际城市siteid\自动编号id)
+            </summary>
+            <param name="dh">城市三字码(a)</param>
+            <param name="trackId">跟踪ID</param>
+            <returns>结果</returns>
+        </member>
+        <member name="M:Better.InfrastructureDataService.Helper.AreaHelper.GetBerths(System.String,Better.Infrastructures.Log.TrackID)">
+            <summary>
+            根据航司名称获取仓位信息
+            </summary>
+            <param name="carrierCode">航司</param>
+            <param name="trackId">跟踪ＩＤ</param>
+            <returns>结果集</returns>
+        </member>
+        <member name="M:Better.InfrastructureDataService.Helper.AreaHelper.GetAirInfo(Better.Infrastructures.Log.TrackID)">
+            <summary>
+            获取航司信息
+            </summary>
+            <param name="trackId">跟踪ＩＤ</param>
+            <returns>结果集</returns>
+        </member>
+    </members>
+</doc>
